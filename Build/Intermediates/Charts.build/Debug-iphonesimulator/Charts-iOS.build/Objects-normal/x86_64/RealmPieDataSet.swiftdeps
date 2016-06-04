@@ -1,0 +1,488 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RealmPieDataSet"
+provides-nominal:
+- "C6Charts15RealmPieDataSet"
+provides-member:
+- ["C6Charts15RealmPieDataSet", ""]
+provides-dynamic-lookup:
+- "notifyDataSetChanged"
+- "initialize"
+- "yValueSum"
+- "copyWithZone"
+- "sliceSpace"
+- "average"
+- "selectionShift"
+depends-top-level:
+- !private "=="
+- "Double"
+- "CGFloat"
+- "RealmBaseDataSet"
+- "AnyObject"
+- !private "UIColor"
+- !private "/"
+- "IPieChartDataSet"
+- !private "??"
+- !private "<"
+- "NSZone"
+- !private ">"
+- "RealmPieDataSet"
+- !private "UIFont"
+depends-member:
+- ["Ps16AbsoluteValuable", "init"]
+- ["Ps9AnyObject", "CGFloat"]
+- !private ["Ps9AnyObject", "Double"]
+- !private ["Ps9AnyObject", "UIColor"]
+- !private ["Ps9AnyObject", "UIFont"]
+- !private ["Ps9AnyObject", "_results"]
+- ["Ps9AnyObject", "_sliceSpace"]
+- !private ["Ps9AnyObject", "_yValueField"]
+- ["Ps9AnyObject", "_yValueSum"]
+- ["Ps9AnyObject", "average"]
+- ["Ps9AnyObject", "calcYValueSum"]
+- ["Ps9AnyObject", "copyWithZone"]
+- !private ["Ps9AnyObject", "doubleValue"]
+- !private ["Ps9AnyObject", "entryCount"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "initialize"]
+- ["Ps9AnyObject", "notifyDataSetChanged"]
+- ["Ps9AnyObject", "selectionShift"]
+- ["Ps9AnyObject", "sliceSpace"]
+- !private ["Ps9AnyObject", "sumOfProperty"]
+- !private ["Ps9AnyObject", "systemFontOfSize"]
+- !private ["Ps9AnyObject", "valueFont"]
+- !private ["Ps9AnyObject", "valueTextColor"]
+- !private ["Ps9AnyObject", "whiteColor"]
+- ["Ps9AnyObject", "yValueSum"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "doubleValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- ["V12CoreGraphics7CGFloat", "init"]
+- ["Ps11CVarArgType", "CGFloat"]
+- !private ["Ps11CVarArgType", "Double"]
+- !private ["Ps11CVarArgType", "UIColor"]
+- !private ["Ps11CVarArgType", "UIFont"]
+- !private ["Ps11CVarArgType", "_results"]
+- ["Ps11CVarArgType", "_sliceSpace"]
+- !private ["Ps11CVarArgType", "_yValueField"]
+- ["Ps11CVarArgType", "_yValueSum"]
+- ["Ps11CVarArgType", "average"]
+- ["Ps11CVarArgType", "calcYValueSum"]
+- ["Ps11CVarArgType", "copyWithZone"]
+- !private ["Ps11CVarArgType", "doubleValue"]
+- !private ["Ps11CVarArgType", "entryCount"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "initialize"]
+- ["Ps11CVarArgType", "notifyDataSetChanged"]
+- ["Ps11CVarArgType", "selectionShift"]
+- ["Ps11CVarArgType", "sliceSpace"]
+- !private ["Ps11CVarArgType", "sumOfProperty"]
+- !private ["Ps11CVarArgType", "systemFontOfSize"]
+- !private ["Ps11CVarArgType", "valueFont"]
+- !private ["Ps11CVarArgType", "valueTextColor"]
+- !private ["Ps11CVarArgType", "whiteColor"]
+- ["Ps11CVarArgType", "yValueSum"]
+- ["Ps11CVarArgType", ""]
+- ["C6Charts16ChartBaseDataSet", "AnyObject"]
+- ["C6Charts16ChartBaseDataSet", "CGFloat"]
+- ["C6Charts16ChartBaseDataSet", "Double"]
+- ["C6Charts16ChartBaseDataSet", "NSZone"]
+- !private ["C6Charts16ChartBaseDataSet", "RealmPieDataSet"]
+- !private ["C6Charts16ChartBaseDataSet", "UIColor"]
+- !private ["C6Charts16ChartBaseDataSet", "UIFont"]
+- !private ["C6Charts16ChartBaseDataSet", "_results"]
+- ["C6Charts16ChartBaseDataSet", "_sliceSpace"]
+- !private ["C6Charts16ChartBaseDataSet", "_yValueField"]
+- ["C6Charts16ChartBaseDataSet", "_yValueSum"]
+- ["C6Charts16ChartBaseDataSet", "average"]
+- ["C6Charts16ChartBaseDataSet", "calcYValueSum"]
+- ["C6Charts16ChartBaseDataSet", "copyWithZone"]
+- !private ["C6Charts16ChartBaseDataSet", "entryCount"]
+- ["C6Charts16ChartBaseDataSet", "init"]
+- ["C6Charts16ChartBaseDataSet", "initialize"]
+- ["C6Charts16ChartBaseDataSet", "notifyDataSetChanged"]
+- ["C6Charts16ChartBaseDataSet", "selectionShift"]
+- ["C6Charts16ChartBaseDataSet", "sliceSpace"]
+- !private ["C6Charts16ChartBaseDataSet", "valueFont"]
+- !private ["C6Charts16ChartBaseDataSet", "valueTextColor"]
+- ["C6Charts16ChartBaseDataSet", "yValueSum"]
+- ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "CGFloat"]
+- !private ["Ps28CustomDebugStringConvertible", "Double"]
+- !private ["Ps28CustomDebugStringConvertible", "UIColor"]
+- !private ["Ps28CustomDebugStringConvertible", "UIFont"]
+- !private ["Ps28CustomDebugStringConvertible", "_results"]
+- ["Ps28CustomDebugStringConvertible", "_sliceSpace"]
+- !private ["Ps28CustomDebugStringConvertible", "_yValueField"]
+- ["Ps28CustomDebugStringConvertible", "_yValueSum"]
+- ["Ps28CustomDebugStringConvertible", "average"]
+- ["Ps28CustomDebugStringConvertible", "calcYValueSum"]
+- ["Ps28CustomDebugStringConvertible", "copyWithZone"]
+- !private ["Ps28CustomDebugStringConvertible", "doubleValue"]
+- !private ["Ps28CustomDebugStringConvertible", "entryCount"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "initialize"]
+- ["Ps28CustomDebugStringConvertible", "notifyDataSetChanged"]
+- ["Ps28CustomDebugStringConvertible", "selectionShift"]
+- ["Ps28CustomDebugStringConvertible", "sliceSpace"]
+- !private ["Ps28CustomDebugStringConvertible", "sumOfProperty"]
+- !private ["Ps28CustomDebugStringConvertible", "systemFontOfSize"]
+- !private ["Ps28CustomDebugStringConvertible", "valueFont"]
+- !private ["Ps28CustomDebugStringConvertible", "valueTextColor"]
+- !private ["Ps28CustomDebugStringConvertible", "whiteColor"]
+- ["Ps28CustomDebugStringConvertible", "yValueSum"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "CGFloat"]
+- !private ["Ps23CustomStringConvertible", "Double"]
+- !private ["Ps23CustomStringConvertible", "UIColor"]
+- !private ["Ps23CustomStringConvertible", "UIFont"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "_results"]
+- ["Ps23CustomStringConvertible", "_sliceSpace"]
+- !private ["Ps23CustomStringConvertible", "_yValueField"]
+- ["Ps23CustomStringConvertible", "_yValueSum"]
+- ["Ps23CustomStringConvertible", "average"]
+- ["Ps23CustomStringConvertible", "calcYValueSum"]
+- ["Ps23CustomStringConvertible", "copyWithZone"]
+- !private ["Ps23CustomStringConvertible", "doubleValue"]
+- !private ["Ps23CustomStringConvertible", "entryCount"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "initialize"]
+- ["Ps23CustomStringConvertible", "notifyDataSetChanged"]
+- ["Ps23CustomStringConvertible", "selectionShift"]
+- ["Ps23CustomStringConvertible", "sliceSpace"]
+- !private ["Ps23CustomStringConvertible", "sumOfProperty"]
+- !private ["Ps23CustomStringConvertible", "systemFontOfSize"]
+- !private ["Ps23CustomStringConvertible", "valueFont"]
+- !private ["Ps23CustomStringConvertible", "valueTextColor"]
+- !private ["Ps23CustomStringConvertible", "whiteColor"]
+- ["Ps23CustomStringConvertible", "yValueSum"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Sd", "init"]
+- ["Ps9Equatable", "CGFloat"]
+- !private ["Ps9Equatable", "Double"]
+- !private ["Ps9Equatable", "UIColor"]
+- !private ["Ps9Equatable", "UIFont"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "_results"]
+- ["Ps9Equatable", "_sliceSpace"]
+- !private ["Ps9Equatable", "_yValueField"]
+- ["Ps9Equatable", "_yValueSum"]
+- ["Ps9Equatable", "average"]
+- ["Ps9Equatable", "calcYValueSum"]
+- ["Ps9Equatable", "copyWithZone"]
+- !private ["Ps9Equatable", "doubleValue"]
+- !private ["Ps9Equatable", "entryCount"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "initialize"]
+- ["Ps9Equatable", "notifyDataSetChanged"]
+- ["Ps9Equatable", "selectionShift"]
+- ["Ps9Equatable", "sliceSpace"]
+- !private ["Ps9Equatable", "sumOfProperty"]
+- !private ["Ps9Equatable", "systemFontOfSize"]
+- !private ["Ps9Equatable", "valueFont"]
+- !private ["Ps9Equatable", "valueTextColor"]
+- !private ["Ps9Equatable", "whiteColor"]
+- ["Ps9Equatable", "yValueSum"]
+- ["Ps9Equatable", ""]
+- !private ["Ps23FloatLiteralConvertible", "doubleValue"]
+- ["Ps23FloatLiteralConvertible", "init"]
+- ["Ps17FloatingPointType", "init"]
+- ["Ps8Hashable", "CGFloat"]
+- !private ["Ps8Hashable", "Double"]
+- !private ["Ps8Hashable", "UIColor"]
+- !private ["Ps8Hashable", "UIFont"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "_results"]
+- ["Ps8Hashable", "_sliceSpace"]
+- !private ["Ps8Hashable", "_yValueField"]
+- ["Ps8Hashable", "_yValueSum"]
+- ["Ps8Hashable", "average"]
+- ["Ps8Hashable", "calcYValueSum"]
+- ["Ps8Hashable", "copyWithZone"]
+- !private ["Ps8Hashable", "doubleValue"]
+- !private ["Ps8Hashable", "entryCount"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "initialize"]
+- ["Ps8Hashable", "notifyDataSetChanged"]
+- ["Ps8Hashable", "selectionShift"]
+- ["Ps8Hashable", "sliceSpace"]
+- !private ["Ps8Hashable", "sumOfProperty"]
+- !private ["Ps8Hashable", "systemFontOfSize"]
+- !private ["Ps8Hashable", "valueFont"]
+- !private ["Ps8Hashable", "valueTextColor"]
+- !private ["Ps8Hashable", "whiteColor"]
+- ["Ps8Hashable", "yValueSum"]
+- ["Ps8Hashable", ""]
+- ["P6Charts13IChartDataSet", "CGFloat"]
+- !private ["P6Charts13IChartDataSet", "Double"]
+- !private ["P6Charts13IChartDataSet", "UIColor"]
+- !private ["P6Charts13IChartDataSet", "UIFont"]
+- !private ["P6Charts13IChartDataSet", "_results"]
+- ["P6Charts13IChartDataSet", "_sliceSpace"]
+- !private ["P6Charts13IChartDataSet", "_yValueField"]
+- ["P6Charts13IChartDataSet", "_yValueSum"]
+- ["P6Charts13IChartDataSet", "average"]
+- ["P6Charts13IChartDataSet", "calcYValueSum"]
+- ["P6Charts13IChartDataSet", "copyWithZone"]
+- !private ["P6Charts13IChartDataSet", "entryCount"]
+- ["P6Charts13IChartDataSet", "init"]
+- ["P6Charts13IChartDataSet", "initialize"]
+- ["P6Charts13IChartDataSet", "notifyDataSetChanged"]
+- ["P6Charts13IChartDataSet", "selectionShift"]
+- ["P6Charts13IChartDataSet", "sliceSpace"]
+- !private ["P6Charts13IChartDataSet", "valueFont"]
+- !private ["P6Charts13IChartDataSet", "valueTextColor"]
+- ["P6Charts13IChartDataSet", "yValueSum"]
+- ["P6Charts13IChartDataSet", ""]
+- ["P6Charts16IPieChartDataSet", "CGFloat"]
+- !private ["P6Charts16IPieChartDataSet", "Double"]
+- !private ["P6Charts16IPieChartDataSet", "UIColor"]
+- !private ["P6Charts16IPieChartDataSet", "UIFont"]
+- !private ["P6Charts16IPieChartDataSet", "_results"]
+- !private ["P6Charts16IPieChartDataSet", "_sliceSpace"]
+- !private ["P6Charts16IPieChartDataSet", "_yValueField"]
+- !private ["P6Charts16IPieChartDataSet", "_yValueSum"]
+- ["P6Charts16IPieChartDataSet", "average"]
+- !private ["P6Charts16IPieChartDataSet", "calcYValueSum"]
+- !private ["P6Charts16IPieChartDataSet", "entryCount"]
+- ["P6Charts16IPieChartDataSet", "selectionShift"]
+- ["P6Charts16IPieChartDataSet", "sliceSpace"]
+- !private ["P6Charts16IPieChartDataSet", "valueFont"]
+- !private ["P6Charts16IPieChartDataSet", "valueTextColor"]
+- ["P6Charts16IPieChartDataSet", "yValueSum"]
+- ["P6Charts16IPieChartDataSet", ""]
+- !private ["Ps25IntegerLiteralConvertible", "doubleValue"]
+- ["Ps25IntegerLiteralConvertible", "init"]
+- !private ["PSo8NSCoding", "doubleValue"]
+- !private ["PSo8NSCoding", "whiteColor"]
+- !private ["PSo9NSCopying", "doubleValue"]
+- !private ["PSo9NSCopying", "systemFontOfSize"]
+- !private ["PSo9NSCopying", "whiteColor"]
+- !private ["PSo17NSFastEnumeration", "sumOfProperty"]
+- !private ["CSo8NSNumber", "doubleValue"]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "CGFloat"]
+- ["CSo8NSObject", "Double"]
+- ["CSo8NSObject", "NSZone"]
+- !private ["CSo8NSObject", "RealmPieDataSet"]
+- !private ["CSo8NSObject", "UIColor"]
+- !private ["CSo8NSObject", "UIFont"]
+- !private ["CSo8NSObject", "_results"]
+- ["CSo8NSObject", "_sliceSpace"]
+- !private ["CSo8NSObject", "_yValueField"]
+- ["CSo8NSObject", "_yValueSum"]
+- ["CSo8NSObject", "average"]
+- ["CSo8NSObject", "calcYValueSum"]
+- ["CSo8NSObject", "copyWithZone"]
+- !private ["CSo8NSObject", "doubleValue"]
+- !private ["CSo8NSObject", "entryCount"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "initialize"]
+- ["CSo8NSObject", "notifyDataSetChanged"]
+- ["CSo8NSObject", "selectionShift"]
+- ["CSo8NSObject", "sliceSpace"]
+- !private ["CSo8NSObject", "sumOfProperty"]
+- !private ["CSo8NSObject", "systemFontOfSize"]
+- !private ["CSo8NSObject", "valueFont"]
+- !private ["CSo8NSObject", "valueTextColor"]
+- !private ["CSo8NSObject", "whiteColor"]
+- ["CSo8NSObject", "yValueSum"]
+- ["PSo16NSObjectProtocol", "CGFloat"]
+- !private ["PSo16NSObjectProtocol", "Double"]
+- !private ["PSo16NSObjectProtocol", "UIColor"]
+- !private ["PSo16NSObjectProtocol", "UIFont"]
+- !private ["PSo16NSObjectProtocol", "_results"]
+- ["PSo16NSObjectProtocol", "_sliceSpace"]
+- !private ["PSo16NSObjectProtocol", "_yValueField"]
+- ["PSo16NSObjectProtocol", "_yValueSum"]
+- ["PSo16NSObjectProtocol", "average"]
+- ["PSo16NSObjectProtocol", "calcYValueSum"]
+- ["PSo16NSObjectProtocol", "copyWithZone"]
+- !private ["PSo16NSObjectProtocol", "doubleValue"]
+- !private ["PSo16NSObjectProtocol", "entryCount"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "initialize"]
+- ["PSo16NSObjectProtocol", "notifyDataSetChanged"]
+- ["PSo16NSObjectProtocol", "selectionShift"]
+- ["PSo16NSObjectProtocol", "sliceSpace"]
+- !private ["PSo16NSObjectProtocol", "sumOfProperty"]
+- !private ["PSo16NSObjectProtocol", "systemFontOfSize"]
+- !private ["PSo16NSObjectProtocol", "valueFont"]
+- !private ["PSo16NSObjectProtocol", "valueTextColor"]
+- !private ["PSo16NSObjectProtocol", "whiteColor"]
+- ["PSo16NSObjectProtocol", "yValueSum"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "doubleValue"]
+- !private ["PSo14NSSecureCoding", "whiteColor"]
+- !private ["CSo7NSValue", "doubleValue"]
+- !private ["Sq", "deinit"]
+- !private ["PSo7RLMBool", "doubleValue"]
+- !private ["PSo13RLMCollection", "sumOfProperty"]
+- !private ["PSo9RLMDouble", "doubleValue"]
+- !private ["PSo8RLMFloat", "doubleValue"]
+- !private ["PSo6RLMInt", "doubleValue"]
+- !private ["CSo10RLMResults", "sumOfProperty"]
+- ["C6Charts16RealmBaseDataSet", "AnyObject"]
+- ["C6Charts16RealmBaseDataSet", "CGFloat"]
+- ["C6Charts16RealmBaseDataSet", "Double"]
+- ["C6Charts16RealmBaseDataSet", "NSZone"]
+- !private ["C6Charts16RealmBaseDataSet", "RealmPieDataSet"]
+- !private ["C6Charts16RealmBaseDataSet", "UIColor"]
+- !private ["C6Charts16RealmBaseDataSet", "UIFont"]
+- !private ["C6Charts16RealmBaseDataSet", "_results"]
+- ["C6Charts16RealmBaseDataSet", "_sliceSpace"]
+- !private ["C6Charts16RealmBaseDataSet", "_yValueField"]
+- ["C6Charts16RealmBaseDataSet", "_yValueSum"]
+- ["C6Charts16RealmBaseDataSet", "average"]
+- ["C6Charts16RealmBaseDataSet", "calcYValueSum"]
+- ["C6Charts16RealmBaseDataSet", "copyWithZone"]
+- !private ["C6Charts16RealmBaseDataSet", "deinit"]
+- !private ["C6Charts16RealmBaseDataSet", "entryCount"]
+- ["C6Charts16RealmBaseDataSet", "init"]
+- ["C6Charts16RealmBaseDataSet", "initialize"]
+- ["C6Charts16RealmBaseDataSet", "notifyDataSetChanged"]
+- ["C6Charts16RealmBaseDataSet", "selectionShift"]
+- ["C6Charts16RealmBaseDataSet", "sliceSpace"]
+- !private ["C6Charts16RealmBaseDataSet", "valueFont"]
+- !private ["C6Charts16RealmBaseDataSet", "valueTextColor"]
+- ["C6Charts16RealmBaseDataSet", "yValueSum"]
+- ["C6Charts16RealmBaseDataSet", ""]
+- ["C6Charts15RealmPieDataSet", "AnyObject"]
+- ["C6Charts15RealmPieDataSet", "CGFloat"]
+- ["C6Charts15RealmPieDataSet", "Double"]
+- ["C6Charts15RealmPieDataSet", "NSZone"]
+- !private ["C6Charts15RealmPieDataSet", "RealmPieDataSet"]
+- !private ["C6Charts15RealmPieDataSet", "UIColor"]
+- !private ["C6Charts15RealmPieDataSet", "UIFont"]
+- !private ["C6Charts15RealmPieDataSet", "_results"]
+- !private ["C6Charts15RealmPieDataSet", "_sliceSpace"]
+- !private ["C6Charts15RealmPieDataSet", "_yValueField"]
+- ["C6Charts15RealmPieDataSet", "_yValueSum"]
+- ["C6Charts15RealmPieDataSet", "average"]
+- !private ["C6Charts15RealmPieDataSet", "calcYValueSum"]
+- ["C6Charts15RealmPieDataSet", "copyWithZone"]
+- ["C6Charts15RealmPieDataSet", "deinit"]
+- !private ["C6Charts15RealmPieDataSet", "entryCount"]
+- ["C6Charts15RealmPieDataSet", "init"]
+- ["C6Charts15RealmPieDataSet", "initialize"]
+- ["C6Charts15RealmPieDataSet", "notifyDataSetChanged"]
+- ["C6Charts15RealmPieDataSet", "selectionShift"]
+- ["C6Charts15RealmPieDataSet", "sliceSpace"]
+- !private ["C6Charts15RealmPieDataSet", "valueFont"]
+- !private ["C6Charts15RealmPieDataSet", "valueTextColor"]
+- ["C6Charts15RealmPieDataSet", "yValueSum"]
+- !private ["Ps12SequenceType", "sumOfProperty"]
+- ["Ps16SignedNumberType", "init"]
+- ["Ps10Strideable", "init"]
+- !private ["CSo7UIColor", "whiteColor"]
+- !private ["CSo6UIFont", "systemFontOfSize"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps31_BuiltinFloatLiteralConvertible", "init"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "init"]
+- ["Ps19_CVarArgAlignedType", "init"]
+- ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps24_ColorLiteralConvertible", "whiteColor"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- ["Ps12_Reflectable", "init"]
+depends-nominal:
+- "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "V12CoreGraphics7CGFloat"
+- "Ps11CVarArgType"
+- "C6Charts16ChartBaseDataSet"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- "Ps23FloatLiteralConvertible"
+- "Ps17FloatingPointType"
+- "Ps8Hashable"
+- "P6Charts13IChartDataSet"
+- "P6Charts16IPieChartDataSet"
+- "Ps25IntegerLiteralConvertible"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo17NSFastEnumeration"
+- !private "CSo8NSNumber"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo7NSValue"
+- !private "Sq"
+- !private "PSo7RLMBool"
+- !private "PSo13RLMCollection"
+- !private "PSo9RLMDouble"
+- !private "PSo8RLMFloat"
+- !private "PSo6RLMInt"
+- !private "CSo10RLMResults"
+- "C6Charts16RealmBaseDataSet"
+- "C6Charts15RealmPieDataSet"
+- !private "Ps12SequenceType"
+- "Ps16SignedNumberType"
+- "Ps10Strideable"
+- !private "CSo7UIColor"
+- !private "CSo6UIFont"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps31_BuiltinFloatLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- "Ps19_CVarArgAlignedType"
+- "Ps22_CVarArgPassedAsDouble"
+- !private "Ps24_ColorLiteralConvertible"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/Supporting Files/Charts.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Build/Intermediates/Charts.build/Debug-iphonesimulator/Charts-iOS.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMOptionalBase.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMMigration_Private.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMListBase.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMSchema.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMResults.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMRealm.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMConstants.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMProperty.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMObject.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMMigration.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMDefines.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMCollection.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMArray.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/Realm.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Modules/module.modulemap"
+interface-hash: "7cd870599803bede04c73097c2800cbc"

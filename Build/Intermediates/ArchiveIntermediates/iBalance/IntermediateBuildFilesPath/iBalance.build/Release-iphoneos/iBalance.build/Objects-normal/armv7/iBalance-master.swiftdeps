@@ -1,0 +1,7 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "153bd36e3684dd58f509b1a039398741"
+build_time: [507098590, 254245000]
+inputs:
+  "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/iBalance/AppDelegate.swift": [9223372036854775807, 0]
+  "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/iBalance/ViewController.swift": [9223372036854775807, 0]
+  "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/iBalance/ChartViewController.swift": [9223372036854775807, 0]

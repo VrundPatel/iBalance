@@ -1,0 +1,759 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ChartAxisBase"
+provides-nominal:
+- "C6Charts13ChartAxisBase"
+provides-member:
+- ["C6Charts13ChartAxisBase", ""]
+provides-dynamic-lookup:
+- "gridAntialiasEnabled"
+- "isDrawLimitLinesBehindDataEnabled"
+- "addLimitLine"
+- "isDrawLabelsEnabled"
+- "gridColor"
+- "removeLimitLine"
+- "gridLineDashPhase"
+- "axisLineColor"
+- "labelFont"
+- "drawGridLinesEnabled"
+- "axisLineDashPhase"
+- "removeAllLimitLines"
+- "drawAxisLineEnabled"
+- "axisLineDashLengths"
+- "gridLineDashLengths"
+- "gridLineWidth"
+- "drawLabelsEnabled"
+- "isDrawGridLinesEnabled"
+- "limitLines"
+- "drawLimitLinesBehindDataEnabled"
+- "isDrawAxisLineEnabled"
+- "getLongestLabel"
+- "axisLineWidth"
+- "labelTextColor"
+depends-top-level:
+- "CGFloat"
+- !private "<"
+- "ChartComponentBase"
+- "ChartLimitLine"
+- !private "fatalError"
+- "UIColor"
+- !private "StringLiteralType"
+- !private "++"
+- "String"
+- !private "==="
+- "UIFont"
+- "BooleanLiteralType"
+- "Bool"
+- "ChartAxisBase"
+depends-member:
+- ["Ps16AbsoluteValuable", "init"]
+- ["Ps9AnyObject", "CGFloat"]
+- ["Ps9AnyObject", "ChartLimitLine"]
+- ["Ps9AnyObject", "UIColor"]
+- ["Ps9AnyObject", "UIFont"]
+- ["Ps9AnyObject", "_limitLines"]
+- ["Ps9AnyObject", "addLimitLine"]
+- ["Ps9AnyObject", "axisLineColor"]
+- ["Ps9AnyObject", "axisLineDashLengths"]
+- ["Ps9AnyObject", "axisLineDashPhase"]
+- ["Ps9AnyObject", "axisLineWidth"]
+- ["Ps9AnyObject", "blackColor"]
+- ["Ps9AnyObject", "colorWithAlphaComponent"]
+- ["Ps9AnyObject", "drawAxisLineEnabled"]
+- ["Ps9AnyObject", "drawGridLinesEnabled"]
+- ["Ps9AnyObject", "drawLabelsEnabled"]
+- ["Ps9AnyObject", "drawLimitLinesBehindDataEnabled"]
+- !private ["Ps9AnyObject", "fatalError"]
+- ["Ps9AnyObject", "getLongestLabel"]
+- ["Ps9AnyObject", "grayColor"]
+- ["Ps9AnyObject", "gridAntialiasEnabled"]
+- ["Ps9AnyObject", "gridColor"]
+- ["Ps9AnyObject", "gridLineDashLengths"]
+- ["Ps9AnyObject", "gridLineDashPhase"]
+- ["Ps9AnyObject", "gridLineWidth"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "isDrawAxisLineEnabled"]
+- ["Ps9AnyObject", "isDrawGridLinesEnabled"]
+- ["Ps9AnyObject", "isDrawLabelsEnabled"]
+- ["Ps9AnyObject", "isDrawLimitLinesBehindDataEnabled"]
+- ["Ps9AnyObject", "labelFont"]
+- ["Ps9AnyObject", "labelTextColor"]
+- ["Ps9AnyObject", "limitLines"]
+- ["Ps9AnyObject", "removeAllLimitLines"]
+- ["Ps9AnyObject", "removeLimitLine"]
+- ["Ps9AnyObject", "systemFontOfSize"]
+- ["Ps9AnyObject", ""]
+- ["Sa", "Generator"]
+- ["Sa", "Index"]
+- ["Sa", "SubSequence"]
+- ["Sa", "_Element"]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "deinit"]
+- ["Sa", "init"]
+- !private ["Sa", "removeAll"]
+- !private ["Sa", "removeAtIndex"]
+- !private ["Sa", "subscript"]
+- ["Ps23ArrayLiteralConvertible", "Generator"]
+- ["Ps23ArrayLiteralConvertible", "Index"]
+- ["Ps23ArrayLiteralConvertible", "SubSequence"]
+- ["Ps23ArrayLiteralConvertible", "_Element"]
+- !private ["Ps23ArrayLiteralConvertible", "append"]
+- !private ["Ps23ArrayLiteralConvertible", "count"]
+- ["Ps23ArrayLiteralConvertible", "init"]
+- !private ["Ps23ArrayLiteralConvertible", "removeAll"]
+- !private ["Ps23ArrayLiteralConvertible", "removeAtIndex"]
+- !private ["Ps23ArrayLiteralConvertible", "subscript"]
+- ["Vs10ArraySlice", "Generator"]
+- ["Vs10ArraySlice", "Index"]
+- ["Ps22BidirectionalIndexType", "Distance"]
+- ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
+- ["Ps21BitwiseOperationsType", "Distance"]
+- ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- ["V12CoreGraphics7CGFloat", "init"]
+- ["Ps11CVarArgType", "CGFloat"]
+- ["Ps11CVarArgType", "ChartLimitLine"]
+- ["Ps11CVarArgType", "Distance"]
+- ["Ps11CVarArgType", "IntegerLiteralType"]
+- ["Ps11CVarArgType", "UIColor"]
+- ["Ps11CVarArgType", "UIFont"]
+- ["Ps11CVarArgType", "_limitLines"]
+- ["Ps11CVarArgType", "addLimitLine"]
+- ["Ps11CVarArgType", "axisLineColor"]
+- ["Ps11CVarArgType", "axisLineDashLengths"]
+- ["Ps11CVarArgType", "axisLineDashPhase"]
+- ["Ps11CVarArgType", "axisLineWidth"]
+- ["Ps11CVarArgType", "blackColor"]
+- ["Ps11CVarArgType", "colorWithAlphaComponent"]
+- ["Ps11CVarArgType", "drawAxisLineEnabled"]
+- ["Ps11CVarArgType", "drawGridLinesEnabled"]
+- ["Ps11CVarArgType", "drawLabelsEnabled"]
+- ["Ps11CVarArgType", "drawLimitLinesBehindDataEnabled"]
+- !private ["Ps11CVarArgType", "fatalError"]
+- ["Ps11CVarArgType", "getLongestLabel"]
+- ["Ps11CVarArgType", "grayColor"]
+- ["Ps11CVarArgType", "gridAntialiasEnabled"]
+- ["Ps11CVarArgType", "gridColor"]
+- ["Ps11CVarArgType", "gridLineDashLengths"]
+- ["Ps11CVarArgType", "gridLineDashPhase"]
+- ["Ps11CVarArgType", "gridLineWidth"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "isDrawAxisLineEnabled"]
+- ["Ps11CVarArgType", "isDrawGridLinesEnabled"]
+- ["Ps11CVarArgType", "isDrawLabelsEnabled"]
+- ["Ps11CVarArgType", "isDrawLimitLinesBehindDataEnabled"]
+- ["Ps11CVarArgType", "labelFont"]
+- ["Ps11CVarArgType", "labelTextColor"]
+- ["Ps11CVarArgType", "limitLines"]
+- ["Ps11CVarArgType", "removeAllLimitLines"]
+- ["Ps11CVarArgType", "removeLimitLine"]
+- ["Ps11CVarArgType", "systemFontOfSize"]
+- ["Ps11CVarArgType", ""]
+- ["C6Charts13ChartAxisBase", "Bool"]
+- ["C6Charts13ChartAxisBase", "CGFloat"]
+- ["C6Charts13ChartAxisBase", "ChartLimitLine"]
+- ["C6Charts13ChartAxisBase", "String"]
+- ["C6Charts13ChartAxisBase", "UIColor"]
+- ["C6Charts13ChartAxisBase", "UIFont"]
+- !private ["C6Charts13ChartAxisBase", "_limitLines"]
+- ["C6Charts13ChartAxisBase", "addLimitLine"]
+- ["C6Charts13ChartAxisBase", "axisLineColor"]
+- ["C6Charts13ChartAxisBase", "axisLineDashLengths"]
+- ["C6Charts13ChartAxisBase", "axisLineDashPhase"]
+- ["C6Charts13ChartAxisBase", "axisLineWidth"]
+- ["C6Charts13ChartAxisBase", "deinit"]
+- ["C6Charts13ChartAxisBase", "drawAxisLineEnabled"]
+- ["C6Charts13ChartAxisBase", "drawGridLinesEnabled"]
+- ["C6Charts13ChartAxisBase", "drawLabelsEnabled"]
+- ["C6Charts13ChartAxisBase", "drawLimitLinesBehindDataEnabled"]
+- !private ["C6Charts13ChartAxisBase", "fatalError"]
+- ["C6Charts13ChartAxisBase", "getLongestLabel"]
+- ["C6Charts13ChartAxisBase", "gridAntialiasEnabled"]
+- ["C6Charts13ChartAxisBase", "gridColor"]
+- ["C6Charts13ChartAxisBase", "gridLineDashLengths"]
+- ["C6Charts13ChartAxisBase", "gridLineDashPhase"]
+- ["C6Charts13ChartAxisBase", "gridLineWidth"]
+- ["C6Charts13ChartAxisBase", "init"]
+- ["C6Charts13ChartAxisBase", "isDrawAxisLineEnabled"]
+- ["C6Charts13ChartAxisBase", "isDrawGridLinesEnabled"]
+- ["C6Charts13ChartAxisBase", "isDrawLabelsEnabled"]
+- ["C6Charts13ChartAxisBase", "isDrawLimitLinesBehindDataEnabled"]
+- ["C6Charts13ChartAxisBase", "labelFont"]
+- ["C6Charts13ChartAxisBase", "labelTextColor"]
+- ["C6Charts13ChartAxisBase", "limitLines"]
+- ["C6Charts13ChartAxisBase", "removeAllLimitLines"]
+- ["C6Charts13ChartAxisBase", "removeLimitLine"]
+- ["C6Charts18ChartComponentBase", "Bool"]
+- ["C6Charts18ChartComponentBase", "CGFloat"]
+- ["C6Charts18ChartComponentBase", "ChartLimitLine"]
+- ["C6Charts18ChartComponentBase", "String"]
+- ["C6Charts18ChartComponentBase", "UIColor"]
+- ["C6Charts18ChartComponentBase", "UIFont"]
+- ["C6Charts18ChartComponentBase", "_limitLines"]
+- ["C6Charts18ChartComponentBase", "addLimitLine"]
+- ["C6Charts18ChartComponentBase", "axisLineColor"]
+- ["C6Charts18ChartComponentBase", "axisLineDashLengths"]
+- ["C6Charts18ChartComponentBase", "axisLineDashPhase"]
+- ["C6Charts18ChartComponentBase", "axisLineWidth"]
+- ["C6Charts18ChartComponentBase", "drawAxisLineEnabled"]
+- ["C6Charts18ChartComponentBase", "drawGridLinesEnabled"]
+- ["C6Charts18ChartComponentBase", "drawLabelsEnabled"]
+- ["C6Charts18ChartComponentBase", "drawLimitLinesBehindDataEnabled"]
+- !private ["C6Charts18ChartComponentBase", "fatalError"]
+- ["C6Charts18ChartComponentBase", "getLongestLabel"]
+- ["C6Charts18ChartComponentBase", "gridAntialiasEnabled"]
+- ["C6Charts18ChartComponentBase", "gridColor"]
+- ["C6Charts18ChartComponentBase", "gridLineDashLengths"]
+- ["C6Charts18ChartComponentBase", "gridLineDashPhase"]
+- ["C6Charts18ChartComponentBase", "gridLineWidth"]
+- ["C6Charts18ChartComponentBase", "init"]
+- ["C6Charts18ChartComponentBase", "isDrawAxisLineEnabled"]
+- ["C6Charts18ChartComponentBase", "isDrawGridLinesEnabled"]
+- ["C6Charts18ChartComponentBase", "isDrawLabelsEnabled"]
+- ["C6Charts18ChartComponentBase", "isDrawLimitLinesBehindDataEnabled"]
+- ["C6Charts18ChartComponentBase", "labelFont"]
+- ["C6Charts18ChartComponentBase", "labelTextColor"]
+- ["C6Charts18ChartComponentBase", "limitLines"]
+- ["C6Charts18ChartComponentBase", "removeAllLimitLines"]
+- ["C6Charts18ChartComponentBase", "removeLimitLine"]
+- ["C6Charts18ChartComponentBase", ""]
+- ["Ps14CollectionType", "Generator"]
+- ["Ps14CollectionType", "Index"]
+- ["Ps14CollectionType", "SubSequence"]
+- ["Ps14CollectionType", "_Element"]
+- !private ["Ps14CollectionType", "append"]
+- !private ["Ps14CollectionType", "count"]
+- ["Ps14CollectionType", "init"]
+- !private ["Ps14CollectionType", "removeAll"]
+- !private ["Ps14CollectionType", "removeAtIndex"]
+- !private ["Ps14CollectionType", "subscript"]
+- ["Ps10Comparable", "Distance"]
+- ["Ps10Comparable", "IntegerLiteralType"]
+- ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "CGFloat"]
+- ["Ps28CustomDebugStringConvertible", "ChartLimitLine"]
+- ["Ps28CustomDebugStringConvertible", "Generator"]
+- ["Ps28CustomDebugStringConvertible", "Index"]
+- ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- ["Ps28CustomDebugStringConvertible", "UIColor"]
+- ["Ps28CustomDebugStringConvertible", "UIFont"]
+- ["Ps28CustomDebugStringConvertible", "_Element"]
+- ["Ps28CustomDebugStringConvertible", "_limitLines"]
+- ["Ps28CustomDebugStringConvertible", "addLimitLine"]
+- !private ["Ps28CustomDebugStringConvertible", "append"]
+- ["Ps28CustomDebugStringConvertible", "axisLineColor"]
+- ["Ps28CustomDebugStringConvertible", "axisLineDashLengths"]
+- ["Ps28CustomDebugStringConvertible", "axisLineDashPhase"]
+- ["Ps28CustomDebugStringConvertible", "axisLineWidth"]
+- ["Ps28CustomDebugStringConvertible", "blackColor"]
+- ["Ps28CustomDebugStringConvertible", "colorWithAlphaComponent"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- ["Ps28CustomDebugStringConvertible", "drawAxisLineEnabled"]
+- ["Ps28CustomDebugStringConvertible", "drawGridLinesEnabled"]
+- ["Ps28CustomDebugStringConvertible", "drawLabelsEnabled"]
+- ["Ps28CustomDebugStringConvertible", "drawLimitLinesBehindDataEnabled"]
+- !private ["Ps28CustomDebugStringConvertible", "fatalError"]
+- ["Ps28CustomDebugStringConvertible", "getLongestLabel"]
+- ["Ps28CustomDebugStringConvertible", "grayColor"]
+- ["Ps28CustomDebugStringConvertible", "gridAntialiasEnabled"]
+- ["Ps28CustomDebugStringConvertible", "gridColor"]
+- ["Ps28CustomDebugStringConvertible", "gridLineDashLengths"]
+- ["Ps28CustomDebugStringConvertible", "gridLineDashPhase"]
+- ["Ps28CustomDebugStringConvertible", "gridLineWidth"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "isDrawAxisLineEnabled"]
+- ["Ps28CustomDebugStringConvertible", "isDrawGridLinesEnabled"]
+- ["Ps28CustomDebugStringConvertible", "isDrawLabelsEnabled"]
+- ["Ps28CustomDebugStringConvertible", "isDrawLimitLinesBehindDataEnabled"]
+- ["Ps28CustomDebugStringConvertible", "labelFont"]
+- ["Ps28CustomDebugStringConvertible", "labelTextColor"]
+- ["Ps28CustomDebugStringConvertible", "limitLines"]
+- !private ["Ps28CustomDebugStringConvertible", "removeAll"]
+- ["Ps28CustomDebugStringConvertible", "removeAllLimitLines"]
+- !private ["Ps28CustomDebugStringConvertible", "removeAtIndex"]
+- ["Ps28CustomDebugStringConvertible", "removeLimitLine"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- ["Ps28CustomDebugStringConvertible", "systemFontOfSize"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "CGFloat"]
+- ["Ps23CustomStringConvertible", "ChartLimitLine"]
+- ["Ps23CustomStringConvertible", "Distance"]
+- ["Ps23CustomStringConvertible", "Generator"]
+- ["Ps23CustomStringConvertible", "Index"]
+- ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- ["Ps23CustomStringConvertible", "SubSequence"]
+- ["Ps23CustomStringConvertible", "UIColor"]
+- ["Ps23CustomStringConvertible", "UIFont"]
+- ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "_limitLines"]
+- ["Ps23CustomStringConvertible", "addLimitLine"]
+- !private ["Ps23CustomStringConvertible", "append"]
+- ["Ps23CustomStringConvertible", "axisLineColor"]
+- ["Ps23CustomStringConvertible", "axisLineDashLengths"]
+- ["Ps23CustomStringConvertible", "axisLineDashPhase"]
+- ["Ps23CustomStringConvertible", "axisLineWidth"]
+- ["Ps23CustomStringConvertible", "blackColor"]
+- ["Ps23CustomStringConvertible", "colorWithAlphaComponent"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- ["Ps23CustomStringConvertible", "drawAxisLineEnabled"]
+- ["Ps23CustomStringConvertible", "drawGridLinesEnabled"]
+- ["Ps23CustomStringConvertible", "drawLabelsEnabled"]
+- ["Ps23CustomStringConvertible", "drawLimitLinesBehindDataEnabled"]
+- !private ["Ps23CustomStringConvertible", "fatalError"]
+- ["Ps23CustomStringConvertible", "getLongestLabel"]
+- ["Ps23CustomStringConvertible", "grayColor"]
+- ["Ps23CustomStringConvertible", "gridAntialiasEnabled"]
+- ["Ps23CustomStringConvertible", "gridColor"]
+- ["Ps23CustomStringConvertible", "gridLineDashLengths"]
+- ["Ps23CustomStringConvertible", "gridLineDashPhase"]
+- ["Ps23CustomStringConvertible", "gridLineWidth"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "isDrawAxisLineEnabled"]
+- ["Ps23CustomStringConvertible", "isDrawGridLinesEnabled"]
+- ["Ps23CustomStringConvertible", "isDrawLabelsEnabled"]
+- ["Ps23CustomStringConvertible", "isDrawLimitLinesBehindDataEnabled"]
+- ["Ps23CustomStringConvertible", "labelFont"]
+- ["Ps23CustomStringConvertible", "labelTextColor"]
+- ["Ps23CustomStringConvertible", "limitLines"]
+- !private ["Ps23CustomStringConvertible", "removeAll"]
+- ["Ps23CustomStringConvertible", "removeAllLimitLines"]
+- !private ["Ps23CustomStringConvertible", "removeAtIndex"]
+- ["Ps23CustomStringConvertible", "removeLimitLine"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- ["Ps23CustomStringConvertible", "systemFontOfSize"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "CGFloat"]
+- ["Ps9Equatable", "ChartLimitLine"]
+- ["Ps9Equatable", "Distance"]
+- ["Ps9Equatable", "IntegerLiteralType"]
+- ["Ps9Equatable", "UIColor"]
+- ["Ps9Equatable", "UIFont"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_limitLines"]
+- ["Ps9Equatable", "addLimitLine"]
+- ["Ps9Equatable", "axisLineColor"]
+- ["Ps9Equatable", "axisLineDashLengths"]
+- ["Ps9Equatable", "axisLineDashPhase"]
+- ["Ps9Equatable", "axisLineWidth"]
+- ["Ps9Equatable", "blackColor"]
+- ["Ps9Equatable", "colorWithAlphaComponent"]
+- ["Ps9Equatable", "drawAxisLineEnabled"]
+- ["Ps9Equatable", "drawGridLinesEnabled"]
+- ["Ps9Equatable", "drawLabelsEnabled"]
+- ["Ps9Equatable", "drawLimitLinesBehindDataEnabled"]
+- !private ["Ps9Equatable", "fatalError"]
+- ["Ps9Equatable", "getLongestLabel"]
+- ["Ps9Equatable", "grayColor"]
+- ["Ps9Equatable", "gridAntialiasEnabled"]
+- ["Ps9Equatable", "gridColor"]
+- ["Ps9Equatable", "gridLineDashLengths"]
+- ["Ps9Equatable", "gridLineDashPhase"]
+- ["Ps9Equatable", "gridLineWidth"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "isDrawAxisLineEnabled"]
+- ["Ps9Equatable", "isDrawGridLinesEnabled"]
+- ["Ps9Equatable", "isDrawLabelsEnabled"]
+- ["Ps9Equatable", "isDrawLimitLinesBehindDataEnabled"]
+- ["Ps9Equatable", "labelFont"]
+- ["Ps9Equatable", "labelTextColor"]
+- ["Ps9Equatable", "limitLines"]
+- ["Ps9Equatable", "removeAllLimitLines"]
+- ["Ps9Equatable", "removeLimitLine"]
+- ["Ps9Equatable", "systemFontOfSize"]
+- ["Ps9Equatable", ""]
+- ["Ps23FloatLiteralConvertible", "init"]
+- ["Ps17FloatingPointType", "init"]
+- ["Ps16ForwardIndexType", "Distance"]
+- ["Ps16ForwardIndexType", "IntegerLiteralType"]
+- ["Ps13GeneratorType", "Element"]
+- ["Ps8Hashable", "CGFloat"]
+- ["Ps8Hashable", "ChartLimitLine"]
+- ["Ps8Hashable", "Distance"]
+- ["Ps8Hashable", "IntegerLiteralType"]
+- ["Ps8Hashable", "UIColor"]
+- ["Ps8Hashable", "UIFont"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_limitLines"]
+- ["Ps8Hashable", "addLimitLine"]
+- ["Ps8Hashable", "axisLineColor"]
+- ["Ps8Hashable", "axisLineDashLengths"]
+- ["Ps8Hashable", "axisLineDashPhase"]
+- ["Ps8Hashable", "axisLineWidth"]
+- ["Ps8Hashable", "blackColor"]
+- ["Ps8Hashable", "colorWithAlphaComponent"]
+- ["Ps8Hashable", "drawAxisLineEnabled"]
+- ["Ps8Hashable", "drawGridLinesEnabled"]
+- ["Ps8Hashable", "drawLabelsEnabled"]
+- ["Ps8Hashable", "drawLimitLinesBehindDataEnabled"]
+- !private ["Ps8Hashable", "fatalError"]
+- ["Ps8Hashable", "getLongestLabel"]
+- ["Ps8Hashable", "grayColor"]
+- ["Ps8Hashable", "gridAntialiasEnabled"]
+- ["Ps8Hashable", "gridColor"]
+- ["Ps8Hashable", "gridLineDashLengths"]
+- ["Ps8Hashable", "gridLineDashPhase"]
+- ["Ps8Hashable", "gridLineWidth"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "isDrawAxisLineEnabled"]
+- ["Ps8Hashable", "isDrawGridLinesEnabled"]
+- ["Ps8Hashable", "isDrawLabelsEnabled"]
+- ["Ps8Hashable", "isDrawLimitLinesBehindDataEnabled"]
+- ["Ps8Hashable", "labelFont"]
+- ["Ps8Hashable", "labelTextColor"]
+- ["Ps8Hashable", "limitLines"]
+- ["Ps8Hashable", "removeAllLimitLines"]
+- ["Ps8Hashable", "removeLimitLine"]
+- ["Ps8Hashable", "systemFontOfSize"]
+- ["Ps8Hashable", ""]
+- ["Ps9Indexable", "Generator"]
+- ["Ps9Indexable", "Index"]
+- ["Ps9Indexable", "SubSequence"]
+- ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "append"]
+- !private ["Ps9Indexable", "count"]
+- ["Ps9Indexable", "init"]
+- !private ["Ps9Indexable", "removeAll"]
+- !private ["Ps9Indexable", "removeAtIndex"]
+- !private ["Ps9Indexable", "subscript"]
+- ["Vs17IndexingGenerator", "Element"]
+- ["Si", "Distance"]
+- ["Si", "IntegerLiteralType"]
+- ["Ps21IntegerArithmeticType", "Distance"]
+- ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
+- ["Ps25IntegerLiteralConvertible", "Distance"]
+- ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
+- ["Ps25IntegerLiteralConvertible", "init"]
+- ["Ps11IntegerType", "Distance"]
+- ["Ps11IntegerType", "IntegerLiteralType"]
+- ["Ps14MirrorPathType", "Distance"]
+- ["Ps14MirrorPathType", "IntegerLiteralType"]
+- ["Ps21MutableCollectionType", "Generator"]
+- ["Ps21MutableCollectionType", "Index"]
+- ["Ps21MutableCollectionType", "SubSequence"]
+- ["Ps21MutableCollectionType", "_Element"]
+- !private ["Ps21MutableCollectionType", "append"]
+- !private ["Ps21MutableCollectionType", "count"]
+- ["Ps21MutableCollectionType", "init"]
+- !private ["Ps21MutableCollectionType", "removeAll"]
+- !private ["Ps21MutableCollectionType", "removeAtIndex"]
+- !private ["Ps21MutableCollectionType", "subscript"]
+- ["Ps16MutableIndexable", "Generator"]
+- ["Ps16MutableIndexable", "Index"]
+- ["Ps16MutableIndexable", "SubSequence"]
+- ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "append"]
+- !private ["Ps16MutableIndexable", "count"]
+- ["Ps16MutableIndexable", "init"]
+- !private ["Ps16MutableIndexable", "removeAll"]
+- !private ["Ps16MutableIndexable", "removeAtIndex"]
+- !private ["Ps16MutableIndexable", "subscript"]
+- ["Ps16MutableSliceable", "Generator"]
+- ["Ps16MutableSliceable", "Index"]
+- ["Ps16MutableSliceable", "SubSequence"]
+- ["Ps16MutableSliceable", "_Element"]
+- !private ["Ps16MutableSliceable", "append"]
+- !private ["Ps16MutableSliceable", "count"]
+- ["Ps16MutableSliceable", "init"]
+- !private ["Ps16MutableSliceable", "removeAll"]
+- !private ["Ps16MutableSliceable", "removeAtIndex"]
+- !private ["Ps16MutableSliceable", "subscript"]
+- ["PSo8NSCoding", "blackColor"]
+- ["PSo8NSCoding", "colorWithAlphaComponent"]
+- ["PSo8NSCoding", "grayColor"]
+- ["PSo9NSCopying", "blackColor"]
+- ["PSo9NSCopying", "colorWithAlphaComponent"]
+- ["PSo9NSCopying", "grayColor"]
+- ["PSo9NSCopying", "systemFontOfSize"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "CGFloat"]
+- ["CSo8NSObject", "ChartLimitLine"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIColor"]
+- ["CSo8NSObject", "UIFont"]
+- ["CSo8NSObject", "_limitLines"]
+- ["CSo8NSObject", "addLimitLine"]
+- ["CSo8NSObject", "axisLineColor"]
+- ["CSo8NSObject", "axisLineDashLengths"]
+- ["CSo8NSObject", "axisLineDashPhase"]
+- ["CSo8NSObject", "axisLineWidth"]
+- ["CSo8NSObject", "blackColor"]
+- ["CSo8NSObject", "colorWithAlphaComponent"]
+- ["CSo8NSObject", "drawAxisLineEnabled"]
+- ["CSo8NSObject", "drawGridLinesEnabled"]
+- ["CSo8NSObject", "drawLabelsEnabled"]
+- ["CSo8NSObject", "drawLimitLinesBehindDataEnabled"]
+- !private ["CSo8NSObject", "fatalError"]
+- ["CSo8NSObject", "getLongestLabel"]
+- ["CSo8NSObject", "grayColor"]
+- ["CSo8NSObject", "gridAntialiasEnabled"]
+- ["CSo8NSObject", "gridColor"]
+- ["CSo8NSObject", "gridLineDashLengths"]
+- ["CSo8NSObject", "gridLineDashPhase"]
+- ["CSo8NSObject", "gridLineWidth"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "isDrawAxisLineEnabled"]
+- ["CSo8NSObject", "isDrawGridLinesEnabled"]
+- ["CSo8NSObject", "isDrawLabelsEnabled"]
+- ["CSo8NSObject", "isDrawLimitLinesBehindDataEnabled"]
+- ["CSo8NSObject", "labelFont"]
+- ["CSo8NSObject", "labelTextColor"]
+- ["CSo8NSObject", "limitLines"]
+- ["CSo8NSObject", "removeAllLimitLines"]
+- ["CSo8NSObject", "removeLimitLine"]
+- ["CSo8NSObject", "systemFontOfSize"]
+- ["PSo16NSObjectProtocol", "CGFloat"]
+- ["PSo16NSObjectProtocol", "ChartLimitLine"]
+- ["PSo16NSObjectProtocol", "UIColor"]
+- ["PSo16NSObjectProtocol", "UIFont"]
+- ["PSo16NSObjectProtocol", "_limitLines"]
+- ["PSo16NSObjectProtocol", "addLimitLine"]
+- ["PSo16NSObjectProtocol", "axisLineColor"]
+- ["PSo16NSObjectProtocol", "axisLineDashLengths"]
+- ["PSo16NSObjectProtocol", "axisLineDashPhase"]
+- ["PSo16NSObjectProtocol", "axisLineWidth"]
+- ["PSo16NSObjectProtocol", "blackColor"]
+- ["PSo16NSObjectProtocol", "colorWithAlphaComponent"]
+- ["PSo16NSObjectProtocol", "drawAxisLineEnabled"]
+- ["PSo16NSObjectProtocol", "drawGridLinesEnabled"]
+- ["PSo16NSObjectProtocol", "drawLabelsEnabled"]
+- ["PSo16NSObjectProtocol", "drawLimitLinesBehindDataEnabled"]
+- !private ["PSo16NSObjectProtocol", "fatalError"]
+- ["PSo16NSObjectProtocol", "getLongestLabel"]
+- ["PSo16NSObjectProtocol", "grayColor"]
+- ["PSo16NSObjectProtocol", "gridAntialiasEnabled"]
+- ["PSo16NSObjectProtocol", "gridColor"]
+- ["PSo16NSObjectProtocol", "gridLineDashLengths"]
+- ["PSo16NSObjectProtocol", "gridLineDashPhase"]
+- ["PSo16NSObjectProtocol", "gridLineWidth"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "isDrawAxisLineEnabled"]
+- ["PSo16NSObjectProtocol", "isDrawGridLinesEnabled"]
+- ["PSo16NSObjectProtocol", "isDrawLabelsEnabled"]
+- ["PSo16NSObjectProtocol", "isDrawLimitLinesBehindDataEnabled"]
+- ["PSo16NSObjectProtocol", "labelFont"]
+- ["PSo16NSObjectProtocol", "labelTextColor"]
+- ["PSo16NSObjectProtocol", "limitLines"]
+- ["PSo16NSObjectProtocol", "removeAllLimitLines"]
+- ["PSo16NSObjectProtocol", "removeLimitLine"]
+- ["PSo16NSObjectProtocol", "systemFontOfSize"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo14NSSecureCoding", "blackColor"]
+- ["PSo14NSSecureCoding", "colorWithAlphaComponent"]
+- ["PSo14NSSecureCoding", "grayColor"]
+- ["Ps21RandomAccessIndexType", "Distance"]
+- ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
+- ["Ps30RangeReplaceableCollectionType", "Generator"]
+- ["Ps30RangeReplaceableCollectionType", "Index"]
+- ["Ps30RangeReplaceableCollectionType", "SubSequence"]
+- ["Ps30RangeReplaceableCollectionType", "_Element"]
+- !private ["Ps30RangeReplaceableCollectionType", "append"]
+- !private ["Ps30RangeReplaceableCollectionType", "count"]
+- ["Ps30RangeReplaceableCollectionType", "init"]
+- !private ["Ps30RangeReplaceableCollectionType", "removeAll"]
+- !private ["Ps30RangeReplaceableCollectionType", "removeAtIndex"]
+- !private ["Ps30RangeReplaceableCollectionType", "subscript"]
+- ["Ps12SequenceType", "Element"]
+- ["Ps12SequenceType", "Generator"]
+- ["Ps12SequenceType", "Index"]
+- ["Ps12SequenceType", "SubSequence"]
+- ["Ps12SequenceType", "_Element"]
+- !private ["Ps12SequenceType", "append"]
+- !private ["Ps12SequenceType", "count"]
+- ["Ps12SequenceType", "init"]
+- !private ["Ps12SequenceType", "removeAll"]
+- !private ["Ps12SequenceType", "removeAtIndex"]
+- !private ["Ps12SequenceType", "subscript"]
+- ["Ps17SignedIntegerType", "Distance"]
+- ["Ps17SignedIntegerType", "IntegerLiteralType"]
+- ["Ps16SignedNumberType", "Distance"]
+- ["Ps16SignedNumberType", "IntegerLiteralType"]
+- ["Ps16SignedNumberType", "init"]
+- !private ["Vs5Slice", "Generator"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- !private ["Vs12StaticString", "deinit"]
+- ["Ps10Strideable", "Distance"]
+- ["Ps10Strideable", "IntegerLiteralType"]
+- ["Ps10Strideable", "init"]
+- ["CSo7UIColor", "blackColor"]
+- ["CSo7UIColor", "colorWithAlphaComponent"]
+- ["CSo7UIColor", "grayColor"]
+- ["CSo6UIFont", "systemFontOfSize"]
+- ["Ps10_ArrayType", "Generator"]
+- ["Ps10_ArrayType", "Index"]
+- ["Ps10_ArrayType", "SubSequence"]
+- ["Ps10_ArrayType", "_Element"]
+- !private ["Ps10_ArrayType", "append"]
+- !private ["Ps10_ArrayType", "count"]
+- ["Ps10_ArrayType", "init"]
+- !private ["Ps10_ArrayType", "removeAll"]
+- !private ["Ps10_ArrayType", "removeAtIndex"]
+- !private ["Ps10_ArrayType", "subscript"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- ["Ps33_BuiltinIntegerLiteralConvertible", "Distance"]
+- ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- ["Ps19_CVarArgAlignedType", "init"]
+- ["Ps22_CVarArgPassedAsDouble", "init"]
+- ["Ps24_ColorLiteralConvertible", "blackColor"]
+- ["Ps24_ColorLiteralConvertible", "colorWithAlphaComponent"]
+- ["Ps24_ColorLiteralConvertible", "grayColor"]
+- ["Ps24_DestructorSafeContainer", "Generator"]
+- ["Ps24_DestructorSafeContainer", "Index"]
+- ["Ps24_DestructorSafeContainer", "SubSequence"]
+- ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "append"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps24_DestructorSafeContainer", "removeAll"]
+- !private ["Ps24_DestructorSafeContainer", "removeAtIndex"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- ["Ps14_Incrementable", "Distance"]
+- ["Ps14_Incrementable", "IntegerLiteralType"]
+- ["Ps22_IntegerArithmeticType", "Distance"]
+- ["Ps22_IntegerArithmeticType", "IntegerLiteralType"]
+- ["Ps12_IntegerType", "Distance"]
+- ["Ps12_IntegerType", "IntegerLiteralType"]
+- ["Ps21_ObjectiveCBridgeable", "Distance"]
+- ["Ps21_ObjectiveCBridgeable", "Generator"]
+- ["Ps21_ObjectiveCBridgeable", "Index"]
+- ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "append"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "removeAll"]
+- !private ["Ps21_ObjectiveCBridgeable", "removeAtIndex"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- ["Ps22_RandomAccessAmbiguity", "Distance"]
+- ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- ["Ps12_Reflectable", "Distance"]
+- ["Ps12_Reflectable", "Generator"]
+- ["Ps12_Reflectable", "Index"]
+- ["Ps12_Reflectable", "IntegerLiteralType"]
+- ["Ps12_Reflectable", "SubSequence"]
+- ["Ps12_Reflectable", "_Element"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "append"]
+- !private ["Ps12_Reflectable", "count"]
+- ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "removeAll"]
+- !private ["Ps12_Reflectable", "removeAtIndex"]
+- !private ["Ps12_Reflectable", "subscript"]
+- ["Ps18_SignedIntegerType", "Distance"]
+- ["Ps18_SignedIntegerType", "IntegerLiteralType"]
+depends-nominal:
+- "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- "Sa"
+- "Ps23ArrayLiteralConvertible"
+- "Vs10ArraySlice"
+- "Ps22BidirectionalIndexType"
+- "Ps21BitwiseOperationsType"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "V12CoreGraphics7CGFloat"
+- "Ps11CVarArgType"
+- "C6Charts13ChartAxisBase"
+- "C6Charts18ChartComponentBase"
+- "Ps14CollectionType"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps23FloatLiteralConvertible"
+- "Ps17FloatingPointType"
+- "Ps16ForwardIndexType"
+- "Ps13GeneratorType"
+- "Ps8Hashable"
+- "Ps9Indexable"
+- "Vs17IndexingGenerator"
+- "Si"
+- "Ps21IntegerArithmeticType"
+- "Ps25IntegerLiteralConvertible"
+- "Ps11IntegerType"
+- "Ps14MirrorPathType"
+- "Ps21MutableCollectionType"
+- "Ps16MutableIndexable"
+- "Ps16MutableSliceable"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "Ps21RandomAccessIndexType"
+- "Ps30RangeReplaceableCollectionType"
+- "Ps12SequenceType"
+- "Ps17SignedIntegerType"
+- "Ps16SignedNumberType"
+- !private "Vs5Slice"
+- !private "Vs12StaticString"
+- "Ps10Strideable"
+- "CSo7UIColor"
+- "CSo6UIFont"
+- "Ps10_ArrayType"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- "Ps33_BuiltinIntegerLiteralConvertible"
+- "Ps19_CVarArgAlignedType"
+- "Ps22_CVarArgPassedAsDouble"
+- "Ps24_ColorLiteralConvertible"
+- "Ps24_DestructorSafeContainer"
+- "Ps14_Incrementable"
+- "Ps22_IntegerArithmeticType"
+- "Ps12_IntegerType"
+- "Ps21_ObjectiveCBridgeable"
+- "Ps22_RandomAccessAmbiguity"
+- "Ps12_Reflectable"
+- "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/Supporting Files/Charts.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Build/Intermediates/Charts.build/Debug-iphoneos/Charts-iOS.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMOptionalBase.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMMigration_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMListBase.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMSchema.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMResults.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMRealm.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMConstants.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMProperty.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMObject.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMMigration.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMDefines.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMCollection.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMArray.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/Realm.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Modules/module.modulemap"
+interface-hash: "5ab9e65339cdff9291474628574b652f"

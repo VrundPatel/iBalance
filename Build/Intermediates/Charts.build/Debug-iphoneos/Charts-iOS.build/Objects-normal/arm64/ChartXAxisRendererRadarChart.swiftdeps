@@ -1,0 +1,789 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ChartXAxisRendererRadarChart"
+provides-nominal:
+- "C6Charts28ChartXAxisRendererRadarChart"
+provides-member:
+- ["C6Charts28ChartXAxisRendererRadarChart", ""]
+provides-dynamic-lookup:
+- "chart"
+- "renderAxisLabels"
+- "renderLimitLines"
+- "drawLabel"
+depends-top-level:
+- !private "%"
+- !private "*"
+- !private "/"
+- "ChartXAxisRendererRadarChart"
+- "CGContext"
+- !private "Dictionary"
+- "ChartXAxisRenderer"
+- "String"
+- !private "=="
+- "CGPoint"
+- "RadarChartView"
+- "ChartViewPortHandler"
+- !private "+"
+- !private "StringLiteralType"
+- !private "||"
+- "ChartXAxis"
+- "CGFloat"
+- !private "??"
+- !private "<"
+- !private "NSFontAttributeName"
+- "Int"
+- !private "!"
+- "NSObject"
+- !private "+="
+- !private "-"
+- !private "ChartUtils"
+- !private "NSForegroundColorAttributeName"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps9AnyObject", "CGFloat"]
+- !private ["Ps9AnyObject", "CGPoint"]
+- !private ["Ps9AnyObject", "ChartUtils"]
+- !private ["Ps9AnyObject", "Math"]
+- !private ["Ps9AnyObject", "NSFontAttributeName"]
+- !private ["Ps9AnyObject", "NSForegroundColorAttributeName"]
+- !private ["Ps9AnyObject", "axisLabelModulus"]
+- !private ["Ps9AnyObject", "centerOffsets"]
+- ["Ps9AnyObject", "chart"]
+- ["Ps9AnyObject", "drawLabel"]
+- !private ["Ps9AnyObject", "drawText"]
+- !private ["Ps9AnyObject", "factor"]
+- !private ["Ps9AnyObject", "getPosition"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isDrawLabelsEnabled"]
+- !private ["Ps9AnyObject", "isEnabled"]
+- !private ["Ps9AnyObject", "labelFont"]
+- !private ["Ps9AnyObject", "labelRotatedHeight"]
+- !private ["Ps9AnyObject", "labelRotatedWidth"]
+- !private ["Ps9AnyObject", "labelRotationAngle"]
+- !private ["Ps9AnyObject", "labelTextColor"]
+- ["Ps9AnyObject", "renderAxisLabels"]
+- ["Ps9AnyObject", "renderLimitLines"]
+- !private ["Ps9AnyObject", "rotationAngle"]
+- !private ["Ps9AnyObject", "sliceAngle"]
+- !private ["Ps9AnyObject", "valueFormatter"]
+- !private ["Ps9AnyObject", "values"]
+- !private ["Ps9AnyObject", "viewPortHandler"]
+- !private ["Ps9AnyObject", "xAxis"]
+- !private ["Ps9AnyObject", "yRange"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Generator"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "count"]
+- !private ["Sa", "deinit"]
+- !private ["Sa", "subscript"]
+- !private ["Ps23ArrayLiteralConvertible", "Generator"]
+- !private ["Ps23ArrayLiteralConvertible", "Index"]
+- !private ["Ps23ArrayLiteralConvertible", "SubSequence"]
+- !private ["Ps23ArrayLiteralConvertible", "count"]
+- !private ["Ps23ArrayLiteralConvertible", "subscript"]
+- !private ["Vs10ArraySlice", "Generator"]
+- !private ["Vs10ArraySlice", "Index"]
+- !private ["Ps22BidirectionalIndexType", "Distance"]
+- !private ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["Ps21BitwiseOperationsType", "Distance"]
+- !private ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["V12CoreGraphics7CGFloat", "init"]
+- !private ["VSC7CGPoint", "init"]
+- !private ["VSC7CGPoint", "x"]
+- !private ["VSC7CGPoint", "y"]
+- !private ["Ps11CVarArgType", "CGFloat"]
+- !private ["Ps11CVarArgType", "CGPoint"]
+- !private ["Ps11CVarArgType", "ChartUtils"]
+- !private ["Ps11CVarArgType", "Distance"]
+- !private ["Ps11CVarArgType", "IntegerLiteralType"]
+- !private ["Ps11CVarArgType", "NSFontAttributeName"]
+- !private ["Ps11CVarArgType", "NSForegroundColorAttributeName"]
+- !private ["Ps11CVarArgType", "axisLabelModulus"]
+- !private ["Ps11CVarArgType", "centerOffsets"]
+- ["Ps11CVarArgType", "chart"]
+- ["Ps11CVarArgType", "drawLabel"]
+- !private ["Ps11CVarArgType", "factor"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "isDrawLabelsEnabled"]
+- !private ["Ps11CVarArgType", "isEnabled"]
+- !private ["Ps11CVarArgType", "labelFont"]
+- !private ["Ps11CVarArgType", "labelRotatedHeight"]
+- !private ["Ps11CVarArgType", "labelRotatedWidth"]
+- !private ["Ps11CVarArgType", "labelRotationAngle"]
+- !private ["Ps11CVarArgType", "labelTextColor"]
+- ["Ps11CVarArgType", "renderAxisLabels"]
+- ["Ps11CVarArgType", "renderLimitLines"]
+- !private ["Ps11CVarArgType", "rotationAngle"]
+- !private ["Ps11CVarArgType", "sliceAngle"]
+- !private ["Ps11CVarArgType", "valueFormatter"]
+- !private ["Ps11CVarArgType", "values"]
+- !private ["Ps11CVarArgType", "viewPortHandler"]
+- !private ["Ps11CVarArgType", "xAxis"]
+- !private ["Ps11CVarArgType", "yRange"]
+- ["Ps11CVarArgType", ""]
+- !private ["P6Charts21ChartAnimatorDelegate", "centerOffsets"]
+- !private ["P6Charts21ChartAnimatorDelegate", "factor"]
+- !private ["P6Charts21ChartAnimatorDelegate", "rotationAngle"]
+- !private ["P6Charts21ChartAnimatorDelegate", "sliceAngle"]
+- !private ["P6Charts21ChartAnimatorDelegate", "yRange"]
+- !private ["C6Charts13ChartAxisBase", "axisLabelModulus"]
+- !private ["C6Charts13ChartAxisBase", "isDrawLabelsEnabled"]
+- !private ["C6Charts13ChartAxisBase", "isEnabled"]
+- !private ["C6Charts13ChartAxisBase", "labelFont"]
+- !private ["C6Charts13ChartAxisBase", "labelRotatedHeight"]
+- !private ["C6Charts13ChartAxisBase", "labelRotatedWidth"]
+- !private ["C6Charts13ChartAxisBase", "labelRotationAngle"]
+- !private ["C6Charts13ChartAxisBase", "labelTextColor"]
+- !private ["C6Charts13ChartAxisBase", "valueFormatter"]
+- !private ["C6Charts13ChartAxisBase", "values"]
+- ["C6Charts21ChartAxisRendererBase", "CGContext"]
+- ["C6Charts21ChartAxisRendererBase", "CGFloat"]
+- ["C6Charts21ChartAxisRendererBase", "CGPoint"]
+- !private ["C6Charts21ChartAxisRendererBase", "ChartUtils"]
+- ["C6Charts21ChartAxisRendererBase", "ChartViewPortHandler"]
+- ["C6Charts21ChartAxisRendererBase", "ChartXAxis"]
+- ["C6Charts21ChartAxisRendererBase", "Int"]
+- !private ["C6Charts21ChartAxisRendererBase", "NSFontAttributeName"]
+- !private ["C6Charts21ChartAxisRendererBase", "NSForegroundColorAttributeName"]
+- ["C6Charts21ChartAxisRendererBase", "NSObject"]
+- ["C6Charts21ChartAxisRendererBase", "RadarChartView"]
+- ["C6Charts21ChartAxisRendererBase", "String"]
+- ["C6Charts21ChartAxisRendererBase", "chart"]
+- ["C6Charts21ChartAxisRendererBase", "drawLabel"]
+- ["C6Charts21ChartAxisRendererBase", "renderAxisLabels"]
+- ["C6Charts21ChartAxisRendererBase", "renderLimitLines"]
+- !private ["C6Charts21ChartAxisRendererBase", "viewPortHandler"]
+- !private ["C6Charts21ChartAxisRendererBase", "xAxis"]
+- !private ["C6Charts18ChartComponentBase", "axisLabelModulus"]
+- !private ["C6Charts18ChartComponentBase", "isDrawLabelsEnabled"]
+- !private ["C6Charts18ChartComponentBase", "isEnabled"]
+- !private ["C6Charts18ChartComponentBase", "labelFont"]
+- !private ["C6Charts18ChartComponentBase", "labelRotatedHeight"]
+- !private ["C6Charts18ChartComponentBase", "labelRotatedWidth"]
+- !private ["C6Charts18ChartComponentBase", "labelRotationAngle"]
+- !private ["C6Charts18ChartComponentBase", "labelTextColor"]
+- !private ["C6Charts18ChartComponentBase", "valueFormatter"]
+- !private ["C6Charts18ChartComponentBase", "values"]
+- !private ["P6Charts17ChartDataProvider", "centerOffsets"]
+- !private ["P6Charts17ChartDataProvider", "factor"]
+- !private ["P6Charts17ChartDataProvider", "rotationAngle"]
+- !private ["P6Charts17ChartDataProvider", "sliceAngle"]
+- !private ["P6Charts17ChartDataProvider", "yRange"]
+- ["C6Charts17ChartRendererBase", "CGContext"]
+- ["C6Charts17ChartRendererBase", "CGFloat"]
+- ["C6Charts17ChartRendererBase", "CGPoint"]
+- !private ["C6Charts17ChartRendererBase", "ChartUtils"]
+- ["C6Charts17ChartRendererBase", "ChartViewPortHandler"]
+- ["C6Charts17ChartRendererBase", "ChartXAxis"]
+- ["C6Charts17ChartRendererBase", "Int"]
+- !private ["C6Charts17ChartRendererBase", "NSFontAttributeName"]
+- !private ["C6Charts17ChartRendererBase", "NSForegroundColorAttributeName"]
+- ["C6Charts17ChartRendererBase", "NSObject"]
+- ["C6Charts17ChartRendererBase", "RadarChartView"]
+- ["C6Charts17ChartRendererBase", "String"]
+- ["C6Charts17ChartRendererBase", "chart"]
+- ["C6Charts17ChartRendererBase", "drawLabel"]
+- ["C6Charts17ChartRendererBase", "renderAxisLabels"]
+- ["C6Charts17ChartRendererBase", "renderLimitLines"]
+- !private ["C6Charts17ChartRendererBase", "viewPortHandler"]
+- !private ["C6Charts17ChartRendererBase", "xAxis"]
+- !private ["C6Charts10ChartUtils", "Math"]
+- !private ["C6Charts10ChartUtils", "drawText"]
+- !private ["C6Charts10ChartUtils", "getPosition"]
+- !private ["C6Charts13ChartViewBase", "centerOffsets"]
+- !private ["C6Charts13ChartViewBase", "factor"]
+- !private ["C6Charts13ChartViewBase", "rotationAngle"]
+- !private ["C6Charts13ChartViewBase", "sliceAngle"]
+- !private ["C6Charts13ChartViewBase", "yRange"]
+- !private ["C6Charts10ChartXAxis", "axisLabelModulus"]
+- !private ["C6Charts10ChartXAxis", "isDrawLabelsEnabled"]
+- !private ["C6Charts10ChartXAxis", "isEnabled"]
+- !private ["C6Charts10ChartXAxis", "labelFont"]
+- !private ["C6Charts10ChartXAxis", "labelRotatedHeight"]
+- !private ["C6Charts10ChartXAxis", "labelRotatedWidth"]
+- !private ["C6Charts10ChartXAxis", "labelRotationAngle"]
+- !private ["C6Charts10ChartXAxis", "labelTextColor"]
+- !private ["C6Charts10ChartXAxis", "valueFormatter"]
+- !private ["C6Charts10ChartXAxis", "values"]
+- ["C6Charts18ChartXAxisRenderer", "CGContext"]
+- ["C6Charts18ChartXAxisRenderer", "CGFloat"]
+- ["C6Charts18ChartXAxisRenderer", "CGPoint"]
+- !private ["C6Charts18ChartXAxisRenderer", "ChartUtils"]
+- ["C6Charts18ChartXAxisRenderer", "ChartViewPortHandler"]
+- ["C6Charts18ChartXAxisRenderer", "ChartXAxis"]
+- ["C6Charts18ChartXAxisRenderer", "Int"]
+- !private ["C6Charts18ChartXAxisRenderer", "NSFontAttributeName"]
+- !private ["C6Charts18ChartXAxisRenderer", "NSForegroundColorAttributeName"]
+- ["C6Charts18ChartXAxisRenderer", "NSObject"]
+- ["C6Charts18ChartXAxisRenderer", "RadarChartView"]
+- ["C6Charts18ChartXAxisRenderer", "String"]
+- ["C6Charts18ChartXAxisRenderer", "chart"]
+- ["C6Charts18ChartXAxisRenderer", "drawLabel"]
+- ["C6Charts18ChartXAxisRenderer", "init"]
+- ["C6Charts18ChartXAxisRenderer", "renderAxisLabels"]
+- ["C6Charts18ChartXAxisRenderer", "renderLimitLines"]
+- !private ["C6Charts18ChartXAxisRenderer", "viewPortHandler"]
+- !private ["C6Charts18ChartXAxisRenderer", "xAxis"]
+- ["C6Charts18ChartXAxisRenderer", ""]
+- ["C6Charts28ChartXAxisRendererRadarChart", "CGContext"]
+- ["C6Charts28ChartXAxisRendererRadarChart", "CGFloat"]
+- ["C6Charts28ChartXAxisRendererRadarChart", "CGPoint"]
+- !private ["C6Charts28ChartXAxisRendererRadarChart", "ChartUtils"]
+- ["C6Charts28ChartXAxisRendererRadarChart", "ChartViewPortHandler"]
+- ["C6Charts28ChartXAxisRendererRadarChart", "ChartXAxis"]
+- ["C6Charts28ChartXAxisRendererRadarChart", "Int"]
+- !private ["C6Charts28ChartXAxisRendererRadarChart", "NSFontAttributeName"]
+- !private ["C6Charts28ChartXAxisRendererRadarChart", "NSForegroundColorAttributeName"]
+- ["C6Charts28ChartXAxisRendererRadarChart", "NSObject"]
+- ["C6Charts28ChartXAxisRendererRadarChart", "RadarChartView"]
+- ["C6Charts28ChartXAxisRendererRadarChart", "String"]
+- ["C6Charts28ChartXAxisRendererRadarChart", "chart"]
+- ["C6Charts28ChartXAxisRendererRadarChart", "deinit"]
+- ["C6Charts28ChartXAxisRendererRadarChart", "drawLabel"]
+- ["C6Charts28ChartXAxisRendererRadarChart", "init"]
+- ["C6Charts28ChartXAxisRendererRadarChart", "renderAxisLabels"]
+- ["C6Charts28ChartXAxisRendererRadarChart", "renderLimitLines"]
+- !private ["C6Charts28ChartXAxisRendererRadarChart", "viewPortHandler"]
+- !private ["C6Charts28ChartXAxisRendererRadarChart", "xAxis"]
+- !private ["P6Charts24ChartXAxisValueFormatter", "stringForXValue"]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "Index"]
+- !private ["Ps14CollectionType", "Key"]
+- !private ["Ps14CollectionType", "SubSequence"]
+- !private ["Ps14CollectionType", "Value"]
+- !private ["Ps14CollectionType", "_Element"]
+- !private ["Ps14CollectionType", "count"]
+- !private ["Ps14CollectionType", "subscript"]
+- !private ["Ps10Comparable", "Distance"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "CGFloat"]
+- !private ["Ps28CustomDebugStringConvertible", "CGPoint"]
+- !private ["Ps28CustomDebugStringConvertible", "ChartUtils"]
+- !private ["Ps28CustomDebugStringConvertible", "Generator"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "Key"]
+- !private ["Ps28CustomDebugStringConvertible", "NSFontAttributeName"]
+- !private ["Ps28CustomDebugStringConvertible", "NSForegroundColorAttributeName"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "Value"]
+- !private ["Ps28CustomDebugStringConvertible", "axisLabelModulus"]
+- !private ["Ps28CustomDebugStringConvertible", "centerOffsets"]
+- ["Ps28CustomDebugStringConvertible", "chart"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- ["Ps28CustomDebugStringConvertible", "drawLabel"]
+- !private ["Ps28CustomDebugStringConvertible", "factor"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isDrawLabelsEnabled"]
+- !private ["Ps28CustomDebugStringConvertible", "isEnabled"]
+- !private ["Ps28CustomDebugStringConvertible", "labelFont"]
+- !private ["Ps28CustomDebugStringConvertible", "labelRotatedHeight"]
+- !private ["Ps28CustomDebugStringConvertible", "labelRotatedWidth"]
+- !private ["Ps28CustomDebugStringConvertible", "labelRotationAngle"]
+- !private ["Ps28CustomDebugStringConvertible", "labelTextColor"]
+- ["Ps28CustomDebugStringConvertible", "renderAxisLabels"]
+- ["Ps28CustomDebugStringConvertible", "renderLimitLines"]
+- !private ["Ps28CustomDebugStringConvertible", "rotationAngle"]
+- !private ["Ps28CustomDebugStringConvertible", "sliceAngle"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "valueFormatter"]
+- !private ["Ps28CustomDebugStringConvertible", "values"]
+- !private ["Ps28CustomDebugStringConvertible", "viewPortHandler"]
+- !private ["Ps28CustomDebugStringConvertible", "xAxis"]
+- !private ["Ps28CustomDebugStringConvertible", "yRange"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "CGFloat"]
+- !private ["Ps23CustomStringConvertible", "CGPoint"]
+- !private ["Ps23CustomStringConvertible", "ChartUtils"]
+- !private ["Ps23CustomStringConvertible", "Distance"]
+- !private ["Ps23CustomStringConvertible", "Generator"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "Key"]
+- !private ["Ps23CustomStringConvertible", "NSFontAttributeName"]
+- !private ["Ps23CustomStringConvertible", "NSForegroundColorAttributeName"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "Value"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "axisLabelModulus"]
+- !private ["Ps23CustomStringConvertible", "centerOffsets"]
+- ["Ps23CustomStringConvertible", "chart"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- ["Ps23CustomStringConvertible", "drawLabel"]
+- !private ["Ps23CustomStringConvertible", "factor"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isDrawLabelsEnabled"]
+- !private ["Ps23CustomStringConvertible", "isEnabled"]
+- !private ["Ps23CustomStringConvertible", "labelFont"]
+- !private ["Ps23CustomStringConvertible", "labelRotatedHeight"]
+- !private ["Ps23CustomStringConvertible", "labelRotatedWidth"]
+- !private ["Ps23CustomStringConvertible", "labelRotationAngle"]
+- !private ["Ps23CustomStringConvertible", "labelTextColor"]
+- ["Ps23CustomStringConvertible", "renderAxisLabels"]
+- ["Ps23CustomStringConvertible", "renderLimitLines"]
+- !private ["Ps23CustomStringConvertible", "rotationAngle"]
+- !private ["Ps23CustomStringConvertible", "sliceAngle"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "valueFormatter"]
+- !private ["Ps23CustomStringConvertible", "values"]
+- !private ["Ps23CustomStringConvertible", "viewPortHandler"]
+- !private ["Ps23CustomStringConvertible", "xAxis"]
+- !private ["Ps23CustomStringConvertible", "yRange"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Vs10Dictionary", "Key"]
+- !private ["Vs10Dictionary", "Value"]
+- !private ["Ps28DictionaryLiteralConvertible", "Key"]
+- !private ["Ps28DictionaryLiteralConvertible", "Value"]
+- !private ["Ps9Equatable", "CGFloat"]
+- !private ["Ps9Equatable", "CGPoint"]
+- !private ["Ps9Equatable", "ChartUtils"]
+- !private ["Ps9Equatable", "Distance"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "NSFontAttributeName"]
+- !private ["Ps9Equatable", "NSForegroundColorAttributeName"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "axisLabelModulus"]
+- !private ["Ps9Equatable", "centerOffsets"]
+- ["Ps9Equatable", "chart"]
+- ["Ps9Equatable", "drawLabel"]
+- !private ["Ps9Equatable", "factor"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isDrawLabelsEnabled"]
+- !private ["Ps9Equatable", "isEnabled"]
+- !private ["Ps9Equatable", "labelFont"]
+- !private ["Ps9Equatable", "labelRotatedHeight"]
+- !private ["Ps9Equatable", "labelRotatedWidth"]
+- !private ["Ps9Equatable", "labelRotationAngle"]
+- !private ["Ps9Equatable", "labelTextColor"]
+- ["Ps9Equatable", "renderAxisLabels"]
+- ["Ps9Equatable", "renderLimitLines"]
+- !private ["Ps9Equatable", "rotationAngle"]
+- !private ["Ps9Equatable", "sliceAngle"]
+- !private ["Ps9Equatable", "valueFormatter"]
+- !private ["Ps9Equatable", "values"]
+- !private ["Ps9Equatable", "viewPortHandler"]
+- !private ["Ps9Equatable", "x"]
+- !private ["Ps9Equatable", "xAxis"]
+- !private ["Ps9Equatable", "y"]
+- !private ["Ps9Equatable", "yRange"]
+- ["Ps9Equatable", ""]
+- !private ["Ps23FloatLiteralConvertible", "init"]
+- !private ["Ps17FloatingPointType", "init"]
+- !private ["Ps16ForwardIndexType", "Distance"]
+- !private ["Ps16ForwardIndexType", "IntegerLiteralType"]
+- !private ["Ps13GeneratorType", "Element"]
+- !private ["Ps8Hashable", "CGFloat"]
+- !private ["Ps8Hashable", "CGPoint"]
+- !private ["Ps8Hashable", "ChartUtils"]
+- !private ["Ps8Hashable", "Distance"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "NSFontAttributeName"]
+- !private ["Ps8Hashable", "NSForegroundColorAttributeName"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "axisLabelModulus"]
+- !private ["Ps8Hashable", "centerOffsets"]
+- ["Ps8Hashable", "chart"]
+- ["Ps8Hashable", "drawLabel"]
+- !private ["Ps8Hashable", "factor"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isDrawLabelsEnabled"]
+- !private ["Ps8Hashable", "isEnabled"]
+- !private ["Ps8Hashable", "labelFont"]
+- !private ["Ps8Hashable", "labelRotatedHeight"]
+- !private ["Ps8Hashable", "labelRotatedWidth"]
+- !private ["Ps8Hashable", "labelRotationAngle"]
+- !private ["Ps8Hashable", "labelTextColor"]
+- ["Ps8Hashable", "renderAxisLabels"]
+- ["Ps8Hashable", "renderLimitLines"]
+- !private ["Ps8Hashable", "rotationAngle"]
+- !private ["Ps8Hashable", "sliceAngle"]
+- !private ["Ps8Hashable", "valueFormatter"]
+- !private ["Ps8Hashable", "values"]
+- !private ["Ps8Hashable", "viewPortHandler"]
+- !private ["Ps8Hashable", "xAxis"]
+- !private ["Ps8Hashable", "yRange"]
+- ["Ps8Hashable", ""]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "Key"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "Value"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "count"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Vs17IndexingGenerator", "Element"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "deinit"]
+- !private ["Ps21IntegerArithmeticType", "Distance"]
+- !private ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "Distance"]
+- !private ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "init"]
+- !private ["Ps11IntegerType", "Distance"]
+- !private ["Ps11IntegerType", "IntegerLiteralType"]
+- !private ["VC6Charts10ChartUtils4Math", "FDEG2RAD"]
+- !private ["Ps14MirrorPathType", "Distance"]
+- !private ["Ps14MirrorPathType", "IntegerLiteralType"]
+- !private ["Ps21MutableCollectionType", "Generator"]
+- !private ["Ps21MutableCollectionType", "Index"]
+- !private ["Ps21MutableCollectionType", "SubSequence"]
+- !private ["Ps21MutableCollectionType", "count"]
+- !private ["Ps21MutableCollectionType", "subscript"]
+- !private ["Ps16MutableIndexable", "Generator"]
+- !private ["Ps16MutableIndexable", "Index"]
+- !private ["Ps16MutableIndexable", "SubSequence"]
+- !private ["Ps16MutableIndexable", "count"]
+- !private ["Ps16MutableIndexable", "subscript"]
+- !private ["Ps16MutableSliceable", "Generator"]
+- !private ["Ps16MutableSliceable", "Index"]
+- !private ["Ps16MutableSliceable", "SubSequence"]
+- !private ["Ps16MutableSliceable", "count"]
+- !private ["Ps16MutableSliceable", "subscript"]
+- !private ["PSo8NSCoding", "centerOffsets"]
+- !private ["PSo8NSCoding", "factor"]
+- !private ["PSo8NSCoding", "rotationAngle"]
+- !private ["PSo8NSCoding", "sliceAngle"]
+- !private ["PSo8NSCoding", "yRange"]
+- ["CSo8NSObject", "CGContext"]
+- ["CSo8NSObject", "CGFloat"]
+- ["CSo8NSObject", "CGPoint"]
+- !private ["CSo8NSObject", "ChartUtils"]
+- ["CSo8NSObject", "ChartViewPortHandler"]
+- ["CSo8NSObject", "ChartXAxis"]
+- ["CSo8NSObject", "Int"]
+- !private ["CSo8NSObject", "NSFontAttributeName"]
+- !private ["CSo8NSObject", "NSForegroundColorAttributeName"]
+- ["CSo8NSObject", "NSObject"]
+- ["CSo8NSObject", "RadarChartView"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "axisLabelModulus"]
+- !private ["CSo8NSObject", "centerOffsets"]
+- ["CSo8NSObject", "chart"]
+- ["CSo8NSObject", "drawLabel"]
+- !private ["CSo8NSObject", "factor"]
+- !private ["CSo8NSObject", "isDrawLabelsEnabled"]
+- !private ["CSo8NSObject", "isEnabled"]
+- !private ["CSo8NSObject", "labelFont"]
+- !private ["CSo8NSObject", "labelRotatedHeight"]
+- !private ["CSo8NSObject", "labelRotatedWidth"]
+- !private ["CSo8NSObject", "labelRotationAngle"]
+- !private ["CSo8NSObject", "labelTextColor"]
+- ["CSo8NSObject", "renderAxisLabels"]
+- ["CSo8NSObject", "renderLimitLines"]
+- !private ["CSo8NSObject", "rotationAngle"]
+- !private ["CSo8NSObject", "sliceAngle"]
+- !private ["CSo8NSObject", "valueFormatter"]
+- !private ["CSo8NSObject", "values"]
+- !private ["CSo8NSObject", "viewPortHandler"]
+- !private ["CSo8NSObject", "xAxis"]
+- !private ["CSo8NSObject", "yRange"]
+- !private ["PSo16NSObjectProtocol", "CGFloat"]
+- !private ["PSo16NSObjectProtocol", "CGPoint"]
+- !private ["PSo16NSObjectProtocol", "ChartUtils"]
+- !private ["PSo16NSObjectProtocol", "NSFontAttributeName"]
+- !private ["PSo16NSObjectProtocol", "NSForegroundColorAttributeName"]
+- !private ["PSo16NSObjectProtocol", "axisLabelModulus"]
+- !private ["PSo16NSObjectProtocol", "centerOffsets"]
+- ["PSo16NSObjectProtocol", "chart"]
+- ["PSo16NSObjectProtocol", "drawLabel"]
+- !private ["PSo16NSObjectProtocol", "factor"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isDrawLabelsEnabled"]
+- !private ["PSo16NSObjectProtocol", "isEnabled"]
+- !private ["PSo16NSObjectProtocol", "labelFont"]
+- !private ["PSo16NSObjectProtocol", "labelRotatedHeight"]
+- !private ["PSo16NSObjectProtocol", "labelRotatedWidth"]
+- !private ["PSo16NSObjectProtocol", "labelRotationAngle"]
+- !private ["PSo16NSObjectProtocol", "labelTextColor"]
+- ["PSo16NSObjectProtocol", "renderAxisLabels"]
+- ["PSo16NSObjectProtocol", "renderLimitLines"]
+- !private ["PSo16NSObjectProtocol", "rotationAngle"]
+- !private ["PSo16NSObjectProtocol", "sliceAngle"]
+- !private ["PSo16NSObjectProtocol", "valueFormatter"]
+- !private ["PSo16NSObjectProtocol", "values"]
+- !private ["PSo16NSObjectProtocol", "viewPortHandler"]
+- !private ["PSo16NSObjectProtocol", "xAxis"]
+- !private ["PSo16NSObjectProtocol", "yRange"]
+- ["PSo16NSObjectProtocol", ""]
+- ["Ps21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["C6Charts21PieRadarChartViewBase", "centerOffsets"]
+- !private ["C6Charts21PieRadarChartViewBase", "factor"]
+- !private ["C6Charts21PieRadarChartViewBase", "rotationAngle"]
+- !private ["C6Charts21PieRadarChartViewBase", "sliceAngle"]
+- !private ["C6Charts21PieRadarChartViewBase", "yRange"]
+- !private ["C6Charts14RadarChartView", "centerOffsets"]
+- !private ["C6Charts14RadarChartView", "deinit"]
+- !private ["C6Charts14RadarChartView", "factor"]
+- !private ["C6Charts14RadarChartView", "rotationAngle"]
+- !private ["C6Charts14RadarChartView", "sliceAngle"]
+- !private ["C6Charts14RadarChartView", "yRange"]
+- !private ["Ps21RandomAccessIndexType", "Distance"]
+- !private ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["Ps30RangeReplaceableCollectionType", "Generator"]
+- !private ["Ps30RangeReplaceableCollectionType", "Index"]
+- !private ["Ps30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["Ps30RangeReplaceableCollectionType", "count"]
+- !private ["Ps30RangeReplaceableCollectionType", "subscript"]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "Index"]
+- !private ["Ps12SequenceType", "Key"]
+- !private ["Ps12SequenceType", "SubSequence"]
+- !private ["Ps12SequenceType", "Value"]
+- !private ["Ps12SequenceType", "_Element"]
+- !private ["Ps12SequenceType", "count"]
+- !private ["Ps12SequenceType", "subscript"]
+- !private ["Ps17SignedIntegerType", "Distance"]
+- !private ["Ps17SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps16SignedNumberType", "Distance"]
+- !private ["Ps16SignedNumberType", "IntegerLiteralType"]
+- !private ["Ps16SignedNumberType", "init"]
+- !private ["Vs5Slice", "Generator"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- !private ["Vs12StaticString", "deinit"]
+- !private ["Ps10Strideable", "Distance"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["Ps10Strideable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "centerOffsets"]
+- !private ["PSo29UIAccessibilityIdentification", "factor"]
+- !private ["PSo29UIAccessibilityIdentification", "rotationAngle"]
+- !private ["PSo29UIAccessibilityIdentification", "sliceAngle"]
+- !private ["PSo29UIAccessibilityIdentification", "yRange"]
+- !private ["PSo12UIAppearance", "centerOffsets"]
+- !private ["PSo12UIAppearance", "factor"]
+- !private ["PSo12UIAppearance", "rotationAngle"]
+- !private ["PSo12UIAppearance", "sliceAngle"]
+- !private ["PSo12UIAppearance", "yRange"]
+- !private ["PSo21UIAppearanceContainer", "centerOffsets"]
+- !private ["PSo21UIAppearanceContainer", "factor"]
+- !private ["PSo21UIAppearanceContainer", "rotationAngle"]
+- !private ["PSo21UIAppearanceContainer", "sliceAngle"]
+- !private ["PSo21UIAppearanceContainer", "yRange"]
+- !private ["PSo17UICoordinateSpace", "centerOffsets"]
+- !private ["PSo17UICoordinateSpace", "factor"]
+- !private ["PSo17UICoordinateSpace", "rotationAngle"]
+- !private ["PSo17UICoordinateSpace", "sliceAngle"]
+- !private ["PSo17UICoordinateSpace", "yRange"]
+- !private ["PSo13UIDynamicItem", "centerOffsets"]
+- !private ["PSo13UIDynamicItem", "factor"]
+- !private ["PSo13UIDynamicItem", "rotationAngle"]
+- !private ["PSo13UIDynamicItem", "sliceAngle"]
+- !private ["PSo13UIDynamicItem", "yRange"]
+- !private ["PSo18UIFocusEnvironment", "centerOffsets"]
+- !private ["PSo18UIFocusEnvironment", "factor"]
+- !private ["PSo18UIFocusEnvironment", "rotationAngle"]
+- !private ["PSo18UIFocusEnvironment", "sliceAngle"]
+- !private ["PSo18UIFocusEnvironment", "yRange"]
+- !private ["CSo11UIResponder", "centerOffsets"]
+- !private ["CSo11UIResponder", "factor"]
+- !private ["CSo11UIResponder", "rotationAngle"]
+- !private ["CSo11UIResponder", "sliceAngle"]
+- !private ["CSo11UIResponder", "yRange"]
+- !private ["PSo18UITraitEnvironment", "centerOffsets"]
+- !private ["PSo18UITraitEnvironment", "factor"]
+- !private ["PSo18UITraitEnvironment", "rotationAngle"]
+- !private ["PSo18UITraitEnvironment", "sliceAngle"]
+- !private ["PSo18UITraitEnvironment", "yRange"]
+- !private ["CSo6UIView", "centerOffsets"]
+- !private ["CSo6UIView", "factor"]
+- !private ["CSo6UIView", "rotationAngle"]
+- !private ["CSo6UIView", "sliceAngle"]
+- !private ["CSo6UIView", "yRange"]
+- !private ["Ps10_ArrayType", "Generator"]
+- !private ["Ps10_ArrayType", "Index"]
+- !private ["Ps10_ArrayType", "SubSequence"]
+- !private ["Ps10_ArrayType", "count"]
+- !private ["Ps10_ArrayType", "subscript"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps19_CVarArgAlignedType", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps24_DestructorSafeContainer", "Generator"]
+- !private ["Ps24_DestructorSafeContainer", "Index"]
+- !private ["Ps24_DestructorSafeContainer", "SubSequence"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps14_Incrementable", "Distance"]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps22_IntegerArithmeticType", "Distance"]
+- !private ["Ps22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps12_IntegerType", "Distance"]
+- !private ["Ps12_IntegerType", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "Distance"]
+- !private ["Ps21_ObjectiveCBridgeable", "Generator"]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "Key"]
+- !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["Ps21_ObjectiveCBridgeable", "Value"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps22_RandomAccessAmbiguity", "Distance"]
+- !private ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "Distance"]
+- !private ["Ps12_Reflectable", "Generator"]
+- !private ["Ps12_Reflectable", "Index"]
+- !private ["Ps12_Reflectable", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "Key"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "SubSequence"]
+- !private ["Ps12_Reflectable", "Value"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "centerOffsets"]
+- !private ["Ps12_Reflectable", "count"]
+- !private ["Ps12_Reflectable", "factor"]
+- !private ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "rotationAngle"]
+- !private ["Ps12_Reflectable", "sliceAngle"]
+- !private ["Ps12_Reflectable", "subscript"]
+- !private ["Ps12_Reflectable", "x"]
+- !private ["Ps12_Reflectable", "y"]
+- !private ["Ps12_Reflectable", "yRange"]
+- !private ["Ps18_SignedIntegerType", "Distance"]
+- !private ["Ps18_SignedIntegerType", "IntegerLiteralType"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23ArrayLiteralConvertible"
+- !private "Vs10ArraySlice"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "V12CoreGraphics7CGFloat"
+- !private "VSC7CGPoint"
+- "Ps11CVarArgType"
+- !private "P6Charts21ChartAnimatorDelegate"
+- !private "C6Charts13ChartAxisBase"
+- "C6Charts21ChartAxisRendererBase"
+- !private "C6Charts18ChartComponentBase"
+- !private "P6Charts17ChartDataProvider"
+- "C6Charts17ChartRendererBase"
+- !private "C6Charts10ChartUtils"
+- !private "C6Charts13ChartViewBase"
+- !private "C6Charts10ChartXAxis"
+- "C6Charts18ChartXAxisRenderer"
+- "C6Charts28ChartXAxisRendererRadarChart"
+- !private "P6Charts24ChartXAxisValueFormatter"
+- !private "Ps14CollectionType"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- !private "Ps28DictionaryLiteralConvertible"
+- "Ps9Equatable"
+- !private "Ps23FloatLiteralConvertible"
+- !private "Ps17FloatingPointType"
+- !private "Ps16ForwardIndexType"
+- !private "Ps13GeneratorType"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Vs17IndexingGenerator"
+- !private "Si"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- !private "VC6Charts10ChartUtils4Math"
+- !private "Ps14MirrorPathType"
+- !private "Ps21MutableCollectionType"
+- !private "Ps16MutableIndexable"
+- !private "Ps16MutableSliceable"
+- !private "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "Ps21NilLiteralConvertible"
+- "Sq"
+- !private "C6Charts21PieRadarChartViewBase"
+- !private "C6Charts14RadarChartView"
+- !private "Ps21RandomAccessIndexType"
+- !private "Ps30RangeReplaceableCollectionType"
+- !private "Ps12SequenceType"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Vs5Slice"
+- !private "Vs12StaticString"
+- !private "Ps10Strideable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "CSo11UIResponder"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- !private "Ps10_ArrayType"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps19_CVarArgAlignedType"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps22_RandomAccessAmbiguity"
+- "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/Supporting Files/Charts.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Build/Intermediates/Charts.build/Debug-iphoneos/Charts-iOS.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMOptionalBase.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMMigration_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMListBase.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMSchema.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMResults.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMRealm.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMConstants.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMProperty.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMObject.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMMigration.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMDefines.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMCollection.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMArray.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/Realm.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Modules/module.modulemap"
+interface-hash: "4cec7d3efd8109bf3399d93e7c02ed49"

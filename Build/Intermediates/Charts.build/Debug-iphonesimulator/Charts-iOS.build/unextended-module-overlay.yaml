@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Build/Files/Debug-iphonesimulator/Charts.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Build/Intermediates/Charts.build/Debug-iphonesimulator/Charts-iOS.build/unextended-module.modulemap',
+    }]
+  }]
+}

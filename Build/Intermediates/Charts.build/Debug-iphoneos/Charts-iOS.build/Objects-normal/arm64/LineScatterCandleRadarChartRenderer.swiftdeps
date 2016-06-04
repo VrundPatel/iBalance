@@ -1,0 +1,250 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LineScatterCandleRadarChartRenderer"
+provides-nominal:
+- "C6Charts35LineScatterCandleRadarChartRenderer"
+provides-member:
+- ["C6Charts35LineScatterCandleRadarChartRenderer", ""]
+provides-dynamic-lookup:
+- "drawHighlightLines"
+depends-top-level:
+- "ILineScatterCandleRadarChartDataSet"
+- !private "CGContextBeginPath"
+- "ChartDataRendererBase"
+- "LineScatterCandleRadarChartRenderer"
+- "ChartAnimator"
+- !private "CGContextStrokePath"
+- !private "CGContextAddLineToPoint"
+- "CGPoint"
+- "ChartViewPortHandler"
+- "CGContext"
+- !private "CGContextMoveToPoint"
+depends-member:
+- !private ["Ps9AnyObject", "CGContextAddLineToPoint"]
+- !private ["Ps9AnyObject", "CGContextBeginPath"]
+- !private ["Ps9AnyObject", "CGContextMoveToPoint"]
+- !private ["Ps9AnyObject", "CGContextStrokePath"]
+- !private ["Ps9AnyObject", "contentBottom"]
+- !private ["Ps9AnyObject", "contentLeft"]
+- !private ["Ps9AnyObject", "contentRight"]
+- !private ["Ps9AnyObject", "contentTop"]
+- ["Ps9AnyObject", "drawHighlightLines"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "viewPortHandler"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["VSC7CGPoint", "x"]
+- !private ["VSC7CGPoint", "y"]
+- !private ["Ps11CVarArgType", "CGContextAddLineToPoint"]
+- !private ["Ps11CVarArgType", "CGContextBeginPath"]
+- !private ["Ps11CVarArgType", "CGContextMoveToPoint"]
+- !private ["Ps11CVarArgType", "CGContextStrokePath"]
+- !private ["Ps11CVarArgType", "contentBottom"]
+- !private ["Ps11CVarArgType", "contentLeft"]
+- !private ["Ps11CVarArgType", "contentRight"]
+- !private ["Ps11CVarArgType", "contentTop"]
+- ["Ps11CVarArgType", "drawHighlightLines"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "viewPortHandler"]
+- ["Ps11CVarArgType", ""]
+- ["C6Charts21ChartDataRendererBase", "CGContext"]
+- !private ["C6Charts21ChartDataRendererBase", "CGContextAddLineToPoint"]
+- !private ["C6Charts21ChartDataRendererBase", "CGContextBeginPath"]
+- !private ["C6Charts21ChartDataRendererBase", "CGContextMoveToPoint"]
+- !private ["C6Charts21ChartDataRendererBase", "CGContextStrokePath"]
+- ["C6Charts21ChartDataRendererBase", "CGPoint"]
+- ["C6Charts21ChartDataRendererBase", "ChartAnimator"]
+- ["C6Charts21ChartDataRendererBase", "ChartViewPortHandler"]
+- ["C6Charts21ChartDataRendererBase", "ILineScatterCandleRadarChartDataSet"]
+- ["C6Charts21ChartDataRendererBase", "drawHighlightLines"]
+- ["C6Charts21ChartDataRendererBase", "init"]
+- !private ["C6Charts21ChartDataRendererBase", "viewPortHandler"]
+- ["C6Charts21ChartDataRendererBase", ""]
+- ["C6Charts17ChartRendererBase", "CGContext"]
+- !private ["C6Charts17ChartRendererBase", "CGContextAddLineToPoint"]
+- !private ["C6Charts17ChartRendererBase", "CGContextBeginPath"]
+- !private ["C6Charts17ChartRendererBase", "CGContextMoveToPoint"]
+- !private ["C6Charts17ChartRendererBase", "CGContextStrokePath"]
+- ["C6Charts17ChartRendererBase", "CGPoint"]
+- ["C6Charts17ChartRendererBase", "ChartAnimator"]
+- ["C6Charts17ChartRendererBase", "ChartViewPortHandler"]
+- ["C6Charts17ChartRendererBase", "ILineScatterCandleRadarChartDataSet"]
+- ["C6Charts17ChartRendererBase", "drawHighlightLines"]
+- !private ["C6Charts17ChartRendererBase", "viewPortHandler"]
+- !private ["C6Charts20ChartViewPortHandler", "contentBottom"]
+- !private ["C6Charts20ChartViewPortHandler", "contentLeft"]
+- !private ["C6Charts20ChartViewPortHandler", "contentRight"]
+- !private ["C6Charts20ChartViewPortHandler", "contentTop"]
+- !private ["Ps28CustomDebugStringConvertible", "CGContextAddLineToPoint"]
+- !private ["Ps28CustomDebugStringConvertible", "CGContextBeginPath"]
+- !private ["Ps28CustomDebugStringConvertible", "CGContextMoveToPoint"]
+- !private ["Ps28CustomDebugStringConvertible", "CGContextStrokePath"]
+- !private ["Ps28CustomDebugStringConvertible", "contentBottom"]
+- !private ["Ps28CustomDebugStringConvertible", "contentLeft"]
+- !private ["Ps28CustomDebugStringConvertible", "contentRight"]
+- !private ["Ps28CustomDebugStringConvertible", "contentTop"]
+- ["Ps28CustomDebugStringConvertible", "drawHighlightLines"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "viewPortHandler"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "CGContextAddLineToPoint"]
+- !private ["Ps23CustomStringConvertible", "CGContextBeginPath"]
+- !private ["Ps23CustomStringConvertible", "CGContextMoveToPoint"]
+- !private ["Ps23CustomStringConvertible", "CGContextStrokePath"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "contentBottom"]
+- !private ["Ps23CustomStringConvertible", "contentLeft"]
+- !private ["Ps23CustomStringConvertible", "contentRight"]
+- !private ["Ps23CustomStringConvertible", "contentTop"]
+- ["Ps23CustomStringConvertible", "drawHighlightLines"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "viewPortHandler"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "CGContextAddLineToPoint"]
+- !private ["Ps9Equatable", "CGContextBeginPath"]
+- !private ["Ps9Equatable", "CGContextMoveToPoint"]
+- !private ["Ps9Equatable", "CGContextStrokePath"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "contentBottom"]
+- !private ["Ps9Equatable", "contentLeft"]
+- !private ["Ps9Equatable", "contentRight"]
+- !private ["Ps9Equatable", "contentTop"]
+- ["Ps9Equatable", "drawHighlightLines"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "viewPortHandler"]
+- !private ["Ps9Equatable", "x"]
+- !private ["Ps9Equatable", "y"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "CGContextAddLineToPoint"]
+- !private ["Ps8Hashable", "CGContextBeginPath"]
+- !private ["Ps8Hashable", "CGContextMoveToPoint"]
+- !private ["Ps8Hashable", "CGContextStrokePath"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "contentBottom"]
+- !private ["Ps8Hashable", "contentLeft"]
+- !private ["Ps8Hashable", "contentRight"]
+- !private ["Ps8Hashable", "contentTop"]
+- ["Ps8Hashable", "drawHighlightLines"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "viewPortHandler"]
+- ["Ps8Hashable", ""]
+- !private ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "isHorizontalHighlightIndicatorEnabled"]
+- !private ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "isVerticalHighlightIndicatorEnabled"]
+- !private ["P6Charts13IChartDataSet", "isHorizontalHighlightIndicatorEnabled"]
+- !private ["P6Charts13IChartDataSet", "isVerticalHighlightIndicatorEnabled"]
+- !private ["P6Charts35ILineScatterCandleRadarChartDataSet", "isHorizontalHighlightIndicatorEnabled"]
+- !private ["P6Charts35ILineScatterCandleRadarChartDataSet", "isVerticalHighlightIndicatorEnabled"]
+- ["C6Charts35LineScatterCandleRadarChartRenderer", "CGContext"]
+- !private ["C6Charts35LineScatterCandleRadarChartRenderer", "CGContextAddLineToPoint"]
+- !private ["C6Charts35LineScatterCandleRadarChartRenderer", "CGContextBeginPath"]
+- !private ["C6Charts35LineScatterCandleRadarChartRenderer", "CGContextMoveToPoint"]
+- !private ["C6Charts35LineScatterCandleRadarChartRenderer", "CGContextStrokePath"]
+- ["C6Charts35LineScatterCandleRadarChartRenderer", "CGPoint"]
+- ["C6Charts35LineScatterCandleRadarChartRenderer", "ChartAnimator"]
+- ["C6Charts35LineScatterCandleRadarChartRenderer", "ChartViewPortHandler"]
+- ["C6Charts35LineScatterCandleRadarChartRenderer", "ILineScatterCandleRadarChartDataSet"]
+- ["C6Charts35LineScatterCandleRadarChartRenderer", "deinit"]
+- ["C6Charts35LineScatterCandleRadarChartRenderer", "drawHighlightLines"]
+- ["C6Charts35LineScatterCandleRadarChartRenderer", "init"]
+- !private ["C6Charts35LineScatterCandleRadarChartRenderer", "viewPortHandler"]
+- ["CSo8NSObject", "CGContext"]
+- !private ["CSo8NSObject", "CGContextAddLineToPoint"]
+- !private ["CSo8NSObject", "CGContextBeginPath"]
+- !private ["CSo8NSObject", "CGContextMoveToPoint"]
+- !private ["CSo8NSObject", "CGContextStrokePath"]
+- ["CSo8NSObject", "CGPoint"]
+- ["CSo8NSObject", "ChartAnimator"]
+- ["CSo8NSObject", "ChartViewPortHandler"]
+- ["CSo8NSObject", "ILineScatterCandleRadarChartDataSet"]
+- !private ["CSo8NSObject", "contentBottom"]
+- !private ["CSo8NSObject", "contentLeft"]
+- !private ["CSo8NSObject", "contentRight"]
+- !private ["CSo8NSObject", "contentTop"]
+- ["CSo8NSObject", "drawHighlightLines"]
+- !private ["CSo8NSObject", "viewPortHandler"]
+- !private ["PSo16NSObjectProtocol", "CGContextAddLineToPoint"]
+- !private ["PSo16NSObjectProtocol", "CGContextBeginPath"]
+- !private ["PSo16NSObjectProtocol", "CGContextMoveToPoint"]
+- !private ["PSo16NSObjectProtocol", "CGContextStrokePath"]
+- !private ["PSo16NSObjectProtocol", "contentBottom"]
+- !private ["PSo16NSObjectProtocol", "contentLeft"]
+- !private ["PSo16NSObjectProtocol", "contentRight"]
+- !private ["PSo16NSObjectProtocol", "contentTop"]
+- ["PSo16NSObjectProtocol", "drawHighlightLines"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "viewPortHandler"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "x"]
+- !private ["Ps12_Reflectable", "y"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "VSC7CGPoint"
+- "Ps11CVarArgType"
+- "C6Charts21ChartDataRendererBase"
+- "C6Charts17ChartRendererBase"
+- !private "C6Charts20ChartViewPortHandler"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- !private "P6Charts39IBarLineScatterCandleBubbleChartDataSet"
+- !private "P6Charts13IChartDataSet"
+- !private "P6Charts35ILineScatterCandleRadarChartDataSet"
+- "C6Charts35LineScatterCandleRadarChartRenderer"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/Supporting Files/Charts.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Build/Intermediates/Charts.build/Debug-iphoneos/Charts-iOS.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMOptionalBase.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMMigration_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMListBase.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMSchema.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMResults.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMRealm.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMConstants.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMProperty.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMObject.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMMigration.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMDefines.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMCollection.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMArray.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/Realm.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Modules/module.modulemap"
+interface-hash: "3fd39eae44e0d5325a14b0c3eb53b249"

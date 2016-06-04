@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "f65ea74a6a795e3fae2ab0cef1349289"
+build_time: [507098731, 364985000]
+inputs:
+  "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/iBalanceUITests/iBalanceUITests.swift": [506659092, 0]

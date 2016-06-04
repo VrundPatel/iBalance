@@ -1,0 +1,218 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ChartTransformerHorizontalBarChart"
+provides-nominal:
+- "C6Charts34ChartTransformerHorizontalBarChart"
+provides-member:
+- ["C6Charts34ChartTransformerHorizontalBarChart", ""]
+provides-dynamic-lookup:
+- "prepareMatrixOffset"
+depends-top-level:
+- !private "!"
+- !private "CGAffineTransformTranslate"
+- !private "-"
+- !private "CGAffineTransformMakeScale"
+- "Bool"
+- "ChartTransformerHorizontalBarChart"
+- "ChartTransformer"
+- !private "CGAffineTransformMakeTranslation"
+depends-member:
+- !private ["Ps9AnyObject", "CGAffineTransformMakeScale"]
+- !private ["Ps9AnyObject", "CGAffineTransformMakeTranslation"]
+- !private ["Ps9AnyObject", "CGAffineTransformTranslate"]
+- !private ["Ps9AnyObject", "_matrixOffset"]
+- !private ["Ps9AnyObject", "_viewPortHandler"]
+- !private ["Ps9AnyObject", "chartHeight"]
+- !private ["Ps9AnyObject", "chartWidth"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "offsetBottom"]
+- !private ["Ps9AnyObject", "offsetLeft"]
+- !private ["Ps9AnyObject", "offsetRight"]
+- ["Ps9AnyObject", "prepareMatrixOffset"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["Ps11CVarArgType", "CGAffineTransformMakeScale"]
+- !private ["Ps11CVarArgType", "CGAffineTransformMakeTranslation"]
+- !private ["Ps11CVarArgType", "CGAffineTransformTranslate"]
+- !private ["Ps11CVarArgType", "_matrixOffset"]
+- !private ["Ps11CVarArgType", "_viewPortHandler"]
+- !private ["Ps11CVarArgType", "chartHeight"]
+- !private ["Ps11CVarArgType", "chartWidth"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "offsetBottom"]
+- !private ["Ps11CVarArgType", "offsetLeft"]
+- !private ["Ps11CVarArgType", "offsetRight"]
+- ["Ps11CVarArgType", "prepareMatrixOffset"]
+- ["Ps11CVarArgType", ""]
+- ["C6Charts16ChartTransformer", "Bool"]
+- !private ["C6Charts16ChartTransformer", "CGAffineTransformMakeScale"]
+- !private ["C6Charts16ChartTransformer", "CGAffineTransformMakeTranslation"]
+- !private ["C6Charts16ChartTransformer", "CGAffineTransformTranslate"]
+- !private ["C6Charts16ChartTransformer", "_matrixOffset"]
+- !private ["C6Charts16ChartTransformer", "_viewPortHandler"]
+- ["C6Charts16ChartTransformer", "init"]
+- ["C6Charts16ChartTransformer", "prepareMatrixOffset"]
+- ["C6Charts16ChartTransformer", ""]
+- ["C6Charts34ChartTransformerHorizontalBarChart", "Bool"]
+- !private ["C6Charts34ChartTransformerHorizontalBarChart", "CGAffineTransformMakeScale"]
+- !private ["C6Charts34ChartTransformerHorizontalBarChart", "CGAffineTransformMakeTranslation"]
+- !private ["C6Charts34ChartTransformerHorizontalBarChart", "CGAffineTransformTranslate"]
+- !private ["C6Charts34ChartTransformerHorizontalBarChart", "_matrixOffset"]
+- !private ["C6Charts34ChartTransformerHorizontalBarChart", "_viewPortHandler"]
+- ["C6Charts34ChartTransformerHorizontalBarChart", "deinit"]
+- ["C6Charts34ChartTransformerHorizontalBarChart", "init"]
+- ["C6Charts34ChartTransformerHorizontalBarChart", "prepareMatrixOffset"]
+- !private ["C6Charts20ChartViewPortHandler", "chartHeight"]
+- !private ["C6Charts20ChartViewPortHandler", "chartWidth"]
+- !private ["C6Charts20ChartViewPortHandler", "offsetBottom"]
+- !private ["C6Charts20ChartViewPortHandler", "offsetLeft"]
+- !private ["C6Charts20ChartViewPortHandler", "offsetRight"]
+- !private ["Ps28CustomDebugStringConvertible", "CGAffineTransformMakeScale"]
+- !private ["Ps28CustomDebugStringConvertible", "CGAffineTransformMakeTranslation"]
+- !private ["Ps28CustomDebugStringConvertible", "CGAffineTransformTranslate"]
+- !private ["Ps28CustomDebugStringConvertible", "_matrixOffset"]
+- !private ["Ps28CustomDebugStringConvertible", "_viewPortHandler"]
+- !private ["Ps28CustomDebugStringConvertible", "chartHeight"]
+- !private ["Ps28CustomDebugStringConvertible", "chartWidth"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "offsetBottom"]
+- !private ["Ps28CustomDebugStringConvertible", "offsetLeft"]
+- !private ["Ps28CustomDebugStringConvertible", "offsetRight"]
+- ["Ps28CustomDebugStringConvertible", "prepareMatrixOffset"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "CGAffineTransformMakeScale"]
+- !private ["Ps23CustomStringConvertible", "CGAffineTransformMakeTranslation"]
+- !private ["Ps23CustomStringConvertible", "CGAffineTransformTranslate"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "_matrixOffset"]
+- !private ["Ps23CustomStringConvertible", "_viewPortHandler"]
+- !private ["Ps23CustomStringConvertible", "chartHeight"]
+- !private ["Ps23CustomStringConvertible", "chartWidth"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "offsetBottom"]
+- !private ["Ps23CustomStringConvertible", "offsetLeft"]
+- !private ["Ps23CustomStringConvertible", "offsetRight"]
+- ["Ps23CustomStringConvertible", "prepareMatrixOffset"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "CGAffineTransformMakeScale"]
+- !private ["Ps9Equatable", "CGAffineTransformMakeTranslation"]
+- !private ["Ps9Equatable", "CGAffineTransformTranslate"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "_matrixOffset"]
+- !private ["Ps9Equatable", "_viewPortHandler"]
+- !private ["Ps9Equatable", "chartHeight"]
+- !private ["Ps9Equatable", "chartWidth"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "offsetBottom"]
+- !private ["Ps9Equatable", "offsetLeft"]
+- !private ["Ps9Equatable", "offsetRight"]
+- ["Ps9Equatable", "prepareMatrixOffset"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "CGAffineTransformMakeScale"]
+- !private ["Ps8Hashable", "CGAffineTransformMakeTranslation"]
+- !private ["Ps8Hashable", "CGAffineTransformTranslate"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "_matrixOffset"]
+- !private ["Ps8Hashable", "_viewPortHandler"]
+- !private ["Ps8Hashable", "chartHeight"]
+- !private ["Ps8Hashable", "chartWidth"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "offsetBottom"]
+- !private ["Ps8Hashable", "offsetLeft"]
+- !private ["Ps8Hashable", "offsetRight"]
+- ["Ps8Hashable", "prepareMatrixOffset"]
+- ["Ps8Hashable", ""]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "CGAffineTransformMakeScale"]
+- !private ["CSo8NSObject", "CGAffineTransformMakeTranslation"]
+- !private ["CSo8NSObject", "CGAffineTransformTranslate"]
+- !private ["CSo8NSObject", "_matrixOffset"]
+- !private ["CSo8NSObject", "_viewPortHandler"]
+- !private ["CSo8NSObject", "chartHeight"]
+- !private ["CSo8NSObject", "chartWidth"]
+- !private ["CSo8NSObject", "offsetBottom"]
+- !private ["CSo8NSObject", "offsetLeft"]
+- !private ["CSo8NSObject", "offsetRight"]
+- ["CSo8NSObject", "prepareMatrixOffset"]
+- !private ["PSo16NSObjectProtocol", "CGAffineTransformMakeScale"]
+- !private ["PSo16NSObjectProtocol", "CGAffineTransformMakeTranslation"]
+- !private ["PSo16NSObjectProtocol", "CGAffineTransformTranslate"]
+- !private ["PSo16NSObjectProtocol", "_matrixOffset"]
+- !private ["PSo16NSObjectProtocol", "_viewPortHandler"]
+- !private ["PSo16NSObjectProtocol", "chartHeight"]
+- !private ["PSo16NSObjectProtocol", "chartWidth"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "offsetBottom"]
+- !private ["PSo16NSObjectProtocol", "offsetLeft"]
+- !private ["PSo16NSObjectProtocol", "offsetRight"]
+- ["PSo16NSObjectProtocol", "prepareMatrixOffset"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "V12CoreGraphics7CGFloat"
+- "Ps11CVarArgType"
+- "C6Charts16ChartTransformer"
+- "C6Charts34ChartTransformerHorizontalBarChart"
+- !private "C6Charts20ChartViewPortHandler"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/Supporting Files/Charts.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Build/Intermediates/Charts.build/Debug-iphoneos/Charts-iOS.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMOptionalBase.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMMigration_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMListBase.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMSchema.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMResults.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMRealm.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMConstants.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMProperty.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMObject.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMMigration.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMDefines.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMCollection.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMArray.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/Realm.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Modules/module.modulemap"
+interface-hash: "6e4c1eda1fad0522334b12e19a0d3181"

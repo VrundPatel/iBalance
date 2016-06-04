@@ -1,0 +1,113 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "IScatterChartDataSet"
+provides-nominal:
+- "P6Charts20IScatterChartDataSet"
+provides-member:
+- ["P6Charts20IScatterChartDataSet", ""]
+provides-dynamic-lookup:
+- "customScatterShape"
+- "scatterShapeSize"
+- "scatterShape"
+depends-top-level:
+- "CGFloat"
+- "ILineScatterCandleRadarChartDataSet"
+- "ScatterChartDataSet"
+- "CGPath"
+- "IScatterChartDataSet"
+depends-member:
+- ["Ps9AnyObject", "ScatterShape"]
+- ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "ScatterShape"]
+- ["Ps11CVarArgType", "ScatterShape"]
+- ["C6Charts16ChartBaseDataSet", "ScatterShape"]
+- ["C6Charts12ChartDataSet", "ScatterShape"]
+- ["Ps28CustomDebugStringConvertible", "ScatterShape"]
+- ["Ps23CustomStringConvertible", "ScatterShape"]
+- ["Ps9Equatable", "ScatterShape"]
+- ["Ps8Hashable", "ScatterShape"]
+- ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "CGFloat"]
+- ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "CGPath"]
+- ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "ScatterChartDataSet"]
+- ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "ScatterShape"]
+- ["P6Charts13IChartDataSet", "CGFloat"]
+- ["P6Charts13IChartDataSet", "CGPath"]
+- ["P6Charts13IChartDataSet", "ScatterChartDataSet"]
+- ["P6Charts13IChartDataSet", "ScatterShape"]
+- ["P6Charts35ILineScatterCandleRadarChartDataSet", "CGFloat"]
+- ["P6Charts35ILineScatterCandleRadarChartDataSet", "CGPath"]
+- ["P6Charts35ILineScatterCandleRadarChartDataSet", "ScatterChartDataSet"]
+- ["P6Charts35ILineScatterCandleRadarChartDataSet", "ScatterShape"]
+- ["P6Charts35ILineScatterCandleRadarChartDataSet", ""]
+- ["P6Charts20IScatterChartDataSet", "CGFloat"]
+- ["P6Charts20IScatterChartDataSet", "CGPath"]
+- ["P6Charts20IScatterChartDataSet", "ScatterChartDataSet"]
+- ["P6Charts20IScatterChartDataSet", "ScatterShape"]
+- ["P6Charts20IScatterChartDataSet", "customScatterShape"]
+- ["P6Charts20IScatterChartDataSet", "scatterShape"]
+- ["P6Charts20IScatterChartDataSet", "scatterShapeSize"]
+- ["C6Charts34LineScatterCandleRadarChartDataSet", "ScatterShape"]
+- ["CSo8NSObject", "ScatterShape"]
+- ["PSo16NSObjectProtocol", "ScatterShape"]
+- ["C6Charts19ScatterChartDataSet", "ScatterShape"]
+depends-nominal:
+- "Ps9AnyObject"
+- "C6Charts38BarLineScatterCandleBubbleChartDataSet"
+- "Ps11CVarArgType"
+- "C6Charts16ChartBaseDataSet"
+- "C6Charts12ChartDataSet"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "P6Charts39IBarLineScatterCandleBubbleChartDataSet"
+- "P6Charts13IChartDataSet"
+- "P6Charts35ILineScatterCandleRadarChartDataSet"
+- "P6Charts20IScatterChartDataSet"
+- "C6Charts34LineScatterCandleRadarChartDataSet"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "C6Charts19ScatterChartDataSet"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/Supporting Files/Charts.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Build/Intermediates/Charts.build/Debug-iphonesimulator/Charts-iOS.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMOptionalBase.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMMigration_Private.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMListBase.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMSchema.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMResults.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMRealm.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMConstants.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMProperty.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMObject.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMMigration.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMDefines.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMCollection.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMArray.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/Realm.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Modules/module.modulemap"
+interface-hash: "06892e883307b0641bdb6af275df20c3"

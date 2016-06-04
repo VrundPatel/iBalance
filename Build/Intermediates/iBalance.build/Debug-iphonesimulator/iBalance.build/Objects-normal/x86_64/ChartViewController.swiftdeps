@@ -1,0 +1,338 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ChartViewController"
+provides-nominal:
+- "C8iBalance19ChartViewController"
+provides-member:
+- ["C8iBalance19ChartViewController", ""]
+provides-dynamic-lookup:
+- "viewDidLoad"
+- "setChart"
+- "backButton"
+- "time"
+- "didReceiveMemoryWarning"
+- "chartView"
+depends-top-level:
+- !private "Array"
+- !private "StringLiteralType"
+- "String"
+- "UIButton"
+- "ChartViewController"
+- !private "UnicodeScalarType"
+- !private "BooleanLiteralType"
+- "Double"
+- "UIViewController"
+- "BarChartView"
+depends-member:
+- ["Ps9AnyObject", "backButton"]
+- ["Ps9AnyObject", "chartView"]
+- ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- !private ["Ps9AnyObject", "dismissViewControllerAnimated"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "noDataText"]
+- ["Ps9AnyObject", "setChart"]
+- ["Ps9AnyObject", "time"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Element"]
+- !private ["Ps23ArrayLiteralConvertible", "Element"]
+- !private ["P6Charts20BarChartDataProvider", "noDataText"]
+- !private ["C6Charts12BarChartView", "noDataText"]
+- !private ["C6Charts20BarLineChartViewBase", "noDataText"]
+- !private ["P6Charts43BarLineScatterCandleBubbleChartDataProvider", "noDataText"]
+- ["Ps11CVarArgType", "backButton"]
+- ["Ps11CVarArgType", "chartView"]
+- ["Ps11CVarArgType", "didReceiveMemoryWarning"]
+- !private ["Ps11CVarArgType", "dismissViewControllerAnimated"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "noDataText"]
+- ["Ps11CVarArgType", "setChart"]
+- ["Ps11CVarArgType", "time"]
+- ["Ps11CVarArgType", "viewDidLoad"]
+- ["Ps11CVarArgType", ""]
+- !private ["P6Charts21ChartAnimatorDelegate", "noDataText"]
+- !private ["P6Charts17ChartDataProvider", "noDataText"]
+- !private ["C6Charts13ChartViewBase", "noDataText"]
+- ["C8iBalance19ChartViewController", "BarChartView"]
+- ["C8iBalance19ChartViewController", "Double"]
+- ["C8iBalance19ChartViewController", "String"]
+- ["C8iBalance19ChartViewController", "UIButton"]
+- ["C8iBalance19ChartViewController", "backButton"]
+- ["C8iBalance19ChartViewController", "chartView"]
+- ["C8iBalance19ChartViewController", "deinit"]
+- ["C8iBalance19ChartViewController", "didReceiveMemoryWarning"]
+- !private ["C8iBalance19ChartViewController", "dismissViewControllerAnimated"]
+- ["C8iBalance19ChartViewController", "init"]
+- ["C8iBalance19ChartViewController", "setChart"]
+- ["C8iBalance19ChartViewController", "time"]
+- ["C8iBalance19ChartViewController", "viewDidLoad"]
+- !private ["Ps14CollectionType", "Element"]
+- !private ["Ps28CustomDebugStringConvertible", "Element"]
+- ["Ps28CustomDebugStringConvertible", "backButton"]
+- ["Ps28CustomDebugStringConvertible", "chartView"]
+- ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps28CustomDebugStringConvertible", "dismissViewControllerAnimated"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "noDataText"]
+- ["Ps28CustomDebugStringConvertible", "setChart"]
+- ["Ps28CustomDebugStringConvertible", "time"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "Element"]
+- ["Ps23CustomStringConvertible", "backButton"]
+- ["Ps23CustomStringConvertible", "chartView"]
+- ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps23CustomStringConvertible", "dismissViewControllerAnimated"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "noDataText"]
+- ["Ps23CustomStringConvertible", "setChart"]
+- ["Ps23CustomStringConvertible", "time"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "backButton"]
+- ["Ps9Equatable", "chartView"]
+- ["Ps9Equatable", "didReceiveMemoryWarning"]
+- !private ["Ps9Equatable", "dismissViewControllerAnimated"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "noDataText"]
+- ["Ps9Equatable", "setChart"]
+- ["Ps9Equatable", "time"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- ["Ps8Hashable", "backButton"]
+- ["Ps8Hashable", "chartView"]
+- ["Ps8Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps8Hashable", "dismissViewControllerAnimated"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "noDataText"]
+- ["Ps8Hashable", "setChart"]
+- ["Ps8Hashable", "time"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- !private ["SQ", "deinit"]
+- !private ["Ps9Indexable", "Element"]
+- !private ["Ps21MutableCollectionType", "Element"]
+- !private ["Ps16MutableIndexable", "Element"]
+- !private ["Ps16MutableSliceable", "Element"]
+- ["PSo8NSCoding", "backButton"]
+- ["PSo8NSCoding", "chartView"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- !private ["PSo8NSCoding", "dismissViewControllerAnimated"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "noDataText"]
+- ["PSo8NSCoding", "setChart"]
+- ["PSo8NSCoding", "time"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- ["PSo26NSExtensionRequestHandling", "backButton"]
+- ["PSo26NSExtensionRequestHandling", "chartView"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- !private ["PSo26NSExtensionRequestHandling", "dismissViewControllerAnimated"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "setChart"]
+- ["PSo26NSExtensionRequestHandling", "time"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "BarChartView"]
+- ["CSo8NSObject", "Double"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIButton"]
+- ["CSo8NSObject", "backButton"]
+- ["CSo8NSObject", "chartView"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- !private ["CSo8NSObject", "dismissViewControllerAnimated"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "noDataText"]
+- ["CSo8NSObject", "setChart"]
+- ["CSo8NSObject", "time"]
+- ["CSo8NSObject", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", "backButton"]
+- ["PSo16NSObjectProtocol", "chartView"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "dismissViewControllerAnimated"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "noDataText"]
+- ["PSo16NSObjectProtocol", "setChart"]
+- ["PSo16NSObjectProtocol", "time"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Ps30RangeReplaceableCollectionType", "Element"]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["PSo29UIAccessibilityIdentification", "noDataText"]
+- !private ["PSo12UIAppearance", "noDataText"]
+- ["PSo21UIAppearanceContainer", "backButton"]
+- ["PSo21UIAppearanceContainer", "chartView"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- !private ["PSo21UIAppearanceContainer", "dismissViewControllerAnimated"]
+- ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "noDataText"]
+- ["PSo21UIAppearanceContainer", "setChart"]
+- ["PSo21UIAppearanceContainer", "time"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo18UIContentContainer", "backButton"]
+- ["PSo18UIContentContainer", "chartView"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- !private ["PSo18UIContentContainer", "dismissViewControllerAnimated"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "setChart"]
+- ["PSo18UIContentContainer", "time"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "noDataText"]
+- !private ["PSo13UIDynamicItem", "noDataText"]
+- ["PSo18UIFocusEnvironment", "backButton"]
+- ["PSo18UIFocusEnvironment", "chartView"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UIFocusEnvironment", "dismissViewControllerAnimated"]
+- ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "noDataText"]
+- ["PSo18UIFocusEnvironment", "setChart"]
+- ["PSo18UIFocusEnvironment", "time"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo27UIGestureRecognizerDelegate", "noDataText"]
+- ["CSo11UIResponder", "BarChartView"]
+- ["CSo11UIResponder", "Double"]
+- ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "UIButton"]
+- ["CSo11UIResponder", "backButton"]
+- ["CSo11UIResponder", "chartView"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- !private ["CSo11UIResponder", "dismissViewControllerAnimated"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "noDataText"]
+- ["CSo11UIResponder", "setChart"]
+- ["CSo11UIResponder", "time"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- ["PSo16UIStateRestoring", "backButton"]
+- ["PSo16UIStateRestoring", "chartView"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- !private ["PSo16UIStateRestoring", "dismissViewControllerAnimated"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "setChart"]
+- ["PSo16UIStateRestoring", "time"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- ["PSo18UITraitEnvironment", "backButton"]
+- ["PSo18UITraitEnvironment", "chartView"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UITraitEnvironment", "dismissViewControllerAnimated"]
+- ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "noDataText"]
+- ["PSo18UITraitEnvironment", "setChart"]
+- ["PSo18UITraitEnvironment", "time"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "noDataText"]
+- ["CSo16UIViewController", "BarChartView"]
+- ["CSo16UIViewController", "Double"]
+- ["CSo16UIViewController", "String"]
+- ["CSo16UIViewController", "UIButton"]
+- ["CSo16UIViewController", "backButton"]
+- ["CSo16UIViewController", "chartView"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- !private ["CSo16UIViewController", "dismissViewControllerAnimated"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "setChart"]
+- ["CSo16UIViewController", "time"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["Ps10_ArrayType", "Element"]
+- !private ["Ps24_DestructorSafeContainer", "Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "Element"]
+- !private ["Ps12_Reflectable", "Element"]
+- !private ["Ps12_Reflectable", "noDataText"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23ArrayLiteralConvertible"
+- !private "P6Charts20BarChartDataProvider"
+- !private "C6Charts12BarChartView"
+- !private "C6Charts20BarLineChartViewBase"
+- !private "P6Charts43BarLineScatterCandleBubbleChartDataProvider"
+- "Ps11CVarArgType"
+- !private "P6Charts21ChartAnimatorDelegate"
+- !private "P6Charts17ChartDataProvider"
+- !private "C6Charts13ChartViewBase"
+- "C8iBalance19ChartViewController"
+- !private "Ps14CollectionType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- !private "SQ"
+- !private "Ps9Indexable"
+- !private "Ps21MutableCollectionType"
+- !private "Ps16MutableIndexable"
+- !private "Ps16MutableSliceable"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Ps30RangeReplaceableCollectionType"
+- !private "Ps12SequenceType"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo27UIGestureRecognizerDelegate"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Ps10_ArrayType"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Build/Files/Debug-iphonesimulator/Charts.framework/Modules/Charts.swiftmodule/x86_64.swiftmodule"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMOptionalBase.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMMigration_Private.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMListBase.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMSchema.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMResults.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMRealm.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMConstants.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMProperty.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMObject.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMMigration.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMDefines.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMCollection.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMArray.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/Realm.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Modules/module.modulemap"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Build/Files/Debug-iphonesimulator/Charts.framework/Headers/Charts-Swift.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Build/Files/Debug-iphonesimulator/Charts.framework/Headers/Charts.h"
+- "/Users/vrundpatel/Desktop/Vrund/IOS Development/iBalance/Build/Files/Debug-iphonesimulator/Charts.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+interface-hash: "a4d6809c9a60eb401c4a5cfaf36b168d"

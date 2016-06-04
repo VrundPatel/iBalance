@@ -1,0 +1,559 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CombinedHighlighter"
+provides-nominal:
+- "C6Charts19CombinedHighlighter"
+provides-member:
+- ["C6Charts19CombinedHighlighter", ""]
+provides-dynamic-lookup:
+- "getSelectionDetailsAtIndex"
+depends-top-level:
+- "ChartSelectionDetail"
+- "CombinedHighlighter"
+- !private "++"
+- !private "CGPoint"
+- !private "<"
+- !private "CGFloat"
+- "ChartHighlighter"
+- !private "CombinedChartData"
+- !private "Double"
+- !private "!"
+- "Int"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps16AbsoluteValuable", "isNaN"]
+- !private ["Ps9AnyObject", "CGFloat"]
+- !private ["Ps9AnyObject", "CGPoint"]
+- !private ["Ps9AnyObject", "ChartSelectionDetail"]
+- !private ["Ps9AnyObject", "Double"]
+- !private ["Ps9AnyObject", "allData"]
+- !private ["Ps9AnyObject", "chart"]
+- !private ["Ps9AnyObject", "data"]
+- !private ["Ps9AnyObject", "dataSetCount"]
+- !private ["Ps9AnyObject", "getDataSetByIndex"]
+- ["Ps9AnyObject", "getSelectionDetailsAtIndex"]
+- !private ["Ps9AnyObject", "getTransformer"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "pointValueToPixel"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Generator"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "deinit"]
+- !private ["Sa", "init"]
+- !private ["Sa", "subscript"]
+- !private ["Ps23ArrayLiteralConvertible", "Generator"]
+- !private ["Ps23ArrayLiteralConvertible", "Index"]
+- !private ["Ps23ArrayLiteralConvertible", "SubSequence"]
+- !private ["Ps23ArrayLiteralConvertible", "_Element"]
+- !private ["Ps23ArrayLiteralConvertible", "append"]
+- !private ["Ps23ArrayLiteralConvertible", "count"]
+- !private ["Ps23ArrayLiteralConvertible", "init"]
+- !private ["Ps23ArrayLiteralConvertible", "subscript"]
+- !private ["Vs10ArraySlice", "Generator"]
+- !private ["Vs10ArraySlice", "Index"]
+- !private ["C6Charts20BarLineChartViewBase", "data"]
+- !private ["C6Charts20BarLineChartViewBase", "deinit"]
+- !private ["C6Charts20BarLineChartViewBase", "getTransformer"]
+- !private ["C6Charts35BarLineScatterCandleBubbleChartData", "allData"]
+- !private ["P6Charts43BarLineScatterCandleBubbleChartDataProvider", "data"]
+- !private ["P6Charts43BarLineScatterCandleBubbleChartDataProvider", "getTransformer"]
+- !private ["Ps22BidirectionalIndexType", "Distance"]
+- !private ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["Ps21BitwiseOperationsType", "Distance"]
+- !private ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["V12CoreGraphics7CGFloat", "init"]
+- !private ["V12CoreGraphics7CGFloat", "isNaN"]
+- !private ["VSC7CGPoint", "init"]
+- !private ["VSC7CGPoint", "y"]
+- !private ["Ps11CVarArgType", "CGFloat"]
+- !private ["Ps11CVarArgType", "CGPoint"]
+- !private ["Ps11CVarArgType", "ChartSelectionDetail"]
+- !private ["Ps11CVarArgType", "Distance"]
+- !private ["Ps11CVarArgType", "Double"]
+- !private ["Ps11CVarArgType", "IntegerLiteralType"]
+- !private ["Ps11CVarArgType", "allData"]
+- !private ["Ps11CVarArgType", "chart"]
+- !private ["Ps11CVarArgType", "data"]
+- !private ["Ps11CVarArgType", "dataSetCount"]
+- !private ["Ps11CVarArgType", "getDataSetByIndex"]
+- ["Ps11CVarArgType", "getSelectionDetailsAtIndex"]
+- !private ["Ps11CVarArgType", "getTransformer"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "isNaN"]
+- !private ["Ps11CVarArgType", "pointValueToPixel"]
+- ["Ps11CVarArgType", ""]
+- !private ["P6Charts21ChartAnimatorDelegate", "data"]
+- !private ["P6Charts21ChartAnimatorDelegate", "getTransformer"]
+- !private ["C6Charts9ChartData", "allData"]
+- !private ["C6Charts9ChartData", "dataSetCount"]
+- !private ["C6Charts9ChartData", "getDataSetByIndex"]
+- !private ["P6Charts17ChartDataProvider", "data"]
+- !private ["P6Charts17ChartDataProvider", "getTransformer"]
+- !private ["C6Charts16ChartHighlighter", "CGFloat"]
+- !private ["C6Charts16ChartHighlighter", "CGPoint"]
+- ["C6Charts16ChartHighlighter", "ChartSelectionDetail"]
+- !private ["C6Charts16ChartHighlighter", "CombinedChartData"]
+- !private ["C6Charts16ChartHighlighter", "Double"]
+- ["C6Charts16ChartHighlighter", "Int"]
+- !private ["C6Charts16ChartHighlighter", "chart"]
+- ["C6Charts16ChartHighlighter", "getSelectionDetailsAtIndex"]
+- ["C6Charts16ChartHighlighter", "init"]
+- ["C6Charts16ChartHighlighter", ""]
+- !private ["C6Charts20ChartSelectionDetail", "init"]
+- !private ["C6Charts16ChartTransformer", "pointValueToPixel"]
+- !private ["C6Charts13ChartViewBase", "data"]
+- !private ["C6Charts13ChartViewBase", "getTransformer"]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "Index"]
+- !private ["Ps14CollectionType", "SubSequence"]
+- !private ["Ps14CollectionType", "_Element"]
+- !private ["Ps14CollectionType", "append"]
+- !private ["Ps14CollectionType", "count"]
+- !private ["Ps14CollectionType", "init"]
+- !private ["Ps14CollectionType", "subscript"]
+- !private ["C6Charts17CombinedChartData", "allData"]
+- !private ["C6Charts19CombinedHighlighter", "CGFloat"]
+- !private ["C6Charts19CombinedHighlighter", "CGPoint"]
+- ["C6Charts19CombinedHighlighter", "ChartSelectionDetail"]
+- !private ["C6Charts19CombinedHighlighter", "CombinedChartData"]
+- !private ["C6Charts19CombinedHighlighter", "Double"]
+- ["C6Charts19CombinedHighlighter", "Int"]
+- !private ["C6Charts19CombinedHighlighter", "chart"]
+- ["C6Charts19CombinedHighlighter", "deinit"]
+- ["C6Charts19CombinedHighlighter", "getSelectionDetailsAtIndex"]
+- ["C6Charts19CombinedHighlighter", "init"]
+- !private ["Ps10Comparable", "Distance"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "isNaN"]
+- !private ["Ps28CustomDebugStringConvertible", "CGFloat"]
+- !private ["Ps28CustomDebugStringConvertible", "CGPoint"]
+- !private ["Ps28CustomDebugStringConvertible", "ChartSelectionDetail"]
+- !private ["Ps28CustomDebugStringConvertible", "Double"]
+- !private ["Ps28CustomDebugStringConvertible", "Generator"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "allData"]
+- !private ["Ps28CustomDebugStringConvertible", "append"]
+- !private ["Ps28CustomDebugStringConvertible", "chart"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "data"]
+- !private ["Ps28CustomDebugStringConvertible", "dataSetCount"]
+- !private ["Ps28CustomDebugStringConvertible", "getDataSetByIndex"]
+- ["Ps28CustomDebugStringConvertible", "getSelectionDetailsAtIndex"]
+- !private ["Ps28CustomDebugStringConvertible", "getTransformer"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isNaN"]
+- !private ["Ps28CustomDebugStringConvertible", "pointValueToPixel"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "CGFloat"]
+- !private ["Ps23CustomStringConvertible", "CGPoint"]
+- !private ["Ps23CustomStringConvertible", "ChartSelectionDetail"]
+- !private ["Ps23CustomStringConvertible", "Distance"]
+- !private ["Ps23CustomStringConvertible", "Double"]
+- !private ["Ps23CustomStringConvertible", "Generator"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "allData"]
+- !private ["Ps23CustomStringConvertible", "append"]
+- !private ["Ps23CustomStringConvertible", "chart"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "data"]
+- !private ["Ps23CustomStringConvertible", "dataSetCount"]
+- !private ["Ps23CustomStringConvertible", "getDataSetByIndex"]
+- ["Ps23CustomStringConvertible", "getSelectionDetailsAtIndex"]
+- !private ["Ps23CustomStringConvertible", "getTransformer"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isNaN"]
+- !private ["Ps23CustomStringConvertible", "pointValueToPixel"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Sd", "init"]
+- !private ["Sd", "isNaN"]
+- !private ["Ps9Equatable", "CGFloat"]
+- !private ["Ps9Equatable", "CGPoint"]
+- !private ["Ps9Equatable", "ChartSelectionDetail"]
+- !private ["Ps9Equatable", "Distance"]
+- !private ["Ps9Equatable", "Double"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "allData"]
+- !private ["Ps9Equatable", "chart"]
+- !private ["Ps9Equatable", "data"]
+- !private ["Ps9Equatable", "dataSetCount"]
+- !private ["Ps9Equatable", "getDataSetByIndex"]
+- ["Ps9Equatable", "getSelectionDetailsAtIndex"]
+- !private ["Ps9Equatable", "getTransformer"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isNaN"]
+- !private ["Ps9Equatable", "pointValueToPixel"]
+- !private ["Ps9Equatable", "y"]
+- ["Ps9Equatable", ""]
+- !private ["Ps23FloatLiteralConvertible", "init"]
+- !private ["Ps23FloatLiteralConvertible", "isNaN"]
+- !private ["Ps17FloatingPointType", "init"]
+- !private ["Ps17FloatingPointType", "isNaN"]
+- !private ["Ps16ForwardIndexType", "Distance"]
+- !private ["Ps16ForwardIndexType", "IntegerLiteralType"]
+- !private ["Ps13GeneratorType", "Element"]
+- !private ["Ps8Hashable", "CGFloat"]
+- !private ["Ps8Hashable", "CGPoint"]
+- !private ["Ps8Hashable", "ChartSelectionDetail"]
+- !private ["Ps8Hashable", "Distance"]
+- !private ["Ps8Hashable", "Double"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "allData"]
+- !private ["Ps8Hashable", "chart"]
+- !private ["Ps8Hashable", "data"]
+- !private ["Ps8Hashable", "dataSetCount"]
+- !private ["Ps8Hashable", "getDataSetByIndex"]
+- ["Ps8Hashable", "getSelectionDetailsAtIndex"]
+- !private ["Ps8Hashable", "getTransformer"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isNaN"]
+- !private ["Ps8Hashable", "pointValueToPixel"]
+- ["Ps8Hashable", ""]
+- !private ["P6Charts13IChartDataSet", "axisDependency"]
+- !private ["P6Charts13IChartDataSet", "isHighlightEnabled"]
+- !private ["P6Charts13IChartDataSet", "yValForXIndex"]
+- !private ["SQ", "deinit"]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "append"]
+- !private ["Ps9Indexable", "count"]
+- !private ["Ps9Indexable", "init"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Vs17IndexingGenerator", "Element"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Ps21IntegerArithmeticType", "Distance"]
+- !private ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "Distance"]
+- !private ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "init"]
+- !private ["Ps25IntegerLiteralConvertible", "isNaN"]
+- !private ["Ps11IntegerType", "Distance"]
+- !private ["Ps11IntegerType", "IntegerLiteralType"]
+- !private ["Ps14MirrorPathType", "Distance"]
+- !private ["Ps14MirrorPathType", "IntegerLiteralType"]
+- !private ["Ps21MutableCollectionType", "Generator"]
+- !private ["Ps21MutableCollectionType", "Index"]
+- !private ["Ps21MutableCollectionType", "SubSequence"]
+- !private ["Ps21MutableCollectionType", "_Element"]
+- !private ["Ps21MutableCollectionType", "append"]
+- !private ["Ps21MutableCollectionType", "count"]
+- !private ["Ps21MutableCollectionType", "init"]
+- !private ["Ps21MutableCollectionType", "subscript"]
+- !private ["Ps16MutableIndexable", "Generator"]
+- !private ["Ps16MutableIndexable", "Index"]
+- !private ["Ps16MutableIndexable", "SubSequence"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "append"]
+- !private ["Ps16MutableIndexable", "count"]
+- !private ["Ps16MutableIndexable", "init"]
+- !private ["Ps16MutableIndexable", "subscript"]
+- !private ["Ps16MutableSliceable", "Generator"]
+- !private ["Ps16MutableSliceable", "Index"]
+- !private ["Ps16MutableSliceable", "SubSequence"]
+- !private ["Ps16MutableSliceable", "_Element"]
+- !private ["Ps16MutableSliceable", "append"]
+- !private ["Ps16MutableSliceable", "count"]
+- !private ["Ps16MutableSliceable", "init"]
+- !private ["Ps16MutableSliceable", "subscript"]
+- !private ["PSo8NSCoding", "data"]
+- !private ["PSo8NSCoding", "getTransformer"]
+- !private ["CSo8NSObject", "CGFloat"]
+- !private ["CSo8NSObject", "CGPoint"]
+- ["CSo8NSObject", "ChartSelectionDetail"]
+- !private ["CSo8NSObject", "CombinedChartData"]
+- !private ["CSo8NSObject", "Double"]
+- ["CSo8NSObject", "Int"]
+- !private ["CSo8NSObject", "allData"]
+- !private ["CSo8NSObject", "chart"]
+- !private ["CSo8NSObject", "data"]
+- !private ["CSo8NSObject", "dataSetCount"]
+- !private ["CSo8NSObject", "getDataSetByIndex"]
+- ["CSo8NSObject", "getSelectionDetailsAtIndex"]
+- !private ["CSo8NSObject", "getTransformer"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "pointValueToPixel"]
+- !private ["PSo16NSObjectProtocol", "CGFloat"]
+- !private ["PSo16NSObjectProtocol", "CGPoint"]
+- !private ["PSo16NSObjectProtocol", "ChartSelectionDetail"]
+- !private ["PSo16NSObjectProtocol", "Double"]
+- !private ["PSo16NSObjectProtocol", "allData"]
+- !private ["PSo16NSObjectProtocol", "chart"]
+- !private ["PSo16NSObjectProtocol", "data"]
+- !private ["PSo16NSObjectProtocol", "dataSetCount"]
+- !private ["PSo16NSObjectProtocol", "getDataSetByIndex"]
+- ["PSo16NSObjectProtocol", "getSelectionDetailsAtIndex"]
+- !private ["PSo16NSObjectProtocol", "getTransformer"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "pointValueToPixel"]
+- ["PSo16NSObjectProtocol", ""]
+- ["Ps21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["Ps21RandomAccessIndexType", "Distance"]
+- !private ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["Ps30RangeReplaceableCollectionType", "Generator"]
+- !private ["Ps30RangeReplaceableCollectionType", "Index"]
+- !private ["Ps30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["Ps30RangeReplaceableCollectionType", "_Element"]
+- !private ["Ps30RangeReplaceableCollectionType", "append"]
+- !private ["Ps30RangeReplaceableCollectionType", "count"]
+- !private ["Ps30RangeReplaceableCollectionType", "init"]
+- !private ["Ps30RangeReplaceableCollectionType", "subscript"]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "Index"]
+- !private ["Ps12SequenceType", "SubSequence"]
+- !private ["Ps12SequenceType", "_Element"]
+- !private ["Ps12SequenceType", "append"]
+- !private ["Ps12SequenceType", "count"]
+- !private ["Ps12SequenceType", "init"]
+- !private ["Ps12SequenceType", "subscript"]
+- !private ["Ps17SignedIntegerType", "Distance"]
+- !private ["Ps17SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps16SignedNumberType", "Distance"]
+- !private ["Ps16SignedNumberType", "IntegerLiteralType"]
+- !private ["Ps16SignedNumberType", "init"]
+- !private ["Ps16SignedNumberType", "isNaN"]
+- !private ["Vs5Slice", "Generator"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- !private ["Ps10Strideable", "Distance"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["Ps10Strideable", "init"]
+- !private ["Ps10Strideable", "isNaN"]
+- !private ["PSo29UIAccessibilityIdentification", "data"]
+- !private ["PSo29UIAccessibilityIdentification", "getTransformer"]
+- !private ["PSo12UIAppearance", "data"]
+- !private ["PSo12UIAppearance", "getTransformer"]
+- !private ["PSo21UIAppearanceContainer", "data"]
+- !private ["PSo21UIAppearanceContainer", "getTransformer"]
+- !private ["PSo17UICoordinateSpace", "data"]
+- !private ["PSo17UICoordinateSpace", "getTransformer"]
+- !private ["PSo13UIDynamicItem", "data"]
+- !private ["PSo13UIDynamicItem", "getTransformer"]
+- !private ["PSo18UIFocusEnvironment", "data"]
+- !private ["PSo18UIFocusEnvironment", "getTransformer"]
+- !private ["PSo27UIGestureRecognizerDelegate", "data"]
+- !private ["PSo27UIGestureRecognizerDelegate", "getTransformer"]
+- !private ["CSo11UIResponder", "data"]
+- !private ["CSo11UIResponder", "getTransformer"]
+- !private ["PSo18UITraitEnvironment", "data"]
+- !private ["PSo18UITraitEnvironment", "getTransformer"]
+- !private ["CSo6UIView", "data"]
+- !private ["CSo6UIView", "getTransformer"]
+- !private ["Ps10_ArrayType", "Generator"]
+- !private ["Ps10_ArrayType", "Index"]
+- !private ["Ps10_ArrayType", "SubSequence"]
+- !private ["Ps10_ArrayType", "_Element"]
+- !private ["Ps10_ArrayType", "append"]
+- !private ["Ps10_ArrayType", "count"]
+- !private ["Ps10_ArrayType", "init"]
+- !private ["Ps10_ArrayType", "subscript"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps31_BuiltinFloatLiteralConvertible", "init"]
+- !private ["Ps31_BuiltinFloatLiteralConvertible", "isNaN"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "init"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "isNaN"]
+- !private ["Ps19_CVarArgAlignedType", "init"]
+- !private ["Ps19_CVarArgAlignedType", "isNaN"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "isNaN"]
+- !private ["Ps24_DestructorSafeContainer", "Generator"]
+- !private ["Ps24_DestructorSafeContainer", "Index"]
+- !private ["Ps24_DestructorSafeContainer", "SubSequence"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "append"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- !private ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps14_Incrementable", "Distance"]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps22_IntegerArithmeticType", "Distance"]
+- !private ["Ps22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps12_IntegerType", "Distance"]
+- !private ["Ps12_IntegerType", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "Distance"]
+- !private ["Ps21_ObjectiveCBridgeable", "Generator"]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "append"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "isNaN"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps22_RandomAccessAmbiguity", "Distance"]
+- !private ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "Distance"]
+- !private ["Ps12_Reflectable", "Generator"]
+- !private ["Ps12_Reflectable", "Index"]
+- !private ["Ps12_Reflectable", "IntegerLiteralType"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "SubSequence"]
+- !private ["Ps12_Reflectable", "_Element"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "append"]
+- !private ["Ps12_Reflectable", "count"]
+- !private ["Ps12_Reflectable", "data"]
+- !private ["Ps12_Reflectable", "getTransformer"]
+- !private ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "isNaN"]
+- !private ["Ps12_Reflectable", "subscript"]
+- !private ["Ps12_Reflectable", "y"]
+- !private ["Ps18_SignedIntegerType", "Distance"]
+- !private ["Ps18_SignedIntegerType", "IntegerLiteralType"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23ArrayLiteralConvertible"
+- !private "Vs10ArraySlice"
+- !private "C6Charts20BarLineChartViewBase"
+- !private "C6Charts35BarLineScatterCandleBubbleChartData"
+- !private "P6Charts43BarLineScatterCandleBubbleChartDataProvider"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "V12CoreGraphics7CGFloat"
+- !private "VSC7CGPoint"
+- "Ps11CVarArgType"
+- !private "P6Charts21ChartAnimatorDelegate"
+- !private "C6Charts9ChartData"
+- !private "P6Charts17ChartDataProvider"
+- "C6Charts16ChartHighlighter"
+- !private "C6Charts20ChartSelectionDetail"
+- !private "C6Charts16ChartTransformer"
+- !private "C6Charts13ChartViewBase"
+- !private "Ps14CollectionType"
+- !private "C6Charts17CombinedChartData"
+- "C6Charts19CombinedHighlighter"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps23FloatLiteralConvertible"
+- !private "Ps17FloatingPointType"
+- !private "Ps16ForwardIndexType"
+- !private "Ps13GeneratorType"
+- "Ps8Hashable"
+- !private "P6Charts13IChartDataSet"
+- !private "SQ"
+- !private "Ps9Indexable"
+- !private "Vs17IndexingGenerator"
+- !private "Si"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- !private "Ps14MirrorPathType"
+- !private "Ps21MutableCollectionType"
+- !private "Ps16MutableIndexable"
+- !private "Ps16MutableSliceable"
+- !private "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "Ps21NilLiteralConvertible"
+- "Sq"
+- !private "Ps21RandomAccessIndexType"
+- !private "Ps30RangeReplaceableCollectionType"
+- !private "Ps12SequenceType"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Vs5Slice"
+- !private "Ps10Strideable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo27UIGestureRecognizerDelegate"
+- !private "CSo11UIResponder"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- !private "Ps10_ArrayType"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps31_BuiltinFloatLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps19_CVarArgAlignedType"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessAmbiguity"
+- "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/Supporting Files/Charts.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Build/Intermediates/Charts.build/Debug-iphoneos/Charts-iOS.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMOptionalBase.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMMigration_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMListBase.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMSchema.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMResults.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMRealm.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMConstants.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMProperty.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMObject.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMMigration.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMDefines.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMCollection.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMArray.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/Realm.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Modules/module.modulemap"
+interface-hash: "2c0a3e8ba452b249cdb3f6eb247084c1"

@@ -1,0 +1,259 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ChartMarker"
+provides-nominal:
+- "C6Charts11ChartMarker"
+provides-member:
+- ["C6Charts11ChartMarker", ""]
+provides-dynamic-lookup:
+- "offsetForDrawingAtPos"
+- "offset"
+- "image"
+- "size"
+- "draw"
+- "refreshContent"
+depends-top-level:
+- !private "+"
+- !private "CGRect"
+- "CGSize"
+- "CGContext"
+- "ChartMarker"
+- "ChartDataEntry"
+- "UIImage"
+- "ChartHighlight"
+- "CGPoint"
+- "ChartComponentBase"
+- !private "UIGraphicsPushContext"
+- !private "UIGraphicsPopContext"
+depends-member:
+- ["Ps9AnyObject", "CGPoint"]
+- !private ["Ps9AnyObject", "CGRect"]
+- !private ["Ps9AnyObject", "UIGraphicsPopContext"]
+- !private ["Ps9AnyObject", "UIGraphicsPushContext"]
+- ["Ps9AnyObject", "draw"]
+- !private ["Ps9AnyObject", "drawInRect"]
+- ["Ps9AnyObject", "image"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "offset"]
+- ["Ps9AnyObject", "offsetForDrawingAtPos"]
+- ["Ps9AnyObject", "refreshContent"]
+- ["Ps9AnyObject", "size"]
+- ["Ps9AnyObject", ""]
+- ["VSC7CGPoint", "init"]
+- !private ["VSC7CGPoint", "x"]
+- !private ["VSC7CGPoint", "y"]
+- !private ["VSC6CGRect", "init"]
+- !private ["VSC6CGSize", "height"]
+- !private ["VSC6CGSize", "width"]
+- ["Ps11CVarArgType", "CGPoint"]
+- !private ["Ps11CVarArgType", "CGRect"]
+- !private ["Ps11CVarArgType", "UIGraphicsPopContext"]
+- !private ["Ps11CVarArgType", "UIGraphicsPushContext"]
+- ["Ps11CVarArgType", "draw"]
+- !private ["Ps11CVarArgType", "drawInRect"]
+- ["Ps11CVarArgType", "image"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "offset"]
+- ["Ps11CVarArgType", "offsetForDrawingAtPos"]
+- ["Ps11CVarArgType", "refreshContent"]
+- ["Ps11CVarArgType", "size"]
+- ["Ps11CVarArgType", ""]
+- ["C6Charts18ChartComponentBase", "CGContext"]
+- ["C6Charts18ChartComponentBase", "CGPoint"]
+- !private ["C6Charts18ChartComponentBase", "CGRect"]
+- ["C6Charts18ChartComponentBase", "CGSize"]
+- ["C6Charts18ChartComponentBase", "ChartDataEntry"]
+- ["C6Charts18ChartComponentBase", "ChartHighlight"]
+- !private ["C6Charts18ChartComponentBase", "UIGraphicsPopContext"]
+- !private ["C6Charts18ChartComponentBase", "UIGraphicsPushContext"]
+- ["C6Charts18ChartComponentBase", "UIImage"]
+- ["C6Charts18ChartComponentBase", "draw"]
+- ["C6Charts18ChartComponentBase", "image"]
+- ["C6Charts18ChartComponentBase", "init"]
+- ["C6Charts18ChartComponentBase", "offset"]
+- ["C6Charts18ChartComponentBase", "offsetForDrawingAtPos"]
+- ["C6Charts18ChartComponentBase", "refreshContent"]
+- ["C6Charts18ChartComponentBase", "size"]
+- ["C6Charts18ChartComponentBase", ""]
+- ["C6Charts11ChartMarker", "CGContext"]
+- ["C6Charts11ChartMarker", "CGPoint"]
+- !private ["C6Charts11ChartMarker", "CGRect"]
+- ["C6Charts11ChartMarker", "CGSize"]
+- ["C6Charts11ChartMarker", "ChartDataEntry"]
+- ["C6Charts11ChartMarker", "ChartHighlight"]
+- !private ["C6Charts11ChartMarker", "UIGraphicsPopContext"]
+- !private ["C6Charts11ChartMarker", "UIGraphicsPushContext"]
+- ["C6Charts11ChartMarker", "UIImage"]
+- ["C6Charts11ChartMarker", "deinit"]
+- ["C6Charts11ChartMarker", "draw"]
+- ["C6Charts11ChartMarker", "image"]
+- ["C6Charts11ChartMarker", "init"]
+- ["C6Charts11ChartMarker", "offset"]
+- ["C6Charts11ChartMarker", "offsetForDrawingAtPos"]
+- ["C6Charts11ChartMarker", "refreshContent"]
+- ["C6Charts11ChartMarker", "size"]
+- ["Ps28CustomDebugStringConvertible", "CGPoint"]
+- !private ["Ps28CustomDebugStringConvertible", "CGRect"]
+- !private ["Ps28CustomDebugStringConvertible", "UIGraphicsPopContext"]
+- !private ["Ps28CustomDebugStringConvertible", "UIGraphicsPushContext"]
+- ["Ps28CustomDebugStringConvertible", "draw"]
+- !private ["Ps28CustomDebugStringConvertible", "drawInRect"]
+- ["Ps28CustomDebugStringConvertible", "image"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "offset"]
+- ["Ps28CustomDebugStringConvertible", "offsetForDrawingAtPos"]
+- ["Ps28CustomDebugStringConvertible", "refreshContent"]
+- ["Ps28CustomDebugStringConvertible", "size"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "CGPoint"]
+- !private ["Ps23CustomStringConvertible", "CGRect"]
+- !private ["Ps23CustomStringConvertible", "UIGraphicsPopContext"]
+- !private ["Ps23CustomStringConvertible", "UIGraphicsPushContext"]
+- ["Ps23CustomStringConvertible", "draw"]
+- !private ["Ps23CustomStringConvertible", "drawInRect"]
+- ["Ps23CustomStringConvertible", "image"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "offset"]
+- ["Ps23CustomStringConvertible", "offsetForDrawingAtPos"]
+- ["Ps23CustomStringConvertible", "refreshContent"]
+- ["Ps23CustomStringConvertible", "size"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "CGPoint"]
+- !private ["Ps9Equatable", "CGRect"]
+- !private ["Ps9Equatable", "UIGraphicsPopContext"]
+- !private ["Ps9Equatable", "UIGraphicsPushContext"]
+- ["Ps9Equatable", "draw"]
+- !private ["Ps9Equatable", "drawInRect"]
+- !private ["Ps9Equatable", "height"]
+- ["Ps9Equatable", "image"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "offset"]
+- ["Ps9Equatable", "offsetForDrawingAtPos"]
+- ["Ps9Equatable", "refreshContent"]
+- ["Ps9Equatable", "size"]
+- !private ["Ps9Equatable", "width"]
+- !private ["Ps9Equatable", "x"]
+- !private ["Ps9Equatable", "y"]
+- ["Ps9Equatable", ""]
+- ["Ps8Hashable", "CGPoint"]
+- !private ["Ps8Hashable", "CGRect"]
+- !private ["Ps8Hashable", "UIGraphicsPopContext"]
+- !private ["Ps8Hashable", "UIGraphicsPushContext"]
+- ["Ps8Hashable", "draw"]
+- !private ["Ps8Hashable", "drawInRect"]
+- ["Ps8Hashable", "image"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "offset"]
+- ["Ps8Hashable", "offsetForDrawingAtPos"]
+- ["Ps8Hashable", "refreshContent"]
+- ["Ps8Hashable", "size"]
+- ["Ps8Hashable", ""]
+- !private ["PSo8NSCoding", "drawInRect"]
+- !private ["PSo8NSCoding", "size"]
+- ["CSo8NSObject", "CGContext"]
+- ["CSo8NSObject", "CGPoint"]
+- !private ["CSo8NSObject", "CGRect"]
+- ["CSo8NSObject", "CGSize"]
+- ["CSo8NSObject", "ChartDataEntry"]
+- ["CSo8NSObject", "ChartHighlight"]
+- !private ["CSo8NSObject", "UIGraphicsPopContext"]
+- !private ["CSo8NSObject", "UIGraphicsPushContext"]
+- ["CSo8NSObject", "UIImage"]
+- ["CSo8NSObject", "draw"]
+- !private ["CSo8NSObject", "drawInRect"]
+- ["CSo8NSObject", "image"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "offset"]
+- ["CSo8NSObject", "offsetForDrawingAtPos"]
+- ["CSo8NSObject", "refreshContent"]
+- ["CSo8NSObject", "size"]
+- ["PSo16NSObjectProtocol", "CGPoint"]
+- !private ["PSo16NSObjectProtocol", "CGRect"]
+- !private ["PSo16NSObjectProtocol", "UIGraphicsPopContext"]
+- !private ["PSo16NSObjectProtocol", "UIGraphicsPushContext"]
+- ["PSo16NSObjectProtocol", "draw"]
+- !private ["PSo16NSObjectProtocol", "drawInRect"]
+- ["PSo16NSObjectProtocol", "image"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "offset"]
+- ["PSo16NSObjectProtocol", "offsetForDrawingAtPos"]
+- ["PSo16NSObjectProtocol", "refreshContent"]
+- ["PSo16NSObjectProtocol", "size"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "drawInRect"]
+- !private ["PSo14NSSecureCoding", "size"]
+- !private ["PSo29UIAccessibilityIdentification", "drawInRect"]
+- !private ["PSo29UIAccessibilityIdentification", "size"]
+- !private ["CSo7UIImage", "drawInRect"]
+- !private ["CSo7UIImage", "size"]
+- !private ["Ps24_ImageLiteralConvertible", "drawInRect"]
+- !private ["Ps24_ImageLiteralConvertible", "size"]
+- !private ["Ps12_Reflectable", "height"]
+- ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "width"]
+- !private ["Ps12_Reflectable", "x"]
+- !private ["Ps12_Reflectable", "y"]
+depends-nominal:
+- "Ps9AnyObject"
+- "VSC7CGPoint"
+- !private "VSC6CGRect"
+- !private "VSC6CGSize"
+- "Ps11CVarArgType"
+- "C6Charts18ChartComponentBase"
+- "C6Charts11ChartMarker"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- !private "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "CSo7UIImage"
+- !private "Ps24_ImageLiteralConvertible"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/Supporting Files/Charts.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Build/Intermediates/Charts.build/Debug-iphoneos/Charts-iOS.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMOptionalBase.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMMigration_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMListBase.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMSchema.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMResults.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMRealm.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMConstants.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMProperty.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMObject.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMMigration.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMDefines.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMCollection.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMArray.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/Realm.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Modules/module.modulemap"
+interface-hash: "9fd9a92203733a0f443fcf495e4d1c9f"

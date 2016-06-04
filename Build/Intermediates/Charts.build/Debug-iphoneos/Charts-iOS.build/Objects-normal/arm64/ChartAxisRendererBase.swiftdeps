@@ -1,0 +1,167 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ChartAxisRendererBase"
+provides-nominal:
+- "C6Charts21ChartAxisRendererBase"
+provides-member:
+- ["C6Charts21ChartAxisRendererBase", ""]
+provides-dynamic-lookup:
+- "renderLimitLines"
+- "renderAxisLine"
+- "renderAxisLabels"
+- "renderGridLines"
+- "transformer"
+depends-top-level:
+- !private "StringLiteralType"
+- "ChartRendererBase"
+- "CGContext"
+- "ChartViewPortHandler"
+- "ChartTransformer"
+- "ChartAxisRendererBase"
+- !private "fatalError"
+depends-member:
+- !private ["Ps9AnyObject", "fatalError"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "renderAxisLabels"]
+- ["Ps9AnyObject", "renderAxisLine"]
+- ["Ps9AnyObject", "renderGridLines"]
+- ["Ps9AnyObject", "renderLimitLines"]
+- ["Ps9AnyObject", "transformer"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps11CVarArgType", "fatalError"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "renderAxisLabels"]
+- ["Ps11CVarArgType", "renderAxisLine"]
+- ["Ps11CVarArgType", "renderGridLines"]
+- ["Ps11CVarArgType", "renderLimitLines"]
+- ["Ps11CVarArgType", "transformer"]
+- ["Ps11CVarArgType", ""]
+- ["C6Charts21ChartAxisRendererBase", "CGContext"]
+- ["C6Charts21ChartAxisRendererBase", "ChartTransformer"]
+- ["C6Charts21ChartAxisRendererBase", "ChartViewPortHandler"]
+- ["C6Charts21ChartAxisRendererBase", "deinit"]
+- !private ["C6Charts21ChartAxisRendererBase", "fatalError"]
+- ["C6Charts21ChartAxisRendererBase", "init"]
+- ["C6Charts21ChartAxisRendererBase", "renderAxisLabels"]
+- ["C6Charts21ChartAxisRendererBase", "renderAxisLine"]
+- ["C6Charts21ChartAxisRendererBase", "renderGridLines"]
+- ["C6Charts21ChartAxisRendererBase", "renderLimitLines"]
+- ["C6Charts21ChartAxisRendererBase", "transformer"]
+- ["C6Charts17ChartRendererBase", "CGContext"]
+- ["C6Charts17ChartRendererBase", "ChartTransformer"]
+- ["C6Charts17ChartRendererBase", "ChartViewPortHandler"]
+- !private ["C6Charts17ChartRendererBase", "fatalError"]
+- ["C6Charts17ChartRendererBase", "init"]
+- ["C6Charts17ChartRendererBase", "renderAxisLabels"]
+- ["C6Charts17ChartRendererBase", "renderAxisLine"]
+- ["C6Charts17ChartRendererBase", "renderGridLines"]
+- ["C6Charts17ChartRendererBase", "renderLimitLines"]
+- ["C6Charts17ChartRendererBase", "transformer"]
+- ["C6Charts17ChartRendererBase", ""]
+- !private ["Ps28CustomDebugStringConvertible", "fatalError"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "renderAxisLabels"]
+- ["Ps28CustomDebugStringConvertible", "renderAxisLine"]
+- ["Ps28CustomDebugStringConvertible", "renderGridLines"]
+- ["Ps28CustomDebugStringConvertible", "renderLimitLines"]
+- ["Ps28CustomDebugStringConvertible", "transformer"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "fatalError"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "renderAxisLabels"]
+- ["Ps23CustomStringConvertible", "renderAxisLine"]
+- ["Ps23CustomStringConvertible", "renderGridLines"]
+- ["Ps23CustomStringConvertible", "renderLimitLines"]
+- ["Ps23CustomStringConvertible", "transformer"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "fatalError"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "renderAxisLabels"]
+- ["Ps9Equatable", "renderAxisLine"]
+- ["Ps9Equatable", "renderGridLines"]
+- ["Ps9Equatable", "renderLimitLines"]
+- ["Ps9Equatable", "transformer"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "fatalError"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "renderAxisLabels"]
+- ["Ps8Hashable", "renderAxisLine"]
+- ["Ps8Hashable", "renderGridLines"]
+- ["Ps8Hashable", "renderLimitLines"]
+- ["Ps8Hashable", "transformer"]
+- ["Ps8Hashable", ""]
+- ["CSo8NSObject", "CGContext"]
+- ["CSo8NSObject", "ChartTransformer"]
+- ["CSo8NSObject", "ChartViewPortHandler"]
+- !private ["CSo8NSObject", "fatalError"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "renderAxisLabels"]
+- ["CSo8NSObject", "renderAxisLine"]
+- ["CSo8NSObject", "renderGridLines"]
+- ["CSo8NSObject", "renderLimitLines"]
+- ["CSo8NSObject", "transformer"]
+- !private ["PSo16NSObjectProtocol", "fatalError"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "renderAxisLabels"]
+- ["PSo16NSObjectProtocol", "renderAxisLine"]
+- ["PSo16NSObjectProtocol", "renderGridLines"]
+- ["PSo16NSObjectProtocol", "renderLimitLines"]
+- ["PSo16NSObjectProtocol", "transformer"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Vs12StaticString", "deinit"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "C6Charts21ChartAxisRendererBase"
+- "C6Charts17ChartRendererBase"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Vs12StaticString"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/Supporting Files/Charts.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Build/Intermediates/Charts.build/Debug-iphoneos/Charts-iOS.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMOptionalBase.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMMigration_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMListBase.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMSchema.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMResults.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMRealm.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMConstants.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMProperty.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMObject.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMMigration.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMDefines.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMCollection.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMArray.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/Realm.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Modules/module.modulemap"
+interface-hash: "32d9449e321ff6d9c3815ab42ade9b36"

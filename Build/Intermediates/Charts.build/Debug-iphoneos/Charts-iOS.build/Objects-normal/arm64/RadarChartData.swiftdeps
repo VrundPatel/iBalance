@@ -1,0 +1,200 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RadarChartData"
+provides-nominal:
+- "C6Charts14RadarChartData"
+provides-member:
+- ["C6Charts14RadarChartData", ""]
+provides-dynamic-lookup:
+- "highlightColor"
+- "highlightLineDashPhase"
+- "highlightLineDashLengths"
+- "highlightLineWidth"
+depends-top-level:
+- "ChartData"
+- "CGFloat"
+- "UIColor"
+- "NSObject"
+- "/"
+- "String"
+- "RadarChartData"
+- "IChartDataSet"
+depends-member:
+- ["Ps16AbsoluteValuable", "init"]
+- ["Ps9AnyObject", "CGFloat"]
+- ["Ps9AnyObject", "UIColor"]
+- ["Ps9AnyObject", "highlightColor"]
+- ["Ps9AnyObject", "highlightLineDashLengths"]
+- ["Ps9AnyObject", "highlightLineDashPhase"]
+- ["Ps9AnyObject", "highlightLineWidth"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", ""]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- ["V12CoreGraphics7CGFloat", "init"]
+- ["Ps11CVarArgType", "CGFloat"]
+- ["Ps11CVarArgType", "UIColor"]
+- ["Ps11CVarArgType", "highlightColor"]
+- ["Ps11CVarArgType", "highlightLineDashLengths"]
+- ["Ps11CVarArgType", "highlightLineDashPhase"]
+- ["Ps11CVarArgType", "highlightLineWidth"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", ""]
+- ["C6Charts9ChartData", "CGFloat"]
+- ["C6Charts9ChartData", "IChartDataSet"]
+- ["C6Charts9ChartData", "NSObject"]
+- ["C6Charts9ChartData", "String"]
+- ["C6Charts9ChartData", "UIColor"]
+- ["C6Charts9ChartData", "highlightColor"]
+- ["C6Charts9ChartData", "highlightLineDashLengths"]
+- ["C6Charts9ChartData", "highlightLineDashPhase"]
+- ["C6Charts9ChartData", "highlightLineWidth"]
+- ["C6Charts9ChartData", "init"]
+- ["C6Charts9ChartData", ""]
+- ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "CGFloat"]
+- ["Ps28CustomDebugStringConvertible", "UIColor"]
+- ["Ps28CustomDebugStringConvertible", "highlightColor"]
+- ["Ps28CustomDebugStringConvertible", "highlightLineDashLengths"]
+- ["Ps28CustomDebugStringConvertible", "highlightLineDashPhase"]
+- ["Ps28CustomDebugStringConvertible", "highlightLineWidth"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "CGFloat"]
+- ["Ps23CustomStringConvertible", "UIColor"]
+- ["Ps23CustomStringConvertible", "highlightColor"]
+- ["Ps23CustomStringConvertible", "highlightLineDashLengths"]
+- ["Ps23CustomStringConvertible", "highlightLineDashPhase"]
+- ["Ps23CustomStringConvertible", "highlightLineWidth"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "CGFloat"]
+- ["Ps9Equatable", "UIColor"]
+- ["Ps9Equatable", "highlightColor"]
+- ["Ps9Equatable", "highlightLineDashLengths"]
+- ["Ps9Equatable", "highlightLineDashPhase"]
+- ["Ps9Equatable", "highlightLineWidth"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", ""]
+- ["Ps23FloatLiteralConvertible", "init"]
+- ["Ps17FloatingPointType", "init"]
+- ["Ps8Hashable", "CGFloat"]
+- ["Ps8Hashable", "UIColor"]
+- ["Ps8Hashable", "highlightColor"]
+- ["Ps8Hashable", "highlightLineDashLengths"]
+- ["Ps8Hashable", "highlightLineDashPhase"]
+- ["Ps8Hashable", "highlightLineWidth"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", ""]
+- ["Ps25IntegerLiteralConvertible", "init"]
+- ["PSo8NSCoding", "init"]
+- ["PSo9NSCopying", "init"]
+- ["CSo8NSObject", "CGFloat"]
+- ["CSo8NSObject", "IChartDataSet"]
+- ["CSo8NSObject", "NSObject"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIColor"]
+- ["CSo8NSObject", "highlightColor"]
+- ["CSo8NSObject", "highlightLineDashLengths"]
+- ["CSo8NSObject", "highlightLineDashPhase"]
+- ["CSo8NSObject", "highlightLineWidth"]
+- ["CSo8NSObject", "init"]
+- ["PSo16NSObjectProtocol", "CGFloat"]
+- ["PSo16NSObjectProtocol", "UIColor"]
+- ["PSo16NSObjectProtocol", "highlightColor"]
+- ["PSo16NSObjectProtocol", "highlightLineDashLengths"]
+- ["PSo16NSObjectProtocol", "highlightLineDashPhase"]
+- ["PSo16NSObjectProtocol", "highlightLineWidth"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo14NSSecureCoding", "init"]
+- ["C6Charts14RadarChartData", "CGFloat"]
+- ["C6Charts14RadarChartData", "IChartDataSet"]
+- ["C6Charts14RadarChartData", "NSObject"]
+- ["C6Charts14RadarChartData", "String"]
+- ["C6Charts14RadarChartData", "UIColor"]
+- ["C6Charts14RadarChartData", "deinit"]
+- ["C6Charts14RadarChartData", "highlightColor"]
+- ["C6Charts14RadarChartData", "highlightLineDashLengths"]
+- ["C6Charts14RadarChartData", "highlightLineDashPhase"]
+- ["C6Charts14RadarChartData", "highlightLineWidth"]
+- ["C6Charts14RadarChartData", "init"]
+- ["Ps16SignedNumberType", "init"]
+- ["Ps10Strideable", "init"]
+- ["CSo7UIColor", "init"]
+- ["Ps19_CVarArgAlignedType", "init"]
+- ["Ps22_CVarArgPassedAsDouble", "init"]
+- ["Ps24_ColorLiteralConvertible", "init"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- ["Ps12_Reflectable", "init"]
+depends-nominal:
+- "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- "V12CoreGraphics7CGFloat"
+- "Ps11CVarArgType"
+- "C6Charts9ChartData"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps23FloatLiteralConvertible"
+- "Ps17FloatingPointType"
+- "Ps8Hashable"
+- "Ps25IntegerLiteralConvertible"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "C6Charts14RadarChartData"
+- "Ps16SignedNumberType"
+- "Ps10Strideable"
+- "CSo7UIColor"
+- "Ps19_CVarArgAlignedType"
+- "Ps22_CVarArgPassedAsDouble"
+- "Ps24_ColorLiteralConvertible"
+- "Ps21_ObjectiveCBridgeable"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/Supporting Files/Charts.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Build/Intermediates/Charts.build/Debug-iphoneos/Charts-iOS.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMOptionalBase.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMMigration_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMListBase.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMSchema.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMResults.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMRealm.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMConstants.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMProperty.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMObject.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMMigration.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMDefines.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMCollection.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMArray.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Headers/Realm.h"
+- "/Users/vrundpatel/Desktop/IOS Development/iBalance/Charts/ThirdParty/Realm/ios/Realm.framework/Modules/module.modulemap"
+interface-hash: "1bedbe4f02e6f3aafd41f8d96d886f33"
