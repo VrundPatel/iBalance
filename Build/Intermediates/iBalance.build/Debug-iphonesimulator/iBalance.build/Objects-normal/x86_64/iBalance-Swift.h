@@ -177,7 +177,6 @@ SWIFT_CLASS("_TtC8iBalance14ViewController")
 @property (nonatomic, readonly, copy) NSArray<NSURL *> * _Nonnull directories;
 - (void)createTestFile:(NSString * _Nonnull)data;
 - (IBAction)sendMail:(UIButton * _Nonnull)sender;
-- (IBAction)graphData:(id _Nonnull)sender;
 - (MFMailComposeViewController * _Nonnull)configureMailComposeViewController;
 - (void)mailComposeController:(MFMailComposeViewController * _Nonnull)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError * _Nullable)error;
 - (void)didReceiveMemoryWarning;

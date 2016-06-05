@@ -72,6 +72,7 @@ class ViewController: UIViewController, MFMailComposeViewControllerDelegate {
     var maxLength1: Double = 0.0
     var maxLength2: Double = 0.0
     var maxLength3: Double = 0.0
+    
     //The farthest distance from a point to a point in any other quadrant.
     var finalMaxLength: Double = 0.0
     
@@ -259,10 +260,6 @@ class ViewController: UIViewController, MFMailComposeViewControllerDelegate {
         }
     }
     
-    //Method that is going to be executed when user clicks on the graph button
-    @IBAction func graphData(sender: AnyObject) {
-    }
-    
     //Setting up the email.
     func configureMailComposeViewController() -> MFMailComposeViewController{
         let mailComposer = MFMailComposeViewController()
@@ -292,13 +289,13 @@ class ViewController: UIViewController, MFMailComposeViewControllerDelegate {
         
         
         //Adding the attachment/data file to the email.
-            if let fileData = NSData(contentsOfFile: urlString){
-                mailComposer.addAttachmentData(fileData, mimeType: "text/plain", fileName: fileName)
-            }
-        
-            if let fileData1 = NSData(contentsOfFile: urlString1){
-                mailComposer.addAttachmentData(fileData1, mimeType: "text/plain", fileName: firstFileName)
-            }
+        if let fileData = NSData(contentsOfFile: urlString){
+            mailComposer.addAttachmentData(fileData, mimeType: "text/plain", fileName: fileName)
+        }
+    
+        if let fileData1 = NSData(contentsOfFile: urlString1){
+            mailComposer.addAttachmentData(fileData1, mimeType: "text/plain", fileName: firstFileName)
+        }
         
         //Priting variables for testing purposes
         print(highestXFirstQuad)

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		018F5AE4B7ED4019FD471C33 /* Pods_iBalanceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BB13B8E15002E897BE1A43C /* Pods_iBalanceTests.framework */; };
+		183A0394B8254A1B33A9191C /* Pods_iBalance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC10B063362ACBB13C53C7E6 /* Pods_iBalance.framework */; };
+		32F9C8E11D047CD400E8D7EE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32F9C8E01D047CD400E8D7EE /* GoogleService-Info.plist */; };
 		32FFEB731C507C1400847199 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FFEB721C507C1400847199 /* AppDelegate.swift */; };
 		32FFEB751C507C1400847199 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FFEB741C507C1400847199 /* ViewController.swift */; };
 		32FFEB781C507C1400847199 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32FFEB761C507C1400847199 /* Main.storyboard */; };
@@ -15,6 +18,7 @@
 		32FFEB801C507C1400847199 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32FFEB7E1C507C1400847199 /* LaunchScreen.storyboard */; };
 		32FFEB8B1C507C1400847199 /* iBalanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FFEB8A1C507C1400847199 /* iBalanceTests.swift */; };
 		32FFEB961C507C1400847199 /* iBalanceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FFEB951C507C1400847199 /* iBalanceUITests.swift */; };
+		79818DBB1E1F824E204A6A53 /* Pods_iBalanceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64780594C7221D9FB9EF1060 /* Pods_iBalanceUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		32F9C8E01D047CD400E8D7EE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		32FFEB6F1C507C1400847199 /* iBalance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBalance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32FFEB721C507C1400847199 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32FFEB741C507C1400847199 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +67,15 @@
 		32FFEB911C507C1400847199 /* iBalanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iBalanceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32FFEB951C507C1400847199 /* iBalanceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iBalanceUITests.swift; sourceTree = "<group>"; };
 		32FFEB971C507C1400847199 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BB13B8E15002E897BE1A43C /* Pods_iBalanceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iBalanceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64780594C7221D9FB9EF1060 /* Pods_iBalanceUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iBalanceUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D8FFF251C374018A65E0228 /* Pods-iBalance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iBalance.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iBalance/Pods-iBalance.debug.xcconfig"; sourceTree = "<group>"; };
+		9570FE31523670D1EB7F1FCA /* Pods-iBalanceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iBalanceTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iBalanceTests/Pods-iBalanceTests.release.xcconfig"; sourceTree = "<group>"; };
+		B942DFDF16CCCBE3899D29AC /* Pods-iBalanceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iBalanceUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iBalanceUITests/Pods-iBalanceUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BDE6534E9F3E6AA5EF05EC66 /* Pods-iBalanceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iBalanceTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iBalanceTests/Pods-iBalanceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD7B5EF93E2EF996A2D18CF2 /* Pods-iBalance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iBalance.release.xcconfig"; path = "Pods/Target Support Files/Pods-iBalance/Pods-iBalance.release.xcconfig"; sourceTree = "<group>"; };
+		DC10B063362ACBB13C53C7E6 /* Pods_iBalance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iBalance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2383644EF38DC61B43C68DE /* Pods-iBalanceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iBalanceUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iBalanceUITests/Pods-iBalanceUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				183A0394B8254A1B33A9191C /* Pods_iBalance.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				018F5AE4B7ED4019FD471C33 /* Pods_iBalanceTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,12 +99,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79818DBB1E1F824E204A6A53 /* Pods_iBalanceUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		203214F483C735726275CA50 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D8FFF251C374018A65E0228 /* Pods-iBalance.debug.xcconfig */,
+				CD7B5EF93E2EF996A2D18CF2 /* Pods-iBalance.release.xcconfig */,
+				BDE6534E9F3E6AA5EF05EC66 /* Pods-iBalanceTests.debug.xcconfig */,
+				9570FE31523670D1EB7F1FCA /* Pods-iBalanceTests.release.xcconfig */,
+				B942DFDF16CCCBE3899D29AC /* Pods-iBalanceUITests.debug.xcconfig */,
+				E2383644EF38DC61B43C68DE /* Pods-iBalanceUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		32FFEB661C507C1400847199 = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +126,8 @@
 				32FFEB891C507C1400847199 /* iBalanceTests */,
 				32FFEB941C507C1400847199 /* iBalanceUITests */,
 				32FFEB701C507C1400847199 /* Products */,
+				203214F483C735726275CA50 /* Pods */,
+				876C85E66BD041C7530D3843 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +144,7 @@
 		32FFEB711C507C1400847199 /* iBalance */ = {
 			isa = PBXGroup;
 			children = (
+				32F9C8E01D047CD400E8D7EE /* GoogleService-Info.plist */,
 				32FFEB721C507C1400847199 /* AppDelegate.swift */,
 				32FFEB741C507C1400847199 /* ViewController.swift */,
 				32FFEB761C507C1400847199 /* Main.storyboard */,
@@ -141,6 +174,16 @@
 			path = iBalanceUITests;
 			sourceTree = "<group>";
 		};
+		876C85E66BD041C7530D3843 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC10B063362ACBB13C53C7E6 /* Pods_iBalance.framework */,
+				4BB13B8E15002E897BE1A43C /* Pods_iBalanceTests.framework */,
+				64780594C7221D9FB9EF1060 /* Pods_iBalanceUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -148,10 +191,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32FFEB9A1C507C1400847199 /* Build configuration list for PBXNativeTarget "iBalance" */;
 			buildPhases = (
+				0A0FD6121D1E33DB786F2E28 /* [CP] Check Pods Manifest.lock */,
 				32FFEB6B1C507C1400847199 /* Sources */,
 				32FFEB6C1C507C1400847199 /* Frameworks */,
 				32FFEB6D1C507C1400847199 /* Resources */,
 				328705AD1C5E6CB50093AE1B /* Embed Frameworks */,
+				A035013C0055849DFFE8F099 /* [CP] Embed Pods Frameworks */,
+				E75DE00650B9AE88EFD196BC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -166,9 +212,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32FFEB9D1C507C1400847199 /* Build configuration list for PBXNativeTarget "iBalanceTests" */;
 			buildPhases = (
+				FC74FBD732A9F4E4900DBDB1 /* [CP] Check Pods Manifest.lock */,
 				32FFEB821C507C1400847199 /* Sources */,
 				32FFEB831C507C1400847199 /* Frameworks */,
 				32FFEB841C507C1400847199 /* Resources */,
+				8616786BA24786ECCB48E149 /* [CP] Embed Pods Frameworks */,
+				7750CD94C55A07D08B419182 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -184,9 +233,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32FFEBA01C507C1400847199 /* Build configuration list for PBXNativeTarget "iBalanceUITests" */;
 			buildPhases = (
+				B710DAFC5B0B40EB5973FB95 /* [CP] Check Pods Manifest.lock */,
 				32FFEB8D1C507C1400847199 /* Sources */,
 				32FFEB8E1C507C1400847199 /* Frameworks */,
 				32FFEB8F1C507C1400847199 /* Resources */,
+				A543A7C04293BECB8E16DC77 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32FFEB801C507C1400847199 /* LaunchScreen.storyboard in Resources */,
+				32F9C8E11D047CD400E8D7EE /* GoogleService-Info.plist in Resources */,
 				32FFEB7D1C507C1400847199 /* Assets.xcassets in Resources */,
 				32FFEB781C507C1400847199 /* Main.storyboard in Resources */,
 			);
@@ -270,6 +322,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A0FD6121D1E33DB786F2E28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7750CD94C55A07D08B419182 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iBalanceTests/Pods-iBalanceTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8616786BA24786ECCB48E149 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iBalanceTests/Pods-iBalanceTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A035013C0055849DFFE8F099 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iBalance/Pods-iBalance-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A543A7C04293BECB8E16DC77 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iBalanceUITests/Pods-iBalanceUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B710DAFC5B0B40EB5973FB95 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E75DE00650B9AE88EFD196BC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iBalance/Pods-iBalance-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC74FBD732A9F4E4900DBDB1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		32FFEB6B1C507C1400847199 /* Sources */ = {
@@ -416,6 +591,7 @@
 		};
 		32FFEB9B1C507C1400847199 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D8FFF251C374018A65E0228 /* Pods-iBalance.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -429,6 +605,7 @@
 		};
 		32FFEB9C1C507C1400847199 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD7B5EF93E2EF996A2D18CF2 /* Pods-iBalance.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -442,6 +619,7 @@
 		};
 		32FFEB9E1C507C1400847199 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDE6534E9F3E6AA5EF05EC66 /* Pods-iBalanceTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = iBalanceTests/Info.plist;
@@ -454,6 +632,7 @@
 		};
 		32FFEB9F1C507C1400847199 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9570FE31523670D1EB7F1FCA /* Pods-iBalanceTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = iBalanceTests/Info.plist;
@@ -466,6 +645,7 @@
 		};
 		32FFEBA11C507C1400847199 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B942DFDF16CCCBE3899D29AC /* Pods-iBalanceUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = iBalanceUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -478,6 +658,7 @@
 		};
 		32FFEBA21C507C1400847199 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2383644EF38DC61B43C68DE /* Pods-iBalanceUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = iBalanceUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

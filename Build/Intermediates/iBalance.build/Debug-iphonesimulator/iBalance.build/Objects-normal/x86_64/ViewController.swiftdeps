@@ -6,95 +6,93 @@ provides-nominal:
 provides-member:
 - ["C8iBalance14ViewController", ""]
 provides-dynamic-lookup:
-- "didReceiveMemoryWarning"
-- "highestXFirstQuad"
-- "totalPathLengthFirstTenSeconds"
-- "createTestFile"
-- "highestXFourthQuad"
-- "previousX"
 - "previousY"
-- "graphData"
-- "highestYThirdQuad"
-- "seconds"
-- "highestYFourthQuad"
-- "sendMail"
-- "totalPathLength"
-- "peakLengthBox"
-- "timer"
-- "motionManager"
-- "countdown"
-- "pointDistance"
-- "highestYFirstQuad"
-- "totalPath"
-- "startTimer"
-- "maxLength1"
-- "prefersStatusBarHidden"
-- "firstFileName"
-- "totalPathFirstTenSecondsVal"
-- "peakLengthInfo"
-- "counting"
-- "highestYSecondQuad"
-- "maxLength2"
-- "processData"
-- "viewDidLoad"
-- "fileName"
-- "highestXSecondQuad"
-- "directories"
-- "pathLengthInfo"
-- "currentX"
-- "resetValues"
-- "mailComposeController"
 - "configureMailComposeViewController"
-- "highestXThirdQuad"
-- "maxLength3"
-- "data"
+- "highestXFirstQuad"
+- "highestYFirstQuad"
+- "highestXFourthQuad"
+- "seconds"
+- "totalPathLengthFirstTenSeconds"
+- "highestYFourthQuad"
+- "previousX"
 - "countdownLabel"
+- "timer"
+- "highestXSecondQuad"
+- "prefersStatusBarHidden"
+- "countdown"
 - "dataFirst"
 - "currentY"
+- "fileName"
+- "mailComposeController"
+- "highestYSecondQuad"
+- "data"
+- "maxLength1"
+- "startTimer"
+- "firstFileName"
+- "didReceiveMemoryWarning"
+- "maxLength2"
+- "counting"
+- "currentX"
+- "pathLengthInfo"
+- "processData"
+- "peakLengthInfo"
+- "directories"
+- "totalPathFirstTenSecondsVal"
+- "highestXThirdQuad"
+- "viewDidLoad"
+- "maxLength3"
+- "resetValues"
+- "motionManager"
+- "totalPath"
+- "pointDistance"
+- "highestYThirdQuad"
+- "totalPathLength"
+- "peakLengthBox"
+- "sendMail"
 - "finalMaxLength"
+- "createTestFile"
 depends-top-level:
 - !private "*"
-- !private "Void"
-- "CMMotionManager"
+- !private "print"
 - !private "-"
-- !private "sqrt"
-- !private ">"
+- "ViewController"
+- !private "+="
+- !private "CMAccelerometerData"
+- !private "NSURL"
 - !private "/"
 - !private "pow"
-- "UIViewController"
-- "StringLiteralType"
-- "MFMailComposeResult"
-- !private "!="
-- "NSError"
-- !private "CMAccelerometerData"
-- !private "<"
-- "MFMailComposeViewController"
-- "NSFileManager"
-- "MFMailComposeViewControllerDelegate"
-- !private "max"
-- !private "+"
-- "String"
-- "ViewController"
-- !private "print"
-- !private "round"
-- "UILabel"
-- "Double"
-- !private "+="
-- "UnicodeScalarType"
-- !private "NSUTF8StringEncoding"
-- !private "NSURL"
-- !private "--"
 - !private "Array"
-- !private "NSOperationQueue"
-- !private "&&"
-- "NSTimer"
-- "BooleanLiteralType"
-- !private "NSData"
-- "UIButton"
-- !private ">="
-- "AnyObject"
+- "NSError"
+- !private "!="
+- !private "sqrt"
+- "CMMotionManager"
+- !private "max"
 - "Bool"
+- "BooleanLiteralType"
+- !private ">"
+- !private "NSUTF8StringEncoding"
+- "NSFileManager"
+- !private "Void"
+- !private "&&"
+- !private "<"
+- !private ">="
+- !private "round"
+- !private "NSData"
+- "String"
+- !private "NSOperationQueue"
+- "MFMailComposeResult"
+- "UIButton"
 - "CMAcceleration"
+- "UIViewController"
+- !private "--"
+- "StringLiteralType"
+- "MFMailComposeViewControllerDelegate"
+- "Double"
+- "UILabel"
+- "NSTimer"
+- "UnicodeScalarType"
+- !private "+"
+- "MFMailComposeViewController"
 depends-member:
 - !private ["Ps16AbsoluteValuable", "IntegerLiteralType"]
 - !private ["Ps16AbsoluteValuable", "Stride"]
@@ -131,7 +129,6 @@ depends-member:
 - ["Ps9AnyObject", "fileName"]
 - ["Ps9AnyObject", "finalMaxLength"]
 - ["Ps9AnyObject", "firstFileName"]
-- ["Ps9AnyObject", "graphData"]
 - ["Ps9AnyObject", "highestXFirstQuad"]
 - ["Ps9AnyObject", "highestXFourthQuad"]
 - ["Ps9AnyObject", "highestXSecondQuad"]
@@ -251,7 +248,6 @@ depends-member:
 - ["Ps11CVarArgType", "fileName"]
 - ["Ps11CVarArgType", "finalMaxLength"]
 - ["Ps11CVarArgType", "firstFileName"]
-- ["Ps11CVarArgType", "graphData"]
 - ["Ps11CVarArgType", "highestXFirstQuad"]
 - ["Ps11CVarArgType", "highestXFourthQuad"]
 - ["Ps11CVarArgType", "highestXSecondQuad"]
@@ -355,7 +351,6 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "finalMaxLength"]
 - !private ["Ps28CustomDebugStringConvertible", "first"]
 - ["Ps28CustomDebugStringConvertible", "firstFileName"]
-- ["Ps28CustomDebugStringConvertible", "graphData"]
 - ["Ps28CustomDebugStringConvertible", "highestXFirstQuad"]
 - ["Ps28CustomDebugStringConvertible", "highestXFourthQuad"]
 - ["Ps28CustomDebugStringConvertible", "highestXSecondQuad"]
@@ -448,7 +443,6 @@ depends-member:
 - ["Ps23CustomStringConvertible", "finalMaxLength"]
 - !private ["Ps23CustomStringConvertible", "first"]
 - ["Ps23CustomStringConvertible", "firstFileName"]
-- ["Ps23CustomStringConvertible", "graphData"]
 - ["Ps23CustomStringConvertible", "highestXFirstQuad"]
 - ["Ps23CustomStringConvertible", "highestXFourthQuad"]
 - ["Ps23CustomStringConvertible", "highestXSecondQuad"]
@@ -541,7 +535,6 @@ depends-member:
 - ["Ps9Equatable", "fileName"]
 - ["Ps9Equatable", "finalMaxLength"]
 - ["Ps9Equatable", "firstFileName"]
-- ["Ps9Equatable", "graphData"]
 - ["Ps9Equatable", "highestXFirstQuad"]
 - ["Ps9Equatable", "highestXFourthQuad"]
 - ["Ps9Equatable", "highestXSecondQuad"]
@@ -643,7 +636,6 @@ depends-member:
 - ["Ps8Hashable", "fileName"]
 - ["Ps8Hashable", "finalMaxLength"]
 - ["Ps8Hashable", "firstFileName"]
-- ["Ps8Hashable", "graphData"]
 - ["Ps8Hashable", "highestXFirstQuad"]
 - ["Ps8Hashable", "highestXFourthQuad"]
 - ["Ps8Hashable", "highestXSecondQuad"]
@@ -829,7 +821,6 @@ depends-member:
 - ["PSo8NSCoding", "fileName"]
 - ["PSo8NSCoding", "finalMaxLength"]
 - ["PSo8NSCoding", "firstFileName"]
-- ["PSo8NSCoding", "graphData"]
 - ["PSo8NSCoding", "highestXFirstQuad"]
 - ["PSo8NSCoding", "highestXFourthQuad"]
 - ["PSo8NSCoding", "highestXSecondQuad"]
@@ -908,7 +899,6 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "fileName"]
 - ["PSo26NSExtensionRequestHandling", "finalMaxLength"]
 - ["PSo26NSExtensionRequestHandling", "firstFileName"]
-- ["PSo26NSExtensionRequestHandling", "graphData"]
 - ["PSo26NSExtensionRequestHandling", "highestXFirstQuad"]
 - ["PSo26NSExtensionRequestHandling", "highestXFourthQuad"]
 - ["PSo26NSExtensionRequestHandling", "highestXSecondQuad"]
@@ -956,7 +946,6 @@ depends-member:
 - ["CSo13NSFileManager", "defaultManager"]
 - !private ["PSo16NSMutableCopying", "init"]
 - !private ["PSo16NSMutableCopying", "writeToURL"]
-- ["CSo8NSObject", "AnyObject"]
 - ["CSo8NSObject", "Bool"]
 - ["CSo8NSObject", "CMAcceleration"]
 - !private ["CSo8NSObject", "CMAccelerometerData"]
@@ -998,7 +987,6 @@ depends-member:
 - ["CSo8NSObject", "fileName"]
 - ["CSo8NSObject", "finalMaxLength"]
 - ["CSo8NSObject", "firstFileName"]
-- ["CSo8NSObject", "graphData"]
 - ["CSo8NSObject", "highestXFirstQuad"]
 - ["CSo8NSObject", "highestXFourthQuad"]
 - ["CSo8NSObject", "highestXSecondQuad"]
@@ -1080,7 +1068,6 @@ depends-member:
 - ["PSo16NSObjectProtocol", "fileName"]
 - ["PSo16NSObjectProtocol", "finalMaxLength"]
 - ["PSo16NSObjectProtocol", "firstFileName"]
-- ["PSo16NSObjectProtocol", "graphData"]
 - ["PSo16NSObjectProtocol", "highestXFirstQuad"]
 - ["PSo16NSObjectProtocol", "highestXFourthQuad"]
 - ["PSo16NSObjectProtocol", "highestXSecondQuad"]
@@ -1216,7 +1203,6 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "fileName"]
 - ["PSo21UIAppearanceContainer", "finalMaxLength"]
 - ["PSo21UIAppearanceContainer", "firstFileName"]
-- ["PSo21UIAppearanceContainer", "graphData"]
 - ["PSo21UIAppearanceContainer", "highestXFirstQuad"]
 - ["PSo21UIAppearanceContainer", "highestXFourthQuad"]
 - ["PSo21UIAppearanceContainer", "highestXSecondQuad"]
@@ -1288,7 +1274,6 @@ depends-member:
 - ["PSo18UIContentContainer", "fileName"]
 - ["PSo18UIContentContainer", "finalMaxLength"]
 - ["PSo18UIContentContainer", "firstFileName"]
-- ["PSo18UIContentContainer", "graphData"]
 - ["PSo18UIContentContainer", "highestXFirstQuad"]
 - ["PSo18UIContentContainer", "highestXFourthQuad"]
 - ["PSo18UIContentContainer", "highestXSecondQuad"]
@@ -1361,7 +1346,6 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "fileName"]
 - ["PSo18UIFocusEnvironment", "finalMaxLength"]
 - ["PSo18UIFocusEnvironment", "firstFileName"]
-- ["PSo18UIFocusEnvironment", "graphData"]
 - ["PSo18UIFocusEnvironment", "highestXFirstQuad"]
 - ["PSo18UIFocusEnvironment", "highestXFourthQuad"]
 - ["PSo18UIFocusEnvironment", "highestXSecondQuad"]
@@ -1414,7 +1398,6 @@ depends-member:
 - !private ["CSo22UINavigationController", "setMessageBody"]
 - !private ["CSo22UINavigationController", "setSubject"]
 - !private ["CSo22UINavigationController", "setToRecipients"]
-- ["CSo11UIResponder", "AnyObject"]
 - ["CSo11UIResponder", "Bool"]
 - ["CSo11UIResponder", "CMAcceleration"]
 - !private ["CSo11UIResponder", "CMAccelerometerData"]
@@ -1451,7 +1434,6 @@ depends-member:
 - ["CSo11UIResponder", "fileName"]
 - ["CSo11UIResponder", "finalMaxLength"]
 - ["CSo11UIResponder", "firstFileName"]
-- ["CSo11UIResponder", "graphData"]
 - ["CSo11UIResponder", "highestXFirstQuad"]
 - ["CSo11UIResponder", "highestXFourthQuad"]
 - ["CSo11UIResponder", "highestXSecondQuad"]
@@ -1522,7 +1504,6 @@ depends-member:
 - ["PSo16UIStateRestoring", "fileName"]
 - ["PSo16UIStateRestoring", "finalMaxLength"]
 - ["PSo16UIStateRestoring", "firstFileName"]
-- ["PSo16UIStateRestoring", "graphData"]
 - ["PSo16UIStateRestoring", "highestXFirstQuad"]
 - ["PSo16UIStateRestoring", "highestXFourthQuad"]
 - ["PSo16UIStateRestoring", "highestXSecondQuad"]
@@ -1593,7 +1574,6 @@ depends-member:
 - ["PSo18UITraitEnvironment", "fileName"]
 - ["PSo18UITraitEnvironment", "finalMaxLength"]
 - ["PSo18UITraitEnvironment", "firstFileName"]
-- ["PSo18UITraitEnvironment", "graphData"]
 - ["PSo18UITraitEnvironment", "highestXFirstQuad"]
 - ["PSo18UITraitEnvironment", "highestXFourthQuad"]
 - ["PSo18UITraitEnvironment", "highestXSecondQuad"]
@@ -1639,7 +1619,6 @@ depends-member:
 - ["PSo18UITraitEnvironment", "viewDidLoad"]
 - ["PSo18UITraitEnvironment", ""]
 - !private ["CSo6UIView", "text"]
-- ["CSo16UIViewController", "AnyObject"]
 - ["CSo16UIViewController", "Bool"]
 - ["CSo16UIViewController", "CMAcceleration"]
 - !private ["CSo16UIViewController", "CMAccelerometerData"]
@@ -1676,7 +1655,6 @@ depends-member:
 - ["CSo16UIViewController", "fileName"]
 - ["CSo16UIViewController", "finalMaxLength"]
 - ["CSo16UIViewController", "firstFileName"]
-- ["CSo16UIViewController", "graphData"]
 - ["CSo16UIViewController", "highestXFirstQuad"]
 - ["CSo16UIViewController", "highestXFourthQuad"]
 - ["CSo16UIViewController", "highestXSecondQuad"]
@@ -1728,7 +1706,6 @@ depends-member:
 - !private ["Sc", "deinit"]
 - !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
 - !private ["Ps31UnicodeScalarLiteralConvertible", "writeToURL"]
-- ["C8iBalance14ViewController", "AnyObject"]
 - ["C8iBalance14ViewController", "Bool"]
 - ["C8iBalance14ViewController", "CMAcceleration"]
 - !private ["C8iBalance14ViewController", "CMAccelerometerData"]
@@ -1764,7 +1741,6 @@ depends-member:
 - ["C8iBalance14ViewController", "fileName"]
 - ["C8iBalance14ViewController", "finalMaxLength"]
 - ["C8iBalance14ViewController", "firstFileName"]
-- ["C8iBalance14ViewController", "graphData"]
 - ["C8iBalance14ViewController", "highestXFirstQuad"]
 - ["C8iBalance14ViewController", "highestXFourthQuad"]
 - ["C8iBalance14ViewController", "highestXSecondQuad"]
@@ -2002,10 +1978,37 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/vrundpatel/Desktop/iOS Development/iBalance/Pods/Firebase/Headers/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
-interface-hash: "4e0ac33f4a6c438abd11dc116f2eafad"
+- "/Users/vrundpatel/Desktop/iOS Development/iBalance/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/vrundpatel/Desktop/iOS Development/iBalance/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/vrundpatel/Desktop/iOS Development/iBalance/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/vrundpatel/Desktop/iOS Development/iBalance/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/vrundpatel/Desktop/iOS Development/iBalance/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/vrundpatel/Desktop/iOS Development/iBalance/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/vrundpatel/Desktop/iOS Development/iBalance/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/vrundpatel/Desktop/iOS Development/iBalance/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/vrundpatel/Desktop/iOS Development/iBalance/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/vrundpatel/Desktop/iOS Development/iBalance/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/vrundpatel/Desktop/iOS Development/iBalance/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/vrundpatel/Desktop/iOS Development/iBalance/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/vrundpatel/Desktop/iOS Development/iBalance/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/vrundpatel/Desktop/iOS Development/iBalance/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/vrundpatel/Desktop/iOS Development/iBalance/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/vrundpatel/Desktop/iOS Development/iBalance/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/vrundpatel/Desktop/iOS Development/iBalance/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/vrundpatel/Desktop/iOS Development/iBalance/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/vrundpatel/Desktop/iOS Development/iBalance/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/vrundpatel/Desktop/iOS Development/iBalance/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/vrundpatel/Desktop/iOS Development/iBalance/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/vrundpatel/Desktop/iOS Development/iBalance/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/vrundpatel/Desktop/iOS Development/iBalance/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/vrundpatel/Desktop/iOS Development/iBalance/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/vrundpatel/Desktop/iOS Development/iBalance/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/vrundpatel/Desktop/iOS Development/iBalance/Pods/Firebase/Headers/Firebase.h"
+interface-hash: "154d26f7c128eca211fe0df23d2b3104"
