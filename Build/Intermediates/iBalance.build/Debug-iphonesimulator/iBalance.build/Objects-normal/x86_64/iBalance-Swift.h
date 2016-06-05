@@ -124,28 +124,14 @@ SWIFT_CLASS("_TtC8iBalance11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class BarChartView;
-@class UIButton;
-@class NSBundle;
-@class NSCoder;
-
-SWIFT_CLASS("_TtC8iBalance19ChartViewController")
-@interface ChartViewController : UIViewController
-@property (nonatomic, strong) IBOutlet BarChartView * _Null_unspecified chartView;
-- (IBAction)backButton:(UIButton * _Nonnull)sender;
-@property (nonatomic, copy) NSArray<NSString *> * _Null_unspecified time;
-- (void)viewDidLoad;
-- (void)setChart:(NSArray<NSString *> * _Nonnull)dataPoints values:(NSArray<NSNumber *> * _Nonnull)values;
-- (void)didReceiveMemoryWarning;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-@end
-
 @class UILabel;
 @class CMMotionManager;
 @class NSTimer;
+@class UIButton;
 @class MFMailComposeViewController;
 @class NSError;
+@class NSBundle;
+@class NSCoder;
 
 SWIFT_CLASS("_TtC8iBalance14ViewController")
 @interface ViewController : UIViewController <MFMailComposeViewControllerDelegate>

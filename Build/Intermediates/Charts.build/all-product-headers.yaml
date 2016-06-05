@@ -4,12 +4,12 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/vrundpatel/Desktop/IOS Development/iBalance/Build/Files/Debug-iphoneos/Charts.framework/Headers",
+      'name': "/Users/vrundpatel/Desktop/IOS Development/iBalance/Build/Files/Debug-iphonesimulator/Charts.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "Charts-Swift.h",
-          'external-contents': "/Users/vrundpatel/Desktop/IOS Development/iBalance/Build/Files/Debug-iphoneos/Charts.framework/Headers/Charts-Swift.h"
+          'external-contents': "/Users/vrundpatel/Desktop/IOS Development/iBalance/Build/Files/Debug-iphonesimulator/Charts.framework/Headers/Charts-Swift.h"
         },
         {
           'type': 'file',
@@ -20,12 +20,12 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/vrundpatel/Desktop/IOS Development/iBalance/Build/Files/Debug-iphoneos/Charts.framework/Modules",
+      'name': "/Users/vrundpatel/Desktop/IOS Development/iBalance/Build/Files/Debug-iphonesimulator/Charts.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/vrundpatel/Desktop/IOS Development/iBalance/Build/Intermediates/Charts.build/Debug-iphoneos/Charts-iOS.build/module.modulemap"
+          'external-contents': "/Users/vrundpatel/Desktop/IOS Development/iBalance/Build/Intermediates/Charts.build/Debug-iphonesimulator/Charts-iOS.build/module.modulemap"
         }
       ]
     }

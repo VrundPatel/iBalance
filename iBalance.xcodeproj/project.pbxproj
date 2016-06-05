@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		326DA24C1C644D26002FAE66 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 326DA2471C644CF8002FAE66 /* Charts.framework */; };
 		326DA24D1C644D26002FAE66 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 326DA2471C644CF8002FAE66 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		329BAA281C5096E8006013D0 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329BAA271C5096E8006013D0 /* ChartViewController.swift */; };
 		32FFEB731C507C1400847199 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FFEB721C507C1400847199 /* AppDelegate.swift */; };
 		32FFEB751C507C1400847199 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FFEB741C507C1400847199 /* ViewController.swift */; };
 		32FFEB781C507C1400847199 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32FFEB761C507C1400847199 /* Main.storyboard */; };
@@ -81,7 +80,6 @@
 
 /* Begin PBXFileReference section */
 		326DA2401C644CF8002FAE66 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = Charts/Charts.xcodeproj; sourceTree = "<group>"; };
-		329BAA271C5096E8006013D0 /* ChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
 		32FFEB6F1C507C1400847199 /* iBalance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBalance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32FFEB721C507C1400847199 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32FFEB741C507C1400847199 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -161,7 +159,6 @@
 				32FFEB721C507C1400847199 /* AppDelegate.swift */,
 				32FFEB741C507C1400847199 /* ViewController.swift */,
 				32FFEB761C507C1400847199 /* Main.storyboard */,
-				329BAA271C5096E8006013D0 /* ChartViewController.swift */,
 				32FFEB7C1C507C1400847199 /* Assets.xcassets */,
 				32FFEB7E1C507C1400847199 /* LaunchScreen.storyboard */,
 				32FFEB811C507C1400847199 /* Info.plist */,
@@ -355,7 +352,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				32FFEB7B1C507C1400847199 /* iBalance.xcdatamodeld in Sources */,
-				329BAA281C5096E8006013D0 /* ChartViewController.swift in Sources */,
 				32FFEB751C507C1400847199 /* ViewController.swift in Sources */,
 				32FFEB731C507C1400847199 /* AppDelegate.swift in Sources */,
 			);
